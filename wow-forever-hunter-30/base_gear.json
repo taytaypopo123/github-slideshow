@@ -1,0 +1,4 @@
+{
+  "_readme": "Rough stat totals from a typical level 30 PvP set. Stat weights and per-slot rankings are measured on top of this, because each stat's value depends on what you already have. Replace with your real gear totals.",
+  "agi": 60, "sta": 60, "int": 30, "spi": 10, "ap": 40, "armor": 700, "dps": 18
+}

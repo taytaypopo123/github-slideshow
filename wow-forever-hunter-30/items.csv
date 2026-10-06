@@ -1,0 +1,23 @@
+name,slot,armor_type,req_level,source,agi,sta,int,spi,str,ap,rap,mp5,hit,crit,armor,dps,unique,verified,wowhead_id,notes
+Brawler's Leather Helm,head,leather,,Leatherworking,10,13,,,,,,,,,,,,no,,"Search snippets disagree: one lists +10 Agi +13 Sta, another only +10 Agi"
+Infiltrator Cap of Agility,head,leather,,World drop (random suffix),,,,,,,,,,,,,,no,,Stats unknown
+Ghostshard Talisman,neck,,,Dungeon/quest,,,,,,14,,,,,,,,no,,"One source lists +14 AP, another +5 Agi"
+Forest Tracker Epaulets,shoulder,,,,11,,,,,,,,,,,,,no,,
+Mantle of Thieves,shoulder,leather,,,,,,,,,,,,,,,,no,,Stats unknown
+Tigerstrike Mantle,back,,,,,,,,,,,,,,,,,no,,Stats unknown
+Dusky Leather Armor,chest,leather,30,Leatherworking,14,,,,,,,,,,,,,no,,Item level 35 per one source
+Raptor Hunter Tunic,chest,leather,,,,,,,,,,,,,,,,no,,Stats unknown
+Unearthed Bands of the Bandit,wrist,,,,,,,,,,,,,,,,,no,,Stats unknown
+Razzeric's Racing Grips,hands,leather,,,,,,,,,,,,,,,,no,,Stats unknown
+Highlander's Chain Girdle,waist,mail,,,,5,,,,24,,,,,,,,no,,
+Stalker's Leather Belt,waist,leather,,,,,,,,,,,,,,,,no,,Stats unknown
+Ferine Leggings,legs,leather,,,,,12,,,26,,,,,,,,no,,Strong Careful Aim candidate (Int + AP)
+Triprunner Dungarees,legs,leather,,,,,,,,,,,,,,,,no,,Stats unknown
+Shapeshifting Sentinel's Strides,feet,,,,,,,,,,,,,,,,,no,,Stats unknown
+Ironspine's Eye,finger,,,Scarlet Monastery,9,,,,,,,,,,,,1,no,,
+Wyvern Heart Band,finger,,,,,,,,,,,,,,,,1,no,,Stats unknown
+Minor Recombobulator,trinket,,,Engineering,,,,,,,,,,,,,1,no,,On-use; not scored by stats
+Gnomish Net-o-Matic Projector,trinket,,,Engineering,,,,,,,,,,,,,1,no,,On-use; not scored by stats
+Scout's Blade,main_hand,,,,,,,,,,,,,,,,,no,,Stats unknown
+Glass Shooter,ranged,,,,,,,,,12,,,,,,,,no,,Weapon DPS unknown - fill in dps
+Truthseeker's Bow,ranged,,,,,,,,,,,,,,,,,no,,Stats unknown
