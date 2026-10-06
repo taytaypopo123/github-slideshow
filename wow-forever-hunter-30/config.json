@@ -1,10 +1,10 @@
 {
-  "_readme": "Character + fight model for minmax.py. Every value marked PLACEHOLDER should be replaced with a number read off your own level 30 hunter (naked, talents on). See README.md 'Calibrating'.",
+  "_readme": "Character, talent-build and matchup model for minmax.py. Values marked PLACEHOLDER should be replaced with numbers from your own level 30 hunter. See README.md 'Calibrating'.",
 
   "character": {
     "level": 30,
     "base_hp": 600,
-    "_base_hp": "PLACEHOLDER - naked HP minus 10 x naked stamina",
+    "_base_hp": "PLACEHOLDER - naked HP (no talents that change HP) minus 10 x naked stamina",
     "base_mana": 400,
     "_base_mana": "PLACEHOLDER - naked mana minus 15 x naked intellect",
     "naked_agi": 40,
@@ -16,18 +16,11 @@
     "_base_rap": "PLACEHOLDER - naked ranged AP minus naked agility (and minus Careful Aim's int bonus)",
     "base_crit_pct": 0.0,
     "base_armor": 0,
-    "hp_mult": 1.0,
-    "_hp_mult": "1.05 for Tauren, or add any % health talents you take",
+    "race_hp_mult": 1.0,
+    "_race_hp_mult": "1.05 for Tauren",
     "hp_per_sta": 10,
     "mana_per_int": 15,
     "armor_per_agi": 2
-  },
-
-  "talents": {
-    "careful_aim_ranks": 5,
-    "_careful_aim": "Forever MM talent: +20% of Intellect as Attack Power per rank. Wowhead lists it as 'Attack Power'; check in game whether ranged AP moves when you add Int.",
-    "ranged_crit_damage_mult": 2.3,
-    "_ranged_crit_damage_mult": "2.0 base, 2.3 with Mortal Shots 5/5"
   },
 
   "ratings": {
@@ -37,26 +30,75 @@
     "_agi_per_dodge_pct": "PLACEHOLDER - measure it the same way using dodge %"
   },
 
-  "fight": {
-    "duel_length_sec": 60,
-    "_duel_length_sec": "How long your typical duel lasts. The main knob for Int vs Agi: longer duels make mana worth more.",
+  "rotation": {
     "weapon_dps": 14.0,
-    "_weapon_dps": "Used only if an item row for the ranged slot has no dps value",
-    "ranged_speed": 2.8,
+    "_weapon_dps": "Used only when the chosen ranged weapon has no dps value",
     "ap_per_dps": 14,
     "shot_dps": 25.0,
-    "_shot_dps": "PLACEHOLDER - extra DPS from your mana shots (Arcane, Serpent, Aimed, Multi) on top of Auto Shot while you have mana",
+    "_shot_dps": "PLACEHOLDER - extra DPS from mana shots (Arcane, Serpent, Aimed, Multi) on top of Auto Shot while you have mana",
     "shot_mana_per_sec": 20.0,
-    "_shot_mana_per_sec": "PLACEHOLDER - mana/sec those shots cost. Total mana-shot spend divided by duel time",
+    "_shot_mana_per_sec": "PLACEHOLDER - mana/sec those shots cost before Efficiency. Total mana spent on shots divided by duel time",
     "shot_ap_coeff": 0.15,
-    "_shot_ap_coeff": "Extra shot DPS per point of AP (Aimed/Multi scale with weapon damage + AP, so they gain from AP too)",
-    "opponent_physical_frac": 0.6,
-    "_opponent_physical_frac": "Share of incoming damage that armor and dodge can reduce. Rogue/warrior/hunter about 0.9, mage/lock/priest about 0.1",
+    "pet_dps": 15.0,
+    "_pet_dps": "PLACEHOLDER - your pet's DPS vs a player, untalented. Doesn't scale with your gear",
     "fsr_out_frac": 0.1,
-    "_fsr_out_frac": "Share of the duel spent outside the 5-second rule (no mana spent for 5s). Spirit regen only works then",
+    "_fsr_out_frac": "Share of the duel spent outside the 5-second rule. Spirit regen only works then",
     "spirit_mana_per_tick_per_spi": 0.2,
-    "_spirit": "Classic hunter regen: spirit/5 + 15 mana per 2s tick outside the 5-second rule",
     "base_miss_pct": 5.0
+  },
+
+  "builds": {
+    "_readme": "Talent effects come from Wowhead's Forever hunter talent list. 21 points at level 30. Survivalist (SV tier 2) = +10% total Health. Careful Aim (MM tier 2) = AP +100% of Int. Lethal Attacks (MM tier 1) = +5% crit. Efficiency (MM tier 2) = -15% shot/sting mana at 5/5. Mortal Shots (MM tier 4) = +30% ranged crit damage bonus. Lone Wolf (MM tier 3) = +20% damage with no pet. Improved Tracking (SV tier 1) = +5% damage to the tracked type (Humanoids). Focused Fire (BM tier 2) = +4% you and pet. Unleashed Fury (BM tier 3) = +15% pet. Ferocity (BM tier 4) = +10% pet crit.",
+    "mm_lone_wolf": {
+      "desc": "0/21/0: Lethal Attacks 5, Careful Aim 5, Efficiency 4, Lone Wolf 1, Mortal Shots 5, Trueshot Aura 1 - no pet",
+      "careful_aim_ranks": 5, "crit_bonus_pct": 5, "ranged_crit_damage_mult": 2.3,
+      "dmg_mult": 1.20, "mana_cost_mult": 0.88, "hp_mult": 1.0, "pet_dps_mult": 0
+    },
+    "mm_pet": {
+      "desc": "0/21/0 with a pet: Lethal Attacks 5, Careful Aim 5, Efficiency 5, Mortal Shots 5, Trueshot Aura 1",
+      "careful_aim_ranks": 5, "crit_bonus_pct": 5, "ranged_crit_damage_mult": 2.3,
+      "dmg_mult": 1.0, "mana_cost_mult": 0.85, "hp_mult": 1.0, "pet_dps_mult": 1.0
+    },
+    "sv_mm_tank": {
+      "desc": "0/11/10: Improved Tracking 5, Survivalist 5 / Lethal Attacks 5, Careful Aim 5, Efficiency 1 - +10% HP, keeps Careful Aim",
+      "careful_aim_ranks": 5, "crit_bonus_pct": 5, "ranged_crit_damage_mult": 2.0,
+      "dmg_mult": 1.05, "mana_cost_mult": 0.97, "hp_mult": 1.10, "pet_dps_mult": 1.0
+    },
+    "bm": {
+      "desc": "21/0/0: Deadly Aspects/Endurance Training, Focused Fire 2, Unleashed Fury 5, Ferocity 5, Summon Hawk, Spirit Bond, Intimidation - no Careful Aim",
+      "careful_aim_ranks": 0, "crit_bonus_pct": 0, "ranged_crit_damage_mult": 2.0,
+      "dmg_mult": 1.04, "mana_cost_mult": 1.0, "hp_mult": 1.0, "pet_dps_mult": 1.45,
+      "_pet_dps_mult": "Focused Fire 4% x Unleashed Fury 15% x ~10% crit from Ferocity, plus the hawk; rough"
+    }
+  },
+  "default_build": "mm_pet",
+
+  "matchups": {
+    "_readme": "duel_sec = how long that duel usually lasts. physical_frac = share of their damage that armor/dodge can reduce. PLACEHOLDERS - adjust after watching duels.",
+    "generic": {"duel_sec": 60, "physical_frac": 0.6},
+    "priest":  {"duel_sec": 120, "physical_frac": 0.05},
+    "paladin": {"duel_sec": 100, "physical_frac": 0.85},
+    "druid":   {"duel_sec": 80, "physical_frac": 0.5},
+    "shaman":  {"duel_sec": 60, "physical_frac": 0.5},
+    "warlock": {"duel_sec": 75, "physical_frac": 0.1},
+    "hunter":  {"duel_sec": 50, "physical_frac": 0.9},
+    "mage":    {"duel_sec": 40, "physical_frac": 0.05},
+    "warrior": {"duel_sec": 40, "physical_frac": 0.95},
+    "rogue":   {"duel_sec": 35, "physical_frac": 0.95}
+  },
+  "default_matchup": "generic",
+
+  "filters": {
+    "allow_mail": false,
+    "_allow_mail": "Hunters learn Mail at 40 (Forever's change list doesn't alter that), so mail is off by default. Note some 'Chain' items are leather in Forever (e.g. Highlander's/Defiler's Chain Girdle)",
+    "min_quality": 2,
+    "_min_quality": "2 = green, 3 = blue, 4 = epic",
+    "max_req_level": 30,
+    "faction": "any",
+    "_faction": "alliance, horde or any - PvP/rep gear like Defiler's (Horde) and Highlander's (Alliance) is faction-locked",
+    "allow_duplicate_items": false,
+    "_allow_duplicate_items": "Two copies of the same ring/trinket/weapon. Off by default: many are quest rewards or Unique, and Wowhead's data doesn't always flag Unique",
+    "exclude_notes": []
   },
 
   "weights_override": null,

@@ -1,11 +1,63 @@
-name,slot,source,agi,sta,int,spi,str,ap,rap,mp5,hit,crit,armor,dps,unique,verified,notes
-Chest - Lesser Stats,chest,Enchanting 200,2,2,2,2,2,,,,,,,,,no,+2 all stats
-Chest - Superior Stamina (as listed),chest,Enchanting 220,,8,,,,,,,,,,,,no,Name/value from a search snippet; check in game
-Bracer - Lesser Intellect,wrist,Enchanting 150,,,5,,,,,,,,,,,no,
-Bracer - Stamina,wrist,Enchanting,,5,,,,,,,,,,,,no,Classic value; confirm exists in Forever
-Cloak - Minor Agility,back,Enchanting 110,3,,,,,,,,,,,,,no,
-Gloves - Agility,hands,Enchanting,7,,,,,,,,,,,,,no,+7 Agi appears on BiS lists for hands
-Boots - Stamina,feet,Enchanting,,5,,,,,,,,,,,,no,Classic value; confirm
-Boots - Minor Speed,feet,Enchanting,,,,,,,,,,,,,,no,Not a stat; often still the PvP pick
-Legs - Armor Kit (+32 armor),legs,Leatherworking,,,,,,,,,,,32,,,no,
-Scope - +5 damage,ranged,Engineering,,,,,,,,,,,,1.8,,no,"+5 dmg / 2.8 speed ~ +1.8 DPS"
+name,slot,source,agi,sta,int,spi,str,ap,rap,mp5,hit,crit,armor,dps,unique,verified,wowhead_spell,notes
+2H Weapon - Agility,two_hand,Enchanting,25,,,,,,,,,,,,,wowhead,27837,Check in game that Forever lets this go on level 30 gear
+2H Weapon - Lesser Agility,two_hand,Enchanting,15,,,,,,,,,,,,,wowhead,1248510,Check in game that Forever lets this go on level 30 gear
+2H Weapon - Lesser Intellect,two_hand,Enchanting,,,5,,,,,,,,,,,wowhead,7793,Check in game that Forever lets this go on level 30 gear
+Boots - Agility,feet,Enchanting,5,,,,,,,,,,,,,wowhead,13935,Check in game that Forever lets this go on level 30 gear
+Boots - Greater Agility,feet,Enchanting,7,,,,,,,,,,,,,wowhead,20023,Check in game that Forever lets this go on level 30 gear
+Boots - Greater Stamina,feet,Enchanting,,7,,,,,,,,,,,,wowhead,20020,Check in game that Forever lets this go on level 30 gear
+Boots - Lesser Agility,feet,Enchanting,4,,,,,,,,,,,,,wowhead,13637,Check in game that Forever lets this go on level 30 gear
+Boots - Lesser Stamina,feet,Enchanting,,4,,,,,,,,,,,,wowhead,13644,Check in game that Forever lets this go on level 30 gear
+Boots - Minor Agility,feet,Enchanting,3,,,,,,,,,,,,,wowhead,7867,Check in game that Forever lets this go on level 30 gear
+Boots - Minor Speed,feet,Enchanting,,,,,,,,,,,,,,wowhead,13890,"Movement speed - not a stat, but usually the PvP pick"
+Boots - Minor Stamina,feet,Enchanting,,3,,,,,,,,,,,,wowhead,7863,Check in game that Forever lets this go on level 30 gear
+Boots - Stamina,feet,Enchanting,,5,,,,,,,,,,,,wowhead,13836,Check in game that Forever lets this go on level 30 gear
+Bracer - Agility,wrist,Enchanting,9,,,,,,,,,,,,,wowhead,1217203,Check in game that Forever lets this go on level 30 gear
+Bracer - Agility,wrist,Enchanting,5,,,,,,,,,,,,,wowhead,1248497,Check in game that Forever lets this go on level 30 gear
+Bracer - Greater Agility,wrist,Enchanting,7,,,,,,,,,,,,,wowhead,1248500,Check in game that Forever lets this go on level 30 gear
+Bracer - Greater Intellect,wrist,Enchanting,,,7,,,,,,,,,,,wowhead,20008,Check in game that Forever lets this go on level 30 gear
+Bracer - Greater Stamina,wrist,Enchanting,,7,,,,,,,,,,,,wowhead,13945,Check in game that Forever lets this go on level 30 gear
+Bracer - Inferior Stamina,wrist,Enchanting,,2,,,,,,,,,,,,wowhead,7418,Check in game that Forever lets this go on level 30 gear
+Bracer - Intellect,wrist,Enchanting,,,5,,,,,,,,,,,wowhead,13822,Check in game that Forever lets this go on level 30 gear
+Bracer - Lesser Agility,wrist,Enchanting,4,,,,,,,,,,,,,wowhead,1248460,Check in game that Forever lets this go on level 30 gear
+Bracer - Lesser Intellect,wrist,Enchanting,,,5,,,,,,,,,,,wowhead,13622,Check in game that Forever lets this go on level 30 gear
+Bracer - Lesser Stamina,wrist,Enchanting,,4,,,,,,,,,,,,wowhead,13501,Check in game that Forever lets this go on level 30 gear
+Bracer - Mana Regeneration,wrist,Enchanting,,,,,,,,4,,,,,,wowhead,23801,Check in game that Forever lets this go on level 30 gear
+Bracer - Minor Agility,wrist,Enchanting,3,,,,,,,,,,,,,wowhead,7779,Check in game that Forever lets this go on level 30 gear
+Bracer - Minor Intellect,wrist,Enchanting,,,3,,,,,,,,,,,wowhead,1248458,Check in game that Forever lets this go on level 30 gear
+Bracer - Minor Stamina,wrist,Enchanting,,3,,,,,,,,,,,,wowhead,7457,Check in game that Forever lets this go on level 30 gear
+Bracer - Stamina,wrist,Enchanting,,5,,,,,,,,,,,,wowhead,13648,Check in game that Forever lets this go on level 30 gear
+Bracer - Superior Agility,wrist,Enchanting,9,,,,,,,,,,,,,wowhead,1248599,Check in game that Forever lets this go on level 30 gear
+Bracer - Superior Intellect,wrist,Enchanting,,,9,,,,,,,,,,,wowhead,1248661,Check in game that Forever lets this go on level 30 gear
+Bracer - Superior Stamina,wrist,Enchanting,,9,,,,,,,,,,,,wowhead,20011,Check in game that Forever lets this go on level 30 gear
+Chest - Greater Intellect,chest,Enchanting,,,6,,,,,,,,,,,wowhead,13663,Check in game that Forever lets this go on level 30 gear
+Chest - Greater Stamina,chest,Enchanting,,6,,,,,,,,,,,,wowhead,13640,Check in game that Forever lets this go on level 30 gear
+Chest - Greater Stats,chest,Enchanting,4,4,4,4,4,,,,,,,,,wowhead,20025,Check in game that Forever lets this go on level 30 gear
+Chest - Inferior Stamina,chest,Enchanting,,2,,,,,,,,,,,,wowhead,7420,Check in game that Forever lets this go on level 30 gear
+Chest - Intellect,chest,Enchanting,,,4,,,,,,,,,,,wowhead,13607,Check in game that Forever lets this go on level 30 gear
+Chest - Lesser Intellect,chest,Enchanting,,,3,,,,,,,,,,,wowhead,7776,Check in game that Forever lets this go on level 30 gear
+Chest - Lesser Stamina,chest,Enchanting,,3,,,,,,,,,,,,wowhead,7748,Check in game that Forever lets this go on level 30 gear
+Chest - Lesser Stats,chest,Enchanting,2,2,2,2,2,,,,,,,,,wowhead,13700,Check in game that Forever lets this go on level 30 gear
+Chest - Living Stats,chest,Enchanting,4,4,4,4,4,,,,,,,,,wowhead,1213616,Check in game that Forever lets this go on level 30 gear
+Chest - Major Intellect,chest,Enchanting,,,10,,,,,,,,,,,wowhead,20028,Check in game that Forever lets this go on level 30 gear
+Chest - Major Stamina,chest,Enchanting,,10,,,,,,,,,,,,wowhead,20026,Check in game that Forever lets this go on level 30 gear
+Chest - Minor Intellect,chest,Enchanting,,,2,,,,,,,,,,,wowhead,7443,Check in game that Forever lets this go on level 30 gear
+Chest - Minor Stats,chest,Enchanting,2,2,2,2,2,,,,,,,,,wowhead,13626,Check in game that Forever lets this go on level 30 gear
+Chest - Stamina,chest,Enchanting,,4,,,,,,,,,,,,wowhead,7857,Check in game that Forever lets this go on level 30 gear
+Chest - Stats,chest,Enchanting,3,3,3,3,3,,,,,,,,,wowhead,13941,Check in game that Forever lets this go on level 30 gear
+Chest - Superior Intellect,chest,Enchanting,,,8,,,,,,,,,,,wowhead,13917,Check in game that Forever lets this go on level 30 gear
+Chest - Superior Stamina,chest,Enchanting,,8,,,,,,,,,,,,wowhead,13858,Check in game that Forever lets this go on level 30 gear
+Cloak - Dodge,back,Enchanting,,,,,,,,,,,,,,wowhead,25086,+1% dodge (not modelled)
+Cloak - Minor Agility,back,Enchanting,3,,,,,,,,,,,,,wowhead,13419,Check in game that Forever lets this go on level 30 gear
+Gloves - Agility,hands,Enchanting,7,,,,,,,,,,,,,wowhead,13815,Check in game that Forever lets this go on level 30 gear
+Gloves - Greater Agility,hands,Enchanting,10,,,,,,,,,,,,,wowhead,20012,Check in game that Forever lets this go on level 30 gear
+Gloves - Minor Haste,hands,Enchanting,,,,,,,,,,,,,,wowhead,13948,+1% attack speed (not modelled)
+Necklace - Agility,neck,Enchanting,5,,,,,,,,,,,,,wowhead,1249059,Check in game that Forever lets this go on level 30 gear
+Weapon - Agility,main_hand,Enchanting,15,,,,,,,,,,,,,wowhead,23800,Check in game that Forever lets this go on level 30 gear
+Weapon - Agility,off_hand,Enchanting,15,,,,,,,,,,,,,wowhead,23800,Check in game that Forever lets this go on level 30 gear
+Weapon - Agility,two_hand,Enchanting,15,,,,,,,,,,,,,wowhead,23800,Check in game that Forever lets this go on level 30 gear
+Weapon - Mighty Intellect,main_hand,Enchanting,,,22,,,,,,,,,,,wowhead,23804,Check in game that Forever lets this go on level 30 gear
+Weapon - Mighty Intellect,off_hand,Enchanting,,,22,,,,,,,,,,,wowhead,23804,Check in game that Forever lets this go on level 30 gear
+Weapon - Mighty Intellect,two_hand,Enchanting,,,22,,,,,,,,,,,wowhead,23804,Check in game that Forever lets this go on level 30 gear
+Scope - Deadly (+7 dmg) (check availability),ranged,Engineering,,,,,,,,,,,,2.5,,,,+7 damage / 2.8 speed. Edit to match your bow and the scope you can make
+Scope - Accurate (+3% hit) (check availability),ranged,Engineering,,,,,,,,,3,,,,,,,Classic value; check Forever
+Armor Kit - Medium/Heavy (+24/+32 armor),legs,Leatherworking,,,,,,,,,,,32,,,,,Also hands/feet/chest
