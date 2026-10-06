@@ -7,6 +7,7 @@ Finds the best duel gear for a level 30 hunter in WoW Forever by scoring **every
 - **`enchants.csv`**: Forever's enchanting recipes with Agi, Sta, Int, stats or regen, values taken from Wowhead.
 - **`minmax.py`**: scores items, ranks each slot, builds the best full set and compares talent builds.
 - **`config.json`**: your character, the talent builds and the matchups. Several numbers are **placeholders** (see Calibrating).
+- **`priest_duel.py` / `priest_duel.json`**: second-by-second hunter vs priest simulator (mana war, Penance, Dismember).
 - **`RESULTS.md`**: current output (stat values, best sets, build comparison).
 - **`scrape/`**: scripts to re-download the item data when Wowhead updates.
 
@@ -113,6 +114,22 @@ Classic 29-twink guides (Warcraft Tavern, OwnedCore, xpoff) agree on a few thing
 Not available at 30: Elixir of Fortitude (now 45), Restorative Potion (32), Living Action (47), Limited Invulnerability (45).
 
 **Professions:** Engineering plus a second one. Enchanting (if Forever lets these go on level 30 gear: Superior Stamina bracer, Major Stamina chest, +5 Agi necklace, +15 Agi or +22 Int weapon), First Aid always. Classic advice was Engineering plus Enchanting or Alchemy.
+
+## Priest duels: `priest_duel.py`
+
+`minmax.py` doesn't model the priest's healing, so priest duels have their own simulator. It tracks both health and mana bars every second. The priest heals with Forever's level-30 spells: **Penance** (baseline, 3×184 for 100 mana on a 12s cooldown, ~5.5 HP per mana), Power Word: Shield, Heal, Flash Heal, Desperate Prayer and a potion. It also uses Inner Fire, and Mana Burn if enabled. It compares four hunter strategies:
+
+```
+python3 priest_duel.py                                   # compare strategies
+python3 priest_duel.py --trace spam                      # second-by-second log
+python3 priest_duel.py --set priest.mana=2200 --set priest.mana_burn=true
+```
+
+What it shows with the placeholder numbers (edit `priest_duel.json` after watching real duels):
+- **Penance covers your first ~46 DPS almost for free**, so free damage alone (Auto Shot + pet) only drains a priest slowly.
+- **Your pet decides it.** Without a pet and Dismember (−50% healing for 10s), the hunter loses every scenario against a well-geared priest. With them, the hunter wins most. **Don't play Lone Wolf against priests.**
+- **Spend your mana. Don't hoard it.** Spamming shots or bursting won more often than saving mana. Against a tanky, high-mana priest, every strategy that held mana back died with mana unspent. Against Mana Burn, mana you don't spend gets burned anyway.
+- Unconfirmed: Dismember's cooldown and Forever's Weakened Soul duration. Both are placeholders.
 
 ## Calibrating (do this; it changes the answers)
 
