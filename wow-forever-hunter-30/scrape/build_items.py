@@ -41,6 +41,12 @@ def base_row(x):
         notes.append("set item")
     if e.get("cooldown"):
         notes.append("has on-use")
+    if e.get("reqskill"):
+        notes.append(f"needs profession skill {e.get('reqskillrank', '')} (skill id {e['reqskill']})")
+    if (x.get("level") or 0) > 50 or x["name"].startswith("Monster -"):
+        return None  # no-requirement endgame items, NPC-only weapons
+    if (x.get("reqlevel") or e.get("reqlevel") or 0) <= 1 and (x.get("level") or 0) > 30:
+        notes.append("no level req, high item level - check you can get it before 31")
     return {
         "name": x["name"], "slot": slot, "armor_type": ARMOR.get(x["_cat"], ""),
         "req_level": x.get("reqlevel") or e.get("reqlevel") or "", "item_level": x.get("level", ""),

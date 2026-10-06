@@ -58,6 +58,7 @@ Weapon - Agility,two_hand,Enchanting,15,,,,,,,,,,,,,wowhead,23800,Check in game 
 Weapon - Mighty Intellect,main_hand,Enchanting,,,22,,,,,,,,,,,wowhead,23804,Check in game that Forever lets this go on level 30 gear
 Weapon - Mighty Intellect,off_hand,Enchanting,,,22,,,,,,,,,,,wowhead,23804,Check in game that Forever lets this go on level 30 gear
 Weapon - Mighty Intellect,two_hand,Enchanting,,,22,,,,,,,,,,,wowhead,23804,Check in game that Forever lets this go on level 30 gear
-Scope - Deadly (+7 dmg) (check availability),ranged,Engineering,,,,,,,,,,,,2.5,,,,+7 damage / 2.8 speed. Edit to match your bow and the scope you can make
-Scope - Accurate (+3% hit) (check availability),ranged,Engineering,,,,,,,,,3,,,,,,,Classic value; check Forever
 Armor Kit - Medium/Heavy (+24/+32 armor),legs,Leatherworking,,,,,,,,,,,32,,,,,Also hands/feet/chest
+Deadly Scope (+5 dmg),ranged,Engineering,,,,,,,,,,,,1.79,,wowhead,,Requires level 30. dps = damage / weapon speed (2.8 assumed); edit for your bow
+Accurate Scope (+3 dmg),ranged,Engineering,,,,,,,,,,,,1.07,,wowhead,,Requires level 20. dps = damage / weapon speed (2.8 assumed); edit for your bow
+Standard Scope (+2 dmg),ranged,Engineering,,,,,,,,,,,,0.71,,wowhead,,Requires level 10. dps = damage / weapon speed (2.8 assumed); edit for your bow

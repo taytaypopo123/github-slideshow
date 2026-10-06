@@ -5,7 +5,7 @@ Output of `minmax.py` using the **placeholder** numbers in config.json, so rerun
 ## `python3 minmax.py matrix`
 
 ```
-build: mm_pet   vs: generic   (5361 items after filters)
+build: mm_pet   vs: generic   (5387 items after filters)
 
 Value per point, Stamina = 1.00.  Format: agi / int   (best of Sta/Agi/Int in brackets)
 
@@ -31,43 +31,43 @@ OOM time (seconds) with base_gear.json:
 ## `python3 minmax.py compare --vs generic --faction horde`
 
 ```
-build: mm_pet   vs: generic   (5163 items after filters)
+build: mm_pet   vs: generic   (5188 items after filters)
 
 Each build with its own best set, against the same opponent:
-  mm_lone_wolf   EHP   2844  DPS 172.9  EHP x DPS   491879  OOM 78s
-  mm_pet         EHP   2912  DPS 155.8  EHP x DPS   453648  OOM 61s
-  sv_mm_tank     EHP   3266  DPS 155.8  EHP x DPS   508824  OOM 81s
-  bm             EHP   2950  DPS 138.9  EHP x DPS   409673  OOM 59s
+  mm_lone_wolf   EHP   2892  DPS 167.2  EHP x DPS   483440  OOM 78s
+  mm_pet         EHP   2989  DPS 149.3  EHP x DPS   446228  OOM 73s
+  sv_mm_tank     EHP   3266  DPS 153.4  EHP x DPS   501112  OOM 81s
+  bm             EHP   2950  DPS 137.2  EHP x DPS   404549  OOM 59s
 ```
 
 ## `python3 minmax.py compare --vs priest --faction horde`
 
 ```
-build: mm_pet   vs: priest   (5163 items after filters)
+build: mm_pet   vs: priest   (5188 items after filters)
 
 Each build with its own best set, against the same opponent:
-  mm_lone_wolf   EHP   2389  DPS 167.5  EHP x DPS   400116  OOM 120s
-  mm_pet         EHP   2509  DPS 149.5  EHP x DPS   375140  OOM 121s
-  sv_mm_tank     EHP   2772  DPS 149.4  EHP x DPS   414199  OOM 120s
-  bm             EHP   2438  DPS 126.9  EHP x DPS   309411  OOM 119s
+  mm_lone_wolf   EHP   2389  DPS 164.6  EHP x DPS   393282  OOM 120s
+  mm_pet         EHP   2509  DPS 147.3  EHP x DPS   369547  OOM 121s
+  sv_mm_tank     EHP   2772  DPS 147.3  EHP x DPS   408148  OOM 120s
+  bm             EHP   2471  DPS 123.4  EHP x DPS   304821  OOM 116s
 ```
 
 ## `python3 minmax.py compare --vs rogue --faction horde`
 
 ```
-build: mm_pet   vs: rogue   (5163 items after filters)
+build: mm_pet   vs: rogue   (5188 items after filters)
 
 Each build with its own best set, against the same opponent:
-  mm_lone_wolf   EHP   3335  DPS 169.4  EHP x DPS   565113  OOM 52s
-  mm_pet         EHP   3431  DPS 152.0  EHP x DPS   521562  OOM 54s
-  sv_mm_tank     EHP   3769  DPS 154.8  EHP x DPS   583465  OOM 47s
-  bm             EHP   3442  DPS 146.9  EHP x DPS   505779  OOM 39s
+  mm_lone_wolf   EHP   3335  DPS 166.6  EHP x DPS   555608  OOM 52s
+  mm_pet         EHP   3431  DPS 149.8  EHP x DPS   513868  OOM 54s
+  sv_mm_tank     EHP   3774  DPS 152.3  EHP x DPS   574819  OOM 47s
+  bm             EHP   3442  DPS 145.0  EHP x DPS   499030  OOM 39s
 ```
 
 ## `python3 minmax.py set --build sv_mm_tank --vs generic --faction horde`
 
 ```
-build: sv_mm_tank   vs: generic   (5163 items after filters)
+build: sv_mm_tank   vs: generic   (5188 items after filters)
 
 
 Optimised set:
@@ -88,16 +88,16 @@ Optimised set:
   main_hand  Blade of the Magram Clan  + Weapon - Mighty Intellect  (+4 sta, +10 ap)  https://www.wowhead.com/forever/item=271796
   off_hand   Scout's Blade  + Weapon - Mighty Intellect  (+7 agi, +3 sta)  https://www.wowhead.com/forever/item=19545
   two_hand   -
-  ranged     Truthseeker's Bow  + Scope - Accurate (+3% hit) (check availability)  (+7 agi, +3 sta, +23.75 dps)  https://www.wowhead.com/forever/item=277254
+  ranged     Truthseeker's Bow  + Deadly Scope (+5 dmg)  (+7 agi, +3 sta, +23.75 dps)  https://www.wowhead.com/forever/item=277254
 
-Totals from gear: +84 agi, +154 sta, +52 int, +4 str, +95 ap, +3 hit, +671 armor, +23.75 dps
-HP 2739  EHP 3266  mana 1570  RAP 346  crit 9.1%  dodge 4.1%  DPS 155.8  shot uptime 100%  EHP x DPS 508824
+Totals from gear: +84 agi, +154 sta, +52 int, +4 str, +95 ap, +671 armor, +25.54 dps
+HP 2739  EHP 3266  mana 1570  RAP 346  crit 9.1%  dodge 4.1%  DPS 153.4  shot uptime 100%  EHP x DPS 501112
 ```
 
 ## `python3 minmax.py set --build sv_mm_tank --vs generic --faction alliance`
 
 ```
-build: sv_mm_tank   vs: generic   (5202 items after filters)
+build: sv_mm_tank   vs: generic   (5228 items after filters)
 
 
 Optimised set:
@@ -105,10 +105,10 @@ Optimised set:
   neck       Ghostshard Talisman  + Necklace - Agility  (+9 sta, +14 ap)  https://www.wowhead.com/forever/item=7731
   shoulder   Pathfinder Shoulder Pads of the Bandit  (+3 agi, +7 sta, +7 ap, +71 armor)  https://www.wowhead.com/forever/item=15345?bonus=12751
   back       Mourning Shawl  + Cloak - Minor Agility  (+12 sta, +24 armor)  https://www.wowhead.com/forever/item=6751
-  chest      Garb of Fallen Felbark  + Chest - Major Stamina  (+13 agi, +7 sta, +9 int, +110 armor)  https://www.wowhead.com/forever/item=273038
+  chest      Raptor Hunter Tunic  + Chest - Major Stamina  (+3 agi, +16 sta, +4 str, +117 armor)  https://www.wowhead.com/forever/item=4119
   wrist      Unearthed Bands of Stamina  + Bracer - Superior Stamina  (+9 sta, +16 ap, +49 armor)  https://www.wowhead.com/forever/item=9428?bonus=13020
   hands      Runebound Gloves  + Gloves - Greater Agility  (+10 sta, +5 spi, +16 ap, +71 armor)  https://www.wowhead.com/forever/item=279849
-  waist      Highlander's Chain Girdle  (+5 sta, +24 ap, +61 armor)  https://www.wowhead.com/forever/item=20090
+  waist      Highlander's Leather Girdle  (+4 sta, +24 ap, +91 armor)  https://www.wowhead.com/forever/item=20117
   legs       Panther Hunter Leggings  + Armor Kit - Medium/Heavy (+24/+32 armor)  (+10 agi, +11 sta, +96 armor)  https://www.wowhead.com/forever/item=4108
   feet       Highlander's Lizardhide Boots  + Boots - Greater Stamina  (+5 agi, +8 sta, +4 int, +104 armor)  https://www.wowhead.com/forever/item=20102
   finger     Wyvern Heart Band  (+5 agi, +5 sta, +15 ap)  https://www.wowhead.com/forever/item=285190
@@ -118,16 +118,16 @@ Optimised set:
   main_hand  Blade of the Magram Clan  + Weapon - Mighty Intellect  (+4 sta, +10 ap)  https://www.wowhead.com/forever/item=271796
   off_hand   Sentinel's Blade  + Weapon - Mighty Intellect  (+7 agi, +3 sta)  https://www.wowhead.com/forever/item=19549
   two_hand   -
-  ranged     Truthseeker's Bow  + Scope - Accurate (+3% hit) (check availability)  (+7 agi, +3 sta, +23.75 dps)  https://www.wowhead.com/forever/item=277254
+  ranged     Truthseeker's Bow  + Deadly Scope (+5 dmg)  (+7 agi, +3 sta, +23.75 dps)  https://www.wowhead.com/forever/item=277254
 
-Totals from gear: +78 agi, +150 sta, +57 int, +5 spi, +111 ap, +3 hit, +702 armor, +23.75 dps
-HP 2695  EHP 3219  mana 1648  RAP 361  crit 8.9%  dodge 3.9%  DPS 159.2  shot uptime 100%  EHP x DPS 512540
+Totals from gear: +68 agi, +158 sta, +48 int, +5 spi, +4 str, +111 ap, +739 armor, +25.54 dps
+HP 2783  EHP 3325  mana 1513  RAP 342  crit 8.6%  dodge 3.6%  DPS 151.8  shot uptime 100%  EHP x DPS 504712
 ```
 
 ## `python3 minmax.py set --build sv_mm_tank --vs priest --faction horde`
 
 ```
-build: sv_mm_tank   vs: priest   (5163 items after filters)
+build: sv_mm_tank   vs: priest   (5188 items after filters)
 
 
 Optimised set:
@@ -148,16 +148,16 @@ Optimised set:
   main_hand  Clever Expeditionary's Spellblade  + Weapon - Mighty Intellect  (+4 sta, +6 int, +3 spi)  https://www.wowhead.com/forever/item=271931
   off_hand   Hillborne Axe of the Sorcerer  + Weapon - Mighty Intellect  (+3 sta, +4 int)  https://www.wowhead.com/forever/item=2080?bonus=12906
   two_hand   -
-  ranged     Truthseeker's Bow  + Scope - Accurate (+3% hit) (check availability)  (+7 agi, +3 sta, +23.75 dps)  https://www.wowhead.com/forever/item=277254
+  ranged     Truthseeker's Bow  + Deadly Scope (+5 dmg)  (+7 agi, +3 sta, +23.75 dps)  https://www.wowhead.com/forever/item=277254
 
-Totals from gear: +57 agi, +154 sta, +101 int, +7 spi, +4 str, +52 ap, +3 hit, +590 armor, +23.75 dps
-HP 2739  EHP 2772  mana 2328  RAP 325  crit 8.2%  dodge 3.2%  DPS 149.4  shot uptime 100%  EHP x DPS 414199
+Totals from gear: +57 agi, +154 sta, +101 int, +7 spi, +4 str, +52 ap, +590 armor, +25.54 dps
+HP 2739  EHP 2772  mana 2328  RAP 325  crit 8.2%  dodge 3.2%  DPS 147.3  shot uptime 100%  EHP x DPS 408148
 ```
 
 ## `python3 minmax.py set --build mm_lone_wolf --vs generic --faction horde`
 
 ```
-build: mm_lone_wolf   vs: generic   (5163 items after filters)
+build: mm_lone_wolf   vs: generic   (5188 items after filters)
 
 
 Optimised set:
@@ -169,7 +169,7 @@ Optimised set:
   wrist      Unearthed Bands of Stamina  + Bracer - Superior Stamina  (+9 sta, +16 ap, +49 armor)  https://www.wowhead.com/forever/item=9428?bonus=13020
   hands      Razzeric's Racing Grips  + Gloves - Greater Agility  (+8 agi, +9 sta, +70 armor)  https://www.wowhead.com/forever/item=6727
   waist      Defiler's Chain Girdle  (+5 sta, +24 ap, +61 armor)  https://www.wowhead.com/forever/item=20152
-  legs       Triprunner Dungarees  + Armor Kit - Medium/Heavy (+24/+32 armor)  (+18 agi, +6 sta, +3 str, +101 armor)  https://www.wowhead.com/forever/item=9624
+  legs       Panther Hunter Leggings  + Armor Kit - Medium/Heavy (+24/+32 armor)  (+10 agi, +11 sta, +96 armor)  https://www.wowhead.com/forever/item=4108
   feet       Enchanted Sandals  + Boots - Greater Stamina  (+5 agi, +10 sta, +8 int, +36 armor)  https://www.wowhead.com/forever/item=279843
   finger     Wyvern Heart Band  (+5 agi, +5 sta, +15 ap)  https://www.wowhead.com/forever/item=285190
   finger     Determined Band  (+8 sta, +9 ap)  https://www.wowhead.com/forever/item=277208
@@ -178,24 +178,24 @@ Optimised set:
   main_hand  Blade of the Magram Clan  + Weapon - Agility  (+4 sta, +10 ap)  https://www.wowhead.com/forever/item=271796
   off_hand   Scout's Blade  + Weapon - Mighty Intellect  (+7 agi, +3 sta)  https://www.wowhead.com/forever/item=19545
   two_hand   -
-  ranged     Truthseeker's Bow  + Scope - Accurate (+3% hit) (check availability)  (+7 agi, +3 sta, +23.75 dps)  https://www.wowhead.com/forever/item=277254
+  ranged     Truthseeker's Bow  + Deadly Scope (+5 dmg)  (+7 agi, +3 sta, +23.75 dps)  https://www.wowhead.com/forever/item=277254
 
-Totals from gear: +117 agi, +141 sta, +39 int, +3 str, +95 ap, +3 hit, +639 armor, +23.75 dps
-HP 2360  EHP 2844  mana 1375  RAP 366  crit 10.2%  dodge 5.2%  DPS 172.9  shot uptime 100%  EHP x DPS 491879
+Totals from gear: +109 agi, +146 sta, +39 int, +95 ap, +634 armor, +25.54 dps
+HP 2410  EHP 2892  mana 1375  RAP 358  crit 10.0%  dodge 5.0%  DPS 167.2  shot uptime 100%  EHP x DPS 483440
 ```
 
 ## `python3 minmax.py slots --build sv_mm_tank --vs generic --top 8`
 
 ```
-build: sv_mm_tank   vs: generic   (5361 items after filters)
+build: sv_mm_tank   vs: generic   (5387 items after filters)
 
 
 == head ==
    118.7  Brawler's Leather Helm                    L25 +10 agi, +13 sta, +84 armor  [crafted/drop]
    111.6  Trapper's Leather Helm                    L25 +13 sta, +10 int, +84 armor  [crafted/drop]
-   106.5  Master Engineer's Goggles                 L10 +16 sta, +17 spi, +61 armor  [crafted]
     99.7  Pathfinder Hat of the Bandit              L29 +4 agi, +9 sta, +11 ap, +81 armor  [drop]
     99.1  Goblin Rocket Helmet                      L10 +15 sta, +50 armor  [crafted]
+    99.1  Goblin Rocket Helmet                          +15 sta, +50 armor  [crafted]
     97.5  Scaled Leather Headband of the Bandit     L27 +4 agi, +9 sta, +10 ap, +79 armor  [drop/world drop]
     94.3  Brawler's Leather Hood                    L20 +8 agi, +10 sta, +76 armor  [crafted]
     91.8  Defender's Leather Helm                   L25 +13 sta, +12 str, +84 armor  [crafted/drop]
@@ -367,8 +367,9 @@ build: sv_mm_tank   vs: generic   (5361 items after filters)
    176.4  Outrunner's Bow                           L28 +2 agi, +5 sta, +16.67 dps  [vendor]
    175.3  Master Hunter's Bow                       L28 +6 agi, +19.38 dps  [quest]
    170.7  Master Hunter's Rifle                     L28 +4 agi, +4 str, +19.42 dps  [quest]
-   ench  27.3  Scope - Accurate (+3% hit) (check availability) +3 hit
-   ench  22.2  Scope - Deadly (+7 dmg) (check availability) +2.5 dps
+   ench  16.0  Deadly Scope (+5 dmg)               +1.79 dps
+   ench   9.6  Accurate Scope (+3 dmg)             +1.07 dps
+   ench   6.4  Standard Scope (+2 dmg)             +0.71 dps
 
 (score = duel score gain x1000 when added on top of base_gear.json)
 ```

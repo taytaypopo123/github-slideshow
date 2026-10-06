@@ -74,6 +74,7 @@ Catacomb Cloak,back,cloth,10,17,2,quest,,2,,,,3,,,,,15,,,,new,wowhead,279899,,
 Ceremonial Centaur Blanket,back,cloth,30,42,2,quest,,,2,9,,,,,,,28,,,,unchanged,wowhead,6789,,
 Cloak of Night,back,cloth,23,28,2,drop,6,,,,,,,,,,21,,,,updated,wowhead,4447,,
 Cloak of Rot,back,cloth,28,33,2,drop,,,8,,,,,,,,23,,,,updated,wowhead,4462,,
+Cloak of the Cult,back,cloth,,46,2,,,9,,,,,,,,,30,,,,new,wowhead,275050,,"no level req, high item level - check you can get it before 31"
 Cloak of the Divine Storm,back,cloth,22,35,3,quest,,5,,,5,,,,,,26,,,alliance,new,wowhead,277205,,
 Cloak of the Faith,back,cloth,23,30,2,quest,,4,,4,,,,,,,21,,,alliance,unchanged,wowhead,2902,,
 Cloak of the People's Militia,back,cloth,10,15,2,quest,2,,,,,,,,,,14,,,alliance,unchanged,wowhead,3511,,
@@ -101,6 +102,7 @@ Conjurer's Cloak of the Physician,back,cloth,28,33,2,drop,,,5,3,,,,,,,23,,,,unch
 Conjurer's Cloak of the Sorcerer,back,cloth,28,33,2,drop,,3,5,,,,,,,,23,,,,unchanged,wowhead,9847,12745,random suffix
 Conjurer's Cloak of the Tiger,back,cloth,28,33,2,drop,5,,,,5,,,,,,23,,,,unchanged,wowhead,9847,12727,random suffix
 Conjurer's Cloak of the Whale,back,cloth,28,33,2,drop,,5,,5,,,,,,,23,,,,unchanged,wowhead,9847,12719,random suffix
+Corpsefeeder's Shedding,back,cloth,1,43,3,,4,11,,,4,,,,,,31,,,,new,wowhead,271810,,"no level req, high item level - check you can get it before 31"
 Crazed Firecaller's Cloak,back,cloth,16,21,2,,,,3,,,,,,,,17,,,,new,wowhead,284187,,
 Crocolisk Skin Gaiter,back,cloth,25,30,3,,4,5,,,5,,,,,,24,,1,,new,wowhead,271720,,
 Crystal Thread Cloak,back,cloth,30,35,2,quest,,4,,,,,,,,,63,,1,horde,new,wowhead,273654,,
@@ -196,6 +198,7 @@ Elder's Cloak of the Sorcerer,back,cloth,25,30,2,drop/world drop,,2,4,,,,,,,,21,
 Elder's Cloak of the Whale,back,cloth,25,30,2,drop/world drop,,4,,4,,,,,,,21,,,,unchanged,wowhead,7356,12719,random suffix
 Elder's Cloak of the Wolf,back,cloth,25,30,2,drop/world drop,4,,,4,,,,,,,21,,,,unchanged,wowhead,7356,12726,random suffix
 Emblazoned Cloak,back,cloth,22,27,2,drop,,5,,2,,,,,,,20,,,,unchanged,wowhead,4715,,
+Enchanted Moonstalker Cloak,back,cloth,,20,2,quest,,3,,,,,,,,,17,,1,alliance,unchanged,wowhead,5387,,has on-use
 Enduring Cape,back,cloth,27,32,2,drop,2,7,,,2,,,,,,22,,,,unchanged,wowhead,14763,,
 Engineer's Cloak,back,cloth,16,27,2,quest,,5,2,,,,,,,,20,,,,unchanged,wowhead,6667,,
 Excavation Cloak,back,cloth,23,31,2,quest,,4,,,4,,,,,,22,,,alliance,new,wowhead,281305,,
@@ -540,6 +543,7 @@ Sergeant's Cloak,back,cloth,30,35,3,vendor,,9,,,,,,,,,66,,1,horde,updated,wowhea
 Silver-thread Cloak,back,cloth,21,26,2,drop/world drop,,,4,2,,,,,,,20,,,,unchanged,wowhead,4713,,
 Slayer's Cape,back,cloth,22,27,2,drop,,3,,,4,,,,,,20,,,,unchanged,wowhead,14752,,
 Soft Willow Cape,back,cloth,23,27,2,quest,,,5,,,,,,,,20,,,horde,unchanged,wowhead,16661,,
+South Seas Shroud,back,cloth,1,42,3,,,9,,3,,,,,,,30,,,,new,wowhead,279884,,"no level req, high item level - check you can get it before 31"
 Sparkleshell Cloak of Agility,back,cloth,30,35,2,drop,8,,,,,,,,,,23,,,,unchanged,wowhead,15579,12728,random suffix
 Sparkleshell Cloak of Arcane Protection,back,cloth,30,35,2,drop,,5,,,,,,,,,23,,,,unchanged,wowhead,15579,12740,random suffix
 Sparkleshell Cloak of Fire Protection,back,cloth,30,35,2,drop,,5,,,,,,,,,23,,,,unchanged,wowhead,15579,12741,random suffix
@@ -637,6 +641,7 @@ Thistlefur Cloak of the Sorcerer,back,cloth,26,31,2,drop,,2,4,,,,,,,,22,,,,updat
 Thistlefur Cloak of the Whale,back,cloth,26,31,2,drop,,4,,4,,,,,,,22,,,,updated,wowhead,14198,12719,random suffix
 Thistlefur Cloak of the Wolf,back,cloth,26,31,2,drop,4,,,4,,,,,,,22,,,,updated,wowhead,14198,12726,random suffix
 Tigerstrike Mantle,back,cloth,29,34,3,drop,8,7,,,,,,,,,25,,,,unchanged,wowhead,13108,,
+Torn Cultist Cloak,back,cloth,1,46,3,,,6,9,,,,,3,,,33,,,,new,wowhead,279855,,"no level req, high item level - check you can get it before 31"
 Traveler's Shawl,back,cloth,18,23,3,quest,,4,,5,,,,,,,20,,,horde,new,wowhead,277289,,
 Twilight Cape of Agility,back,cloth,30,35,2,drop,8,,,,,,,,,,23,,,,unchanged,wowhead,7436,12728,random suffix
 Twilight Cape of Arcane Protection,back,cloth,30,35,2,drop,,5,,,,,,,,,23,,,,unchanged,wowhead,7436,12740,random suffix
@@ -660,6 +665,7 @@ Twilight Cape of the Sorcerer,back,cloth,30,35,2,drop,,3,6,,,,,,,,23,,,,unchange
 Twilight Cape of the Tiger,back,cloth,30,35,2,drop,5,,,,5,,,,,,23,,,,unchanged,wowhead,7436,12727,random suffix
 Twilight Cape of the Whale,back,cloth,30,35,2,drop,,5,,5,,,,,,,23,,,,unchanged,wowhead,7436,12719,random suffix
 Twilight Cape of the Wolf,back,cloth,30,35,2,drop,5,,,5,,,,,,,23,,,,unchanged,wowhead,7436,12726,random suffix
+Twilight Overlord Drape,back,cloth,,46,2,,,9,,,,,,,,,30,,,,new,wowhead,275046,,"no level req, high item level - check you can get it before 31"
 Vine Pruner's Cloak,back,cloth,24,36,3,quest,,8,,,,,,,,,26,,,alliance,,wowhead,279835,,
 Vital Cape of Agility,back,cloth,27,32,2,drop,7,,,,,,,,,,22,,,,unchanged,wowhead,14210,12728,random suffix
 Vital Cape of Arcane Protection,back,cloth,27,32,2,drop,,5,,,,,,,,,22,,,,unchanged,wowhead,14210,12740,random suffix
@@ -750,6 +756,7 @@ Black Whelp Tunic,chest,leather,15,20,2,crafted,,,5,,,,,,,,78,,,,updated,wowhead
 Blackened Defias Armor,chest,leather,17,22,3,drop,3,10,,,4,,,,,,89,,,,updated,wowhead,10399,,set item
 Blackmoss Robes,chest,cloth,10,15,2,drop,,3,3,,,,,,,,28,,,,new,wowhead,284167,,
 Blackrock Harness,chest,leather,21,26,3,drop,,8,,,,14,,,,,96,,,,new,wowhead,273805,,
+Bleached Scale Vest,chest,mail,,44,2,,,,15,,6,,,,,,245,,,,new,wowhead,281303,,"no level req, high item level - check you can get it before 31"
 Bloodied Chestwraps,chest,leather,17,22,3,drop,7,,,9,,,,,,,89,,,,new,wowhead,271212,,
 Bloody Apron,chest,cloth,19,24,3,drop,,9,,,,,,,,,42,,,,updated,wowhead,6226,,
 Blue Overalls,chest,cloth,15,20,2,crafted,,4,,,4,,,,,,34,,,,unchanged,wowhead,6263,,
@@ -761,7 +768,9 @@ Brawler's Leather Tunic,chest,leather,22,27,3,crafted,8,6,,5,6,,,,,,98,,,,new,wo
 Brawnhide Armor,chest,leather,25,29,2,quest,4,9,,3,,,,,,,92,,,horde,unchanged,wowhead,15471,,
 Bright Armor,chest,cloth,22,27,2,drop,,,8,4,,,,,,,41,,,,unchanged,wowhead,6608,,
 Bright Robe,chest,cloth,22,27,2,drop,,,4,8,,,,,,,41,,,,unchanged,wowhead,3069,,
+Bristle Hills Mystic Robe,chest,cloth,,42,2,,,,11,,,,,,,,55,,,,new,wowhead,274941,,"no level req, high item level - check you can get it before 31"
 Bristlebark Blouse,chest,leather,23,28,2,drop,7,6,,,,,,,,,90,,,,unchanged,wowhead,14570,,
+Bristlepelt Vest,chest,leather,,42,2,,9,13,,,,,,,,,115,,,,new,wowhead,274942,,"no level req, high item level - check you can get it before 31"
 Buccaneer's Robes of Agility,chest,cloth,18,23,2,drop/world drop,8,,,,,,,,,,37,,,,unchanged,wowhead,14172,12728,random suffix
 Buccaneer's Robes of Arcane Protection,chest,cloth,18,23,2,drop/world drop,,5,,,,,,,,,37,,,,unchanged,wowhead,14172,12740,random suffix
 Buccaneer's Robes of Fire Protection,chest,cloth,18,23,2,drop/world drop,,5,,,,,,,,,37,,,,unchanged,wowhead,14172,12741,random suffix
@@ -792,6 +801,7 @@ Buccaneer's Vest of the Sorcerer,chest,cloth,18,23,2,drop/world drop,,3,6,,,,,,,
 Buccaneer's Vest of the Whale,chest,cloth,18,23,2,drop/world drop,,5,,5,,,,,,,37,,,,unchanged,wowhead,14175,12719,random suffix
 Burnished Tunic,chest,mail,16,21,2,drop,,3,,,6,,,,,,171,,,,unchanged,wowhead,2989,,
 Camouflaged Tunic,chest,leather,10,22,2,quest,2,6,,,,,,,,,81,,,horde,unchanged,wowhead,3585,,
+Ceremonial Gown,chest,cloth,,42,2,,,,11,,,,,,,,55,,,,new,wowhead,270082,,"no level req, high item level - check you can get it before 31"
 Ceremonial Leather Harness,chest,leather,13,18,2,drop,4,,,3,,,,,,,74,,,,unchanged,wowhead,3313,,
 Chestplate of Kor,chest,mail,19,24,2,quest,,4,,4,4,,,,,,180,,,alliance,unchanged,wowhead,6721,,
 Civinad Robes,chest,cloth,25,37,3,quest,,7,,12,,,,,,,54,,,,updated,wowhead,9623,,
@@ -920,6 +930,7 @@ Garb of Florid Feathers,chest,leather,26,31,3,drop,6,6,13,,,,,,,,105,,,,,wowhead
 Glimmering Mail Breastplate,chest,mail,26,31,2,drop/world drop,,11,,,3,,,,,,201,,,,unchanged,wowhead,4071,,
 Gloomshroud Armor,chest,leather,20,25,3,drop,,8,,8,5,,,,,,94,,,,updated,wowhead,1489,,
 Gnoll War Harness,chest,leather,10,15,2,drop,,2,,,2,,,,,,70,,,,unchanged,wowhead,1211,,
+Gnollhide Tunic,chest,leather,,42,2,,11,,,11,,,,,,,115,,,,new,wowhead,274938,,"no level req, high item level - check you can get it before 31"
 Golemguard Chest,chest,mail,13,18,3,drop,,6,,,,,,,,,238,,,,new,wowhead,271098,,
 Gray Woolen Robe,chest,cloth,16,21,2,crafted,,,5,,,,,,,,35,,,,updated,wowhead,2585,,
 Greater Adept's Robe,chest,cloth,18,23,2,crafted,,,2,7,,,,,,,37,,,,updated,wowhead,6264,,
@@ -953,6 +964,7 @@ Greenweave Vest of the Physician,chest,cloth,22,27,2,drop,,7,4,,,,,,,,41,,,,unch
 Greenweave Vest of the Physician,chest,cloth,22,27,2,drop,,,7,4,,,,,,,41,,,,unchanged,wowhead,9774,12749,random suffix
 Greenweave Vest of the Sorcerer,chest,cloth,22,27,2,drop,,4,7,,,,,,,,41,,,,unchanged,wowhead,9774,12745,random suffix
 Greenweave Vest of the Whale,chest,cloth,22,27,2,drop,,7,,7,,,,,,,41,,,,unchanged,wowhead,9774,12719,random suffix
+Grimtotem Naturalist's Tunic,chest,leather,,45,2,,10,,,,14,,,,,,121,,,,new,wowhead,277221,,"no level req, high item level - check you can get it before 31"
 Grizzly Tunic,chest,leather,17,28,2,quest,,10,,,,,,,,,90,,,alliance,unchanged,wowhead,7335,,
 Guard's Chain Shirt,chest,mail,15,20,3,crafted,,7,,,4,,,,,,184,,,,new,wowhead,250489,,
 Guard's Silvered Chain Shirt,chest,mail,22,27,3,crafted,,10,,,6,,,,,,208,,,,new,wowhead,250519,,
@@ -1022,7 +1034,7 @@ Large Ogre Chain Armor,chest,mail,25,30,2,drop,,1,,,10,,,,,,198,,,,unconfirmed,w
 Lesser Wizard's Robe,chest,cloth,22,27,2,crafted,,,8,,,,,,,,41,,,,updated,wowhead,5766,,
 Loch Croc Hide Vest,chest,leather,19,24,2,drop,,8,,,,,,,,,84,,,,updated,wowhead,6197,,
 Martyr's Chain,chest,mail,23,28,3,drop,,9,,,9,,,,,,211,,,,updated,wowhead,3416,,
-Mechbuilder's Overalls,chest,cloth,26,31,3,drop,,5,12,,,,,,,,48,,,,unconfirmed,wowhead,9508,,
+Mechbuilder's Overalls,chest,cloth,26,31,3,drop,,5,12,,,,,,,,48,,,,unconfirmed,wowhead,9508,,needs profession skill 75 (skill id 202)
 Moonglow Vest,chest,leather,13,18,2,crafted,,,3,,,,,,,,74,,,,updated,wowhead,6709,,
 Murloc Scale Breastplate,chest,leather,14,19,2,crafted,3,,,,5,,,,,,76,,,,unchanged,wowhead,5781,,
 Mutant Scale Breastplate,chest,mail,18,23,3,drop,,4,,,10,,,,,,194,,,,updated,wowhead,6627,,
@@ -1088,6 +1100,7 @@ Pearly Gown,chest,cloth,22,27,3,crafted,,6,7,4,,,,,,,45,,,,new,wowhead,253969,,
 Phantom Armor,chest,mail,22,27,3,drop,,12,,5,3,,,,,,208,,,,updated,wowhead,6642,,
 Pressed Felt Robe,chest,cloth,29,34,2,drop,,,3,12,,,,,,,46,,,,unconfirmed,wowhead,1997,,
 Pristine Gown,chest,cloth,22,27,3,crafted,,6,7,4,,,,,,,45,,,,new,wowhead,253961,,
+Profane Ritual Robes,chest,leather,,49,2,,17,9,,,,,,,,,131,,,,new,wowhead,281299,,"no level req, high item level - check you can get it before 31"
 Prospector's Chestpiece,chest,leather,18,23,2,drop,6,3,,,2,,,,,,82,,,,unchanged,wowhead,14562,,
 Protector's Chain Shirt,chest,mail,15,20,3,crafted,,7,,,,,,,,,184,,,,new,wowhead,250490,,
 Protector's Silvered Chain Shirt,chest,mail,22,27,3,crafted,,10,,,,,,,,,208,,,,new,wowhead,250520,,
@@ -1298,6 +1311,7 @@ Silky Gown,chest,cloth,22,27,3,crafted,,6,7,4,,,,,,,45,,,,new,wowhead,253963,,
 Silver-thread Armor,chest,cloth,26,31,2,drop,,,4,11,,,,,,,44,,,,unchanged,wowhead,7110,,
 Silver-thread Robe,chest,cloth,26,31,2,drop,,,11,4,,,,,,,44,,,,unchanged,wowhead,4035,,
 Silvered Bronze Breastplate,chest,mail,21,26,2,crafted,,5,,4,5,,,,,,186,,,,unchanged,wowhead,2869,,
+Singed Cloth Robe,chest,cloth,,50,2,,,,14,,,,,,,,65,,,,new,wowhead,270113,,"no level req, high item level - check you can get it before 31"
 Slarkskin,chest,mail,12,17,2,drop,3,4,,,,,,,,,159,,,,updated,wowhead,6180,,
 Slayer's Surcoat,chest,mail,28,33,2,drop,3,5,,,10,,,,,,207,,,,unchanged,wowhead,14751,,
 Smoldering Robe,chest,cloth,21,26,2,drop,,6,,6,,,,,,,40,,,,unchanged,wowhead,3072,,
@@ -1406,6 +1420,7 @@ Ambassador's Boots,feet,leather,22,28,3,quest,5,8,,6,,,,,,,68,,,alliance,updated
 Barbaric Cloth Boots,feet,cloth,10,15,2,drop,,1,2,,,,,,,,19,,,,unchanged,wowhead,3307,,
 Black Slippers,feet,cloth,30,35,3,crafted,,6,7,4,,,,,,,35,,,,new,wowhead,254007,,
 Black Whelp Boots,feet,leather,14,18,2,quest,,4,,,,,,,,,51,,,alliance,updated,wowhead,6092,,
+Black Whelp Boots,feet,leather,,45,2,,9,,,9,,,,,,,84,,,,new,wowhead,270094,,"no level req, high item level - check you can get it before 31"
 Black Whelp Slippers,feet,leather,10,15,3,crafted,,,4,,,,,,,,53,,,,new,wowhead,252424,,
 Blackened Defias Boots,feet,leather,15,20,3,drop,6,4,,,,,,,,,59,,,,updated,wowhead,10402,,set item
 Blackrock Boots,feet,mail,14,19,2,drop,,3,,,3,,,,,,113,,,,unchanged,wowhead,1446,,
@@ -1458,6 +1473,8 @@ Dark Leather Boots,feet,leather,15,20,2,crafted,5,,,,,,,,,,53,,,,updated,wowhead
 Dark Leather Boots,feet,leather,10,15,3,crafted,4,4,,,,,,,,,53,,,,new,wowhead,252425,,
 Dark Runner Boots,feet,cloth,20,25,2,drop,,5,,3,,,,,,,27,,,,unchanged,wowhead,2232,,
 Darkspear Shoes,feet,cloth,30,42,2,quest,,7,3,3,,,,,,,38,,,horde,unchanged,wowhead,4137,,
+Darkstalker Boots,feet,leather,,24,2,,5,2,,,,,,,,,58,,,,unchanged,wowhead,5821,,
+Deep-Sea Waders,feet,cloth,,48,2,,,10,,10,,,,,,,43,,,,new,wowhead,259890,,"has on-use; no level req, high item level - check you can get it before 31"
 Defender's Leather Boots,feet,leather,17,22,3,crafted,,5,,,5,,,,,,99,,,,new,wowhead,252441,,
 Defiler's Chain Greaves,feet,leather,28,33,3,vendor,8,8,,,,,,,,,74,,1,horde,unchanged,wowhead,20157,,reputation item
 Defiler's Cloth Boots,feet,cloth,28,33,3,vendor,,8,,,,,,,,,84,,1,horde,updated,wowhead,20162,,reputation item
@@ -1555,6 +1572,7 @@ Glinteye Slippers,feet,cloth,26,31,3,drop,,9,6,6,,,,,,,33,,,,,wowhead,273024,,
 Glistening Stompers,feet,mail,24,30,2,quest,,,5,,5,,,,,,136,,,horde,new,wowhead,276727,,
 Glowing Copper Boots,feet,mail,10,15,3,crafted,,,4,,,,,,,,109,,,,new,wowhead,250482,,
 Gnomebot Operating Boots,feet,leather,29,34,3,drop,,12,,,,,,,,,76,,,,updated,wowhead,9450,,
+Gnomish Floatation Device,feet,leather,,49,2,,,10,,,10,,,,,,90,,,,new,wowhead,270101,,"no level req, high item level - check you can get it before 31"
 Gold Militia Boots,feet,mail,15,25,2,quest,,5,,,3,,,,,,126,,,alliance,unchanged,wowhead,2910,,
 Golden Slippers,feet,cloth,30,35,3,crafted,,6,7,4,,,,,,,35,,,,new,wowhead,254009,,
 Gorefang's Runners,feet,leather,11,16,2,drop,3,1,,,,,,,,,49,,,,new,wowhead,283361,,
@@ -1648,11 +1666,13 @@ Mail Combat Boots,feet,mail,30,35,2,drop/world drop,,9,,,3,,,,,,147,,,,unchanged
 Manascale Treads,feet,mail,28,33,3,,,7,,,7,,,,,0.5,157,,,,new,wowhead,273042,,
 Mantis Boots,feet,cloth,29,40,2,quest,2,,,7,3,,,,,,36,,,horde,unchanged,wowhead,3764,,
 Mariner Boots,feet,leather,20,25,2,quest,1,6,,,,,,,,,59,,,alliance,unchanged,wowhead,2949,,
+Midshipman's Worn Boots,feet,leather,,15,2,drop,3,,,,,,,,,,48,,,,new,wowhead,270002,,
 Moccasins of the White Hare,feet,cloth,24,29,3,drop,3,,,8,,,,,,,32,,,,unchanged,wowhead,13099,,
 Moonglow Boots,feet,leather,10,15,3,crafted,,4,,,,,,,,,53,,,,new,wowhead,252427,,
 Mud Stompers,feet,mail,10,15,2,quest,,3,,,,,,,,,99,,,alliance,unchanged,wowhead,6188,,
 Murloc Scale Shoes,feet,leather,10,15,3,crafted,,4,,,4,,,,,,53,,,,new,wowhead,252426,,
 Mystic's Slippers,feet,cloth,13,18,2,drop,,2,2,,,,,,,,22,,,,unchanged,wowhead,14364,,
+Nat Pagle's Extreme Anglin' Boots,feet,cloth,,40,2,quest,,12,,,,,,,,,36,,,,unchanged,wowhead,19969,,"needs profession skill 1 (skill id 356); no level req, high item level - check you can get it before 31"
 Nightsky Boots,feet,cloth,29,34,2,drop,,8,4,,,,,,,,32,,,,unchanged,wowhead,6406,,
 Nimbus Boots,feet,cloth,20,27,3,quest,6,,,,,,,,,,31,,,alliance,updated,wowhead,6998,,
 Pathfinder Footpads of Arcane Protection,feet,leather,25,30,2,drop,,5,,,,,,,,,64,,,,unchanged,wowhead,15341,12740,random suffix
@@ -1767,6 +1787,7 @@ Stable Boots,feet,leather,13,18,2,vendor,,4,,,,,,,,,51,,,,unchanged,wowhead,4789
 Sterling Silver Boots,feet,mail,20,25,2,crafted,,3,,,3,,,,,,126,,,,new,wowhead,250483,,
 Stomping Boots,feet,leather,21,24,2,quest,4,,,,4,,,,,,58,,,horde,unchanged,wowhead,3741,,
 Stonecloth Boots,feet,cloth,30,35,2,drop,,5,,8,,,,,,,32,,,,unchanged,wowhead,14408,,
+Stonewalker's Slippers,feet,leather,,50,2,,,12,8,,,,,,,,91,,,,new,wowhead,270104,,"no level req, high item level - check you can get it before 31"
 Stormrider's Leather Boots,feet,leather,17,22,3,crafted,,4,5,,,,,,,,61,,,,new,wowhead,252443,,
 Strange Copper Boots,feet,mail,10,15,3,crafted,,4,,,,,,,,,109,,,,new,wowhead,250621,,
 Superior Boots of Agility,feet,leather,21,26,2,drop,7,,,,,,,,,,60,,,,unchanged,wowhead,9802,12728,random suffix
@@ -1791,6 +1812,7 @@ Superior Boots of the Sorcerer,feet,leather,21,26,2,drop,,3,5,,,,,,,,60,,,,uncha
 Superior Boots of the Tiger,feet,leather,21,26,2,drop,5,,,,5,,,,,,60,,,,unchanged,wowhead,9802,12727,random suffix
 Superior Boots of the Whale,feet,leather,21,26,2,drop,,5,,5,,,,,,,60,,,,unchanged,wowhead,9802,12719,random suffix
 Superior Boots of the Wolf,feet,leather,21,26,2,drop,5,,,5,,,,,,,60,,,,unchanged,wowhead,9802,12726,random suffix
+Surfer Shoes,feet,cloth,1,25,3,vendor,,10,,,,,,,,,29,,,,new,wowhead,276274,,has on-use
 Thistlefur Sandals of Arcane Protection,feet,cloth,27,32,2,drop,,6,,,,,,,,,31,,,,unchanged,wowhead,14196,12740,random suffix
 Thistlefur Sandals of Fire Protection,feet,cloth,27,32,2,drop,,6,,,,,,,,,31,,,,unchanged,wowhead,14196,12741,random suffix
 Thistlefur Sandals of Frost Protection,feet,cloth,27,32,2,drop,,6,,,,,,,,,31,,,,unchanged,wowhead,14196,12742,random suffix
@@ -1805,6 +1827,7 @@ Thistlefur Sandals of the Physician,feet,cloth,27,32,2,drop,,,7,4,,,,,,,31,,,,un
 Thistlefur Sandals of the Sorcerer,feet,cloth,27,32,2,drop,,4,7,,,,,,,,31,,,,unchanged,wowhead,14196,12745,random suffix
 Thistlefur Sandals of the Whale,feet,cloth,27,32,2,drop,,6,,6,,,,,,,31,,,,unchanged,wowhead,14196,12719,random suffix
 Totemic Leather Boots,feet,leather,17,22,3,crafted,,4,,,5,,,,,,61,,,,new,wowhead,252442,,
+Tower Boots,feet,leather,,39,2,,,6,,,9,,,,,,75,,,,new,wowhead,270066,,"no level req, high item level - check you can get it before 31"
 Trailblazer Boots,feet,leather,15,30,2,quest,7,3,,,,,,,,,64,,,horde,unchanged,wowhead,10653,,
 Trapper's Leather Boots,feet,leather,17,22,3,crafted,5,5,4,,,,,,,,61,,,,new,wowhead,252440,,
 Treacherous Treads,feet,mail,23,28,3,drop,,7,,,5,,,,,,145,,,,new,wowhead,273842,,
@@ -1880,6 +1903,7 @@ Amber Hoop of the Physician,finger,,21,26,2,drop,,4,2,,,,,,,,,,,,unchanged,wowhe
 Amber Hoop of the Sorcerer,finger,,21,26,2,drop,,2,4,,,,,,,,,,,,unchanged,wowhead,11968,12745,random suffix
 Amber Hoop of the Whale,finger,,21,26,2,drop,,3,,3,,,,,,,,,,,unchanged,wowhead,11968,12719,random suffix
 Amber Hoop of the Wolf,finger,,21,26,2,drop,3,,,3,,,,,,,,,,,unchanged,wowhead,11968,12726,random suffix
+Apology Ring,finger,,1,35,2,,,6,,,,,,,,,,,,,new,wowhead,278019,,"no level req, high item level - check you can get it before 31"
 Azora's Will,finger,,22,27,2,drop,,,5,,,,,,,,,,,,unchanged,wowhead,4999,,
 Band of Allegiance,finger,,30,35,3,quest,,4,,,9,,,,,,,,,horde,unchanged,wowhead,18585,,
 Band of Elven Grace,finger,,17,28,2,quest,,3,,4,,,,,,,,,,alliance,unchanged,wowhead,6678,,
@@ -1911,9 +1935,14 @@ Black Pearl Ring,finger,,19,24,3,drop,,2,2,6,,,,,,,,,1,,updated,wowhead,6332,,
 Black Widow Band,finger,,21,26,2,drop,,,7,,,,,,,,,,1,,updated,wowhead,6199,,
 Blood Ring,finger,,19,24,2,drop,,5,,,,,,,,,,,,,unchanged,wowhead,4998,,
 Bloodbone Band,finger,,30,35,2,quest,,7,,2,,,,,,,,,,horde,unchanged,wowhead,4135,,
+Bloodmaster's Ring,finger,,,45,3,,,7,6,,,,,,,,,,,,new,wowhead,275043,,"no level req, high item level - check you can get it before 31"
+Bloodsport Band,finger,,,45,3,,,6,,,,22,,,,,,,,,new,wowhead,275044,,"no level req, high item level - check you can get it before 31"
 Boar Signet,finger,,22,32,3,quest,,7,,7,,,,,,,,,,,,wowhead,274078,,
 Boulderheart Band,finger,,22,27,2,,,2,,,4,,,,,,,,,,new,wowhead,281927,,
 Bounty Hunter's Ring,finger,,11,20,2,quest,3,1,,,,,,,,,,,,horde,unchanged,wowhead,5351,,
+Brilliant Gold Ring,finger,,,31,2,quest,,4,,4,,,,,,,,,1,,unchanged,wowhead,9362,,"no level req, high item level - check you can get it before 31"
+Brute Slayer Band,finger,,,40,2,,,,6,,,,,,,,,,,,new,wowhead,274961,,"no level req, high item level - check you can get it before 31"
+Burning Obsidian Band,finger,,,50,2,,,12,,,,,,,,,,,,,unchanged,wowhead,4988,,"no level req, high item level - check you can get it before 31"
 Cerulean Ring of Agility,finger,,30,35,2,drop,8,,,,,,,,,,,,,,unchanged,wowhead,11985,12728,random suffix
 Cerulean Ring of Arcane Protection,finger,,25,30,2,,,4,,,,,,,,,,,,,unchanged,wowhead,7426,12740,random suffix
 Cerulean Ring of Arcane Protection,finger,,30,35,2,drop,,5,,,,,,,,,,,,,unchanged,wowhead,11985,12740,random suffix
@@ -2026,6 +2055,7 @@ Deep Fathom Ring,finger,,19,24,3,drop,,3,,5,,,,,,,,,,,updated,wowhead,6463,,
 Defias Mage Ring,finger,,21,26,2,drop,,,4,3,,,,,,,,,1,,unchanged,wowhead,1077,,
 Defias Renegade Ring,finger,,21,26,3,drop,5,5,,,,,,,,,,,,,updated,wowhead,1076,,
 Demon Band,finger,,19,24,2,drop,,2,,2,4,,,,,,,,,,unchanged,wowhead,12054,,
+Desolate Band,finger,,1,43,2,,,8,5,,,,,,,,,,,,new,wowhead,271809,,"no level req, high item level - check you can get it before 31"
 Determined Band,finger,,30,45,2,quest,,8,,,,9,,,,,,,,,new,wowhead,277208,,
 Electrocutioner Lagnut,finger,,29,34,3,drop,,4,,7,,,,,,,,,,,updated,wowhead,9447,,
 Field Researcher's Loop,finger,,20,35,3,quest,7,7,,,,,,,,,,,,,new,wowhead,281634,,
@@ -2102,10 +2132,12 @@ Lonetree's Circle,finger,,30,35,3,quest,,6,6,4,,,,,,,,,,horde,unchanged,wowhead,
 Loop of Sacrifice,finger,,20,28,2,quest,,,5,,3,,,,,,,,,horde,new,wowhead,281673,,
 Lorekeeper's Ring,finger,,28,33,3,vendor,,4,,,,,,2,,,,,1,alliance,unchanged,wowhead,19525,,
 Lorekeeper's Ring,finger,,18,23,3,vendor,,2,,,,,,2,,,,,1,alliance,unchanged,wowhead,20431,,
+Malignant Root,finger,,1,32,3,,,7,,,,8,,,,,,,,,new,wowhead,282283,,"no level req, high item level - check you can get it before 31"
 Militant's Band,finger,,28,33,3,,,8,,,,,,2,,,,,1,,new,wowhead,271916,,reputation item
 Minor Channeling Ring,finger,,17,24,2,quest,,,2,,,,,,,,,,,alliance,updated,wowhead,1449,,
 Monkey Ring,finger,,22,32,3,quest,7,,,7,,,,,,,,,,,updated,wowhead,6748,,
 Nogg's Gold Ring,finger,,28,37,3,quest,,10,,4,,,,,,,,,,horde,unconfirmed,wowhead,9588,,
+Ogre Horn Ring,finger,,,45,3,,3,10,,,4,,,,,,,,,,new,wowhead,275045,,"no level req, high item level - check you can get it before 31"
 Philanthropist's Ring,finger,,20,35,3,quest,,,5,,,,,,,,,,,,new,wowhead,281635,,
 Plains Ring,finger,,24,29,3,drop,,8,3,,,,,,,,,,,,updated,wowhead,2039,,
 Ponderous Loop,finger,,26,40,2,quest,,4,7,,,,,,,,,,,,new,wowhead,277209,,
@@ -2126,7 +2158,10 @@ Prairie Ring of the Wolf,finger,,20,25,2,drop/world drop,3,,,3,,,,,,,,,,,unchang
 Prospector's Signet,finger,,23,31,2,quest,,4,4,,,,,,,,,,,alliance,new,wowhead,281304,,
 Protector's Band,finger,,28,33,3,vendor,6,4,,,6,,,,,,,,1,alliance,unchanged,wowhead,19517,,
 Protector's Band,finger,,18,23,3,vendor,4,2,,,4,,,,,,,,1,alliance,unchanged,wowhead,20439,,
+Purified Ring,finger,,,44,3,,,,12,,,,,,,,,,,,new,wowhead,270081,,"no level req, high item level - check you can get it before 31"
 Reedknot Ring,finger,,30,35,2,quest,,3,,,,,,,,,,,,,updated,wowhead,9622,,
+Refunded Ring,finger,,1,35,2,,,8,,,,,,,,,,,,,new,wowhead,278017,,"no level req, high item level - check you can get it before 31"
+Renegotiated Ring,finger,,1,35,2,,,6,,,3,,,,,,,,,,new,wowhead,278018,,"no level req, high item level - check you can get it before 31"
 Ring of Forlorn Spirits,finger,,22,35,2,quest,,2,,,,,,,,,,,,alliance,updated,wowhead,2043,,
 Ring of Iron Will,finger,,15,25,2,quest,,4,,2,,,,,,,,,,alliance,unchanged,wowhead,1319,,
 Ring of Power Regulation,finger,,28,33,3,drop,,8,,,,,,2,,,,,,,,wowhead,273030,,
@@ -2136,6 +2171,7 @@ Ring of Ruin,finger,,22,35,2,quest,6,,,,4,,,,,,,,,alliance,new,wowhead,270053,,
 Ring of Scorn,finger,,10,20,2,quest,,4,,,,,,,,,,,,horde,updated,wowhead,3235,,
 Ring of the Moon,finger,,16,21,2,drop,,3,,,1,,,,,,,,,,unchanged,wowhead,12052,,
 Rune-Etched Ring,finger,,24,32,3,quest,,10,,,,,,,,,,,,alliance,new,wowhead,281320,,
+Sacristan Band,finger,,,40,2,,,8,,,,,,,,,,,,,new,wowhead,274915,,"no level req, high item level - check you can get it before 31"
 Savannah Ring of Agility,finger,,23,28,2,drop/world drop,6,,,,,,,,,,,,,,unchanged,wowhead,12008,12728,random suffix
 Savannah Ring of Arcane Protection,finger,,23,28,2,drop/world drop,,4,,,,,,,,,,,,,unchanged,wowhead,12008,12740,random suffix
 Savannah Ring of Fire Protection,finger,,23,28,2,drop/world drop,,4,,,,,,,,,,,,,unchanged,wowhead,12008,12741,random suffix
@@ -2155,12 +2191,14 @@ Savannah Ring of the Physician,finger,,23,28,2,drop/world drop,,4,2,,,,,,,,,,,,u
 Savannah Ring of the Physician,finger,,23,28,2,drop/world drop,,,4,2,,,,,,,,,,,unchanged,wowhead,12008,12749,random suffix
 Savannah Ring of the Whale,finger,,23,28,2,drop/world drop,,4,,4,,,,,,,,,,,unchanged,wowhead,12008,12719,random suffix
 Savannah Ring of the Wolf,finger,,23,28,2,drop/world drop,4,,,4,,,,,,,,,,,unchanged,wowhead,12008,12726,random suffix
+Scavenger's Ring,finger,,1,43,2,,,8,5,,,,,,,,,,,,new,wowhead,271808,,"no level req, high item level - check you can get it before 31"
 Seal of Sylvanas,finger,,18,29,3,quest,,8,,,,6,,,,,,,,horde,updated,wowhead,6414,,
 Seal of Wrynn,finger,,16,31,3,quest,3,4,4,3,3,,,,,,,,,alliance,unchanged,wowhead,2933,,
 Signet of the Zhevra,finger,,18,23,3,drop,6,,,2,,,,,,,,,,,new,wowhead,285330,,set item
 Silverlaine's Family Seal,finger,,21,26,3,drop,,2,,,5,,,,,,,,,,updated,wowhead,6321,,
 Skull Ring,finger,,20,25,2,quest,,3,3,,,,,,,,,,,horde,unchanged,wowhead,3739,,
 Slain Baron's Signet,finger,,16,23,2,quest,,3,,,,,,,,,,,,,new,wowhead,279867,,
+Smotts' Pinky Ring,finger,,,50,2,,,11,,,,,,,,,,,,,new,wowhead,270109,,"no level req, high item level - check you can get it before 31"
 Snake Hoop,finger,,22,32,3,quest,,,7,7,,,,,,,,,,,updated,wowhead,6750,,
 Spiked Shell Band,finger,,22,27,3,drop,,5,,,,,,,,,,,,,new,wowhead,273839,,
 Spinel Ring of Arcane Protection,finger,,29,34,2,drop/world drop,,5,,,,,,,,,,,,,unchanged,wowhead,11970,12740,random suffix
@@ -2431,6 +2469,7 @@ Headhunter's Mitts of the Wolf,hands,leather,29,34,2,drop,7,,,7,,,,,,,62,,,,unch
 Heat Resistant Mitts,hands,leather,14,20,2,quest,4,1,,,,,,,,,48,,,horde,new,wowhead,270008,,
 Heavy Earthen Gloves,hands,leather,24,29,2,crafted,,,,,,16,,,,,57,,,,unchanged,wowhead,7359,,
 Heavy Woolen Gloves,hands,cloth,12,17,2,crafted,,,2,,,,,,,,19,,,,updated,wowhead,4310,,
+Hedgeseed Gauntlets,hands,mail,,24,2,,,2,,,5,,,,,,112,,,,unchanged,wowhead,5822,,
 Hillman's Leather Gloves,hands,leather,24,29,2,crafted,,6,,,,,,,,,57,,,,updated,wowhead,4247,,
 Hotshot Pilot's Gloves,hands,cloth,27,32,3,drop,4,5,8,5,,,,,,,31,,,,updated,wowhead,9491,,
 Hulking Gauntlets,hands,mail,18,23,2,drop,2,1,,,5,,,,,,110,,,,unchanged,wowhead,14747,,
@@ -2460,6 +2499,7 @@ Infiltrator Gloves of the Wolf,hands,leather,27,32,2,drop/world drop,6,,,6,,,,,,
 Inscribed Leather Gloves,hands,leather,14,19,2,drop/world drop,2,,,3,,,,,,,47,,,,unchanged,wowhead,2988,,
 Insignia Gloves,hands,leather,29,34,2,drop,6,,,,7,,,,,,62,,,,unchanged,wowhead,6408,,
 Insulated Sage Gloves,hands,cloth,26,33,2,quest,,7,6,,,,,,,,28,,,alliance,unchanged,wowhead,3759,,
+Ironforge Agent's Gloves,hands,leather,,45,2,,11,,,,7,,,,,,76,,,,new,wowhead,270089,,"no level req, high item level - check you can get it before 31"
 Ironforge Gauntlets,hands,mail,23,28,2,,,,,,,12,,,,,170,,,,updated,wowhead,6733,,
 Ivycloth Gloves of Arcane Protection,hands,cloth,21,26,2,drop/world drop,,5,,,,,,,,,25,,,,unchanged,wowhead,9795,12740,random suffix
 Ivycloth Gloves of Fire Protection,hands,cloth,21,26,2,drop/world drop,,5,,,,,,,,,25,,,,unchanged,wowhead,9795,12741,random suffix
@@ -2488,6 +2528,7 @@ Nimble Leather Gloves,hands,leather,19,24,2,crafted,4,4,,,,,,,,,52,,,,updated,wo
 Ogre Grips,hands,mail,25,30,3,drop,,10,,,4,,,,,,136,,,,new,wowhead,273810,,
 Oilrag Handwraps,hands,leather,23,31,2,quest,,2,2,,,,,,,,59,,,horde,updated,wowhead,16741,,
 Operator's Gloves,hands,leather,20,32,3,quest,,7,,6,7,,,,,,67,,,alliance,new,wowhead,270045,,
+Oversized Ogre's Mittens,hands,cloth,,43,2,,,,11,,,,,,,,35,,,,new,wowhead,270086,,"no level req, high item level - check you can get it before 31"
 Pagan Mitts of Arcane Protection,hands,cloth,18,23,2,drop,,4,,,,,,,,,23,,,,unchanged,wowhead,14162,12740,random suffix
 Pagan Mitts of Fire Protection,hands,cloth,18,23,2,drop,,4,,,,,,,,,23,,,,unchanged,wowhead,14162,12741,random suffix
 Pagan Mitts of Frost Protection,hands,cloth,18,23,2,drop,,4,,,,,,,,,23,,,,unchanged,wowhead,14162,12742,random suffix
@@ -2733,6 +2774,7 @@ Azure Skyforged Helm,head,mail,30,35,2,crafted,,9,,,9,,,,,,173,,,,new,wowhead,27
 Azure Stormsewn Cowl,head,cloth,30,35,2,crafted,,9,9,,,,,,,,38,,,,new,wowhead,277054,,
 Azure Windraveled Cover,head,leather,30,35,2,crafted,,9,9,,,,,,,,83,,,,new,wowhead,277052,,
 Barbaric Iron Helm,head,mail,30,35,2,crafted,9,,,,9,,,,,,173,,,,unchanged,wowhead,7915,,
+Blackwater Cap,head,cloth,,45,2,,,,17,,,,,,,,48,,,,new,wowhead,270093,,"no level req, high item level - check you can get it before 31"
 Brawler's Leather Helm,head,leather,25,30,3,crafted/drop,10,13,,,,,,,,,84,,,,new,wowhead,252512,,
 Brawler's Leather Hood,head,leather,20,25,3,crafted,8,10,,,,,,,,,76,,,,new,wowhead,252504,,
 Cloudy Gustwoven Hood,head,leather,30,35,2,crafted,,9,,,9,,,,,,83,,,,new,wowhead,277042,,
@@ -2740,10 +2782,12 @@ Cloudy Skyforged Helm,head,mail,30,35,2,crafted,,9,,,9,,,,,,173,,,,new,wowhead,2
 Cloudy Stormsewn Cowl,head,cloth,30,35,2,crafted,,9,9,,,,,,,,38,,,,new,wowhead,277046,,
 Cloudy Windraveled Cover,head,leather,30,35,2,crafted,,9,9,,,,,,,,83,,,,new,wowhead,277044,,
 Crusader's Silvered Chain Helm,head,mail,20,25,3,crafted,,9,,,,,,,,,163,,,,new,wowhead,250532,,
-Deepdive Helmet,head,cloth,10,46,2,crafted,,4,,,,,,,,,49,,,,updated,wowhead,10506,,
+Deepdive Helmet,head,cloth,10,46,2,crafted,,4,,,,,,,,,49,,,,updated,wowhead,10506,,needs profession skill 230 (skill id 202)
 Defender's Leather Helm,head,leather,25,30,3,crafted/drop,,13,,,12,,,,,,84,,,,new,wowhead,252455,,
 Defender's Leather Hood,head,leather,20,25,3,crafted,,10,,,8,,,,,,76,,,,new,wowhead,252447,,
+Discarded Circlet,head,cloth,1,43,3,,,16,11,10,,,,,,,51,,,,new,wowhead,271812,,"no level req, high item level - check you can get it before 31"
 Dokebi Hat,head,leather,30,35,2,drop,,,11,5,4,,,,,,83,,,,unchanged,wowhead,14584,,
+Dudd's Thinkin' Cap,head,cloth,,46,2,,,10,14,,,,,,,,49,,,,new,wowhead,277211,,"no level req, high item level - check you can get it before 31"
 Durable Hat of Arcane Protection,head,cloth,27,32,2,drop,,8,,,,,,,,,36,,,,unchanged,wowhead,10289,12740,random suffix
 Durable Hat of Fire Protection,head,cloth,27,32,2,drop,,8,,,,,,,,,36,,,,unchanged,wowhead,10289,12741,random suffix
 Durable Hat of Frost Protection,head,cloth,27,32,2,drop,,8,,,,,,,,,36,,,,unchanged,wowhead,10289,12742,random suffix
@@ -2777,6 +2821,7 @@ Embalmed Shroud,head,cloth,30,35,3,drop,,7,,12,,,,,,,42,,,,updated,wowhead,7691,
 Emblazoned Hat,head,leather,26,31,2,drop,,7,6,6,,,,,,,77,,,,unchanged,wowhead,4048,,
 Enchanter's Cowl,head,cloth,28,33,2,crafted,,,10,,,,,,,,37,,,,updated,wowhead,4322,,
 Enduring Cap,head,leather,28,33,3,drop,,,16,7,,,,,,,88,,,,unchanged,wowhead,3020,,
+Farholde Horns,head,mail,,40,2,,,13,,,,12,,,,,187,,,,new,wowhead,274959,,"no level req, high item level - check you can get it before 31"
 Filigreed Flame Circlet,head,cloth,25,30,3,crafted,,12,,,,,,,,,38,,,,new,wowhead,253979,,
 Filigreed Pearly Circlet,head,cloth,25,30,3,crafted,,12,,,,,,,,,38,,,,new,wowhead,253983,,
 Filigreed Pristine Circlet,head,cloth,25,30,3,crafted,,12,,,,,,,,,38,,,,new,wowhead,253975,,
@@ -2784,13 +2829,15 @@ Filigreed Shadow Circlet,head,cloth,25,30,3,crafted,,12,,,,,,,,,38,,,,new,wowhea
 Filigreed Shining Circlet,head,cloth,25,30,3,crafted,,12,,,,,,,,,38,,,,new,wowhead,253985,,
 Filigreed Silky Circlet,head,cloth,25,30,3,crafted,,12,,,,,,,,,38,,,,new,wowhead,253977,,
 Flame Circlet,head,cloth,20,25,3,crafted,,10,,,,,,,,,35,,,,new,wowhead,253953,,
+Flying Tiger Goggles,head,cloth,,20,2,crafted,,4,,4,,,,,,,27,,,,unchanged,wowhead,4368,,needs profession skill 100 (skill id 202)
 Foreman's Helm,head,mail,21,26,3,,,9,,,8,,,,,,166,,,,new,wowhead,284400,,
 Frostreaver Crown,head,mail,27,32,3,drop,,15,,4,4,,,,,,182,,,,unchanged,wowhead,13127,,
 Geomancer Headdress,head,leather,25,30,3,drop,,8,,12,,,,,,,84,,,,new,wowhead,274155,,
 Glimmering Mail Coif,head,mail,26,31,2,drop/world drop,6,7,,6,,,,,,,163,,,,unchanged,wowhead,6389,,
-Goblin Rocket Helmet,head,cloth,10,47,2,crafted,,15,,,,,,,,,50,,,,unchanged,wowhead,10588,,has on-use
+Goblin Rocket Helmet,head,cloth,10,47,2,crafted,,15,,,,,,,,,50,,,,unchanged,wowhead,10588,,has on-use; needs profession skill 235 (skill id 202)
 Green Iron Helm,head,mail,29,34,2,crafted,,11,,,5,,,,,,171,,,,unchanged,wowhead,3836,,
-Green Lens,head,cloth,10,49,3,crafted,,10,,,,,,,,,57,,,,unchanged,wowhead,10504,,
+Green Lens,head,cloth,10,49,3,crafted,,10,,,,,,,,,57,,,,unchanged,wowhead,10504,,needs profession skill 245 (skill id 202)
+Green Tinted Goggles,head,cloth,,30,2,crafted,,8,,7,,,,,,,35,,,,unchanged,wowhead,4385,,needs profession skill 150 (skill id 202)
 Guard's Chain Helm,head,mail,25,30,3,crafted,12,11,,,,,,,,,177,,,,new,wowhead,250499,,
 Guard's Silvered Chain Helm,head,mail,20,25,3,crafted,10,9,,,,,,,,,163,,,,new,wowhead,250529,,
 Humbert's Helm,head,leather,25,30,2,drop,7,8,,,,,,,,,76,,,,unchanged,wowhead,4724,,
@@ -2814,8 +2861,11 @@ Infiltrator Cap of the Physician,head,leather,28,33,2,drop,,,9,5,,,,,,,80,,,,unc
 Infiltrator Cap of the Whale,head,leather,28,33,2,drop,,9,,9,,,,,,,80,,,,unchanged,wowhead,7413,12719,random suffix
 Infiltrator Cap of the Wolf,head,leather,28,33,2,drop,9,,,9,,,,,,,80,,,,unchanged,wowhead,7413,12726,random suffix
 Insignia Cap,head,leather,30,35,2,drop,,7,11,,,,,,,,83,,,,unchanged,wowhead,4052,,
+Lakeshire Firefighter's Headband,head,cloth,,30,2,,,6,8,,,,,,,,35,,,,new,wowhead,281675,,
+Lucky Fishing Hat,head,cloth,,40,2,quest,,15,,,,,,,,,43,,,,updated,wowhead,19972,,"needs profession skill 1 (skill id 356); no level req, high item level - check you can get it before 31"
+Magister Cowl,head,cloth,,49,3,,,,,,,,,8,,,57,,,,new,wowhead,270099,,"no level req, high item level - check you can get it before 31"
+Magistrate's Chain Hood,head,mail,,30,2,,,9,,,5,,,,,,161,,,,new,wowhead,277227,,
 Mail Combat Headguard,head,mail,30,35,2,drop,,9,,9,,,,,,,173,,,,unchanged,wowhead,4077,,
-Master Engineer's Goggles,head,cloth,10,58,2,crafted,,16,,17,,,,,,,61,,,,updated,wowhead,16008,,
 Nightsky Cowl,head,cloth,30,35,2,drop,,,12,5,,,,,,,38,,,,unchanged,wowhead,4039,,
 Pathfinder Hat of Arcane Protection,head,leather,29,34,2,drop,,9,,,,,,,,,81,,,,unchanged,wowhead,15339,12740,random suffix
 Pathfinder Hat of Fire Protection,head,leather,29,34,2,drop,,9,,,,,,,,,81,,,,unchanged,wowhead,15339,12741,random suffix
@@ -2872,7 +2922,7 @@ Robust Helm of the Physician,head,leather,26,31,2,drop,,9,5,,,,,,,,77,,,,unchang
 Robust Helm of the Sorcerer,head,leather,26,31,2,drop,,5,9,,,,,,,,77,,,,unchanged,wowhead,15129,12745,random suffix
 Robust Helm of the Tiger,head,leather,26,31,2,drop,8,,,,8,,,,,,77,,,,unchanged,wowhead,15129,12727,random suffix
 Robust Helm of the Whale,head,leather,26,31,2,drop,,8,,8,,,,,,,77,,,,unchanged,wowhead,15129,12719,random suffix
-Rose Colored Goggles,head,cloth,10,46,2,crafted,,,12,13,,,,,,,49,,,,unchanged,wowhead,10503,,
+Rose Colored Goggles,head,cloth,10,46,2,crafted,,,12,13,,,,,,,49,,,,unchanged,wowhead,10503,,needs profession skill 230 (skill id 202)
 Ruffled Chaplet,head,leather,29,34,2,drop,,9,8,,,,,,,,81,,,,unconfirmed,wowhead,5753,,
 Sage's Circlet of Arcane Protection,head,cloth,26,31,2,drop,,8,,,,,,,,,36,,,,unchanged,wowhead,10288,12740,random suffix
 Sage's Circlet of Fire Protection,head,cloth,26,31,2,drop,,8,,,,,,,,,36,,,,unchanged,wowhead,10288,12741,random suffix
@@ -2887,6 +2937,7 @@ Sage's Circlet of the Owl,head,cloth,26,31,2,drop,,,8,8,,,,,,,36,,,,unchanged,wo
 Sage's Circlet of the Physician,head,cloth,26,31,2,drop,,,9,5,,,,,,,36,,,,unchanged,wowhead,10288,12749,random suffix
 Sage's Circlet of the Sorcerer,head,cloth,26,31,2,drop,,5,9,,,,,,,,36,,,,unchanged,wowhead,10288,12745,random suffix
 Sage's Circlet of the Whale,head,cloth,26,31,2,drop,,8,,8,,,,,,,36,,,,unchanged,wowhead,10288,12719,random suffix
+Saltseer's Helm,head,leather,1,42,3,,,,18,7,,,,,,,103,,,,new,wowhead,279930,,"no level req, high item level - check you can get it before 31"
 Scaled Leather Headband of Agility,head,leather,27,32,2,drop/world drop,12,,,,,,,,,,79,,,,unchanged,wowhead,10406,12728,random suffix
 Scaled Leather Headband of Arcane Protection,head,leather,27,32,2,drop/world drop,,8,,,,,,,,,79,,,,unchanged,wowhead,10406,12740,random suffix
 Scaled Leather Headband of Fire Protection,head,leather,27,32,2,drop/world drop,,8,,,,,,,,,79,,,,unchanged,wowhead,10406,12741,random suffix
@@ -2908,13 +2959,17 @@ Scaled Leather Headband of the Owl,head,leather,27,32,2,drop/world drop,,,8,8,,,
 Scaled Leather Headband of the Tiger,head,leather,27,32,2,drop/world drop,8,,,,8,,,,,,79,,,,unchanged,wowhead,10406,12727,random suffix
 Scaled Leather Headband of the Whale,head,leather,27,32,2,drop/world drop,,8,,8,,,,,,,79,,,,unchanged,wowhead,10406,12719,random suffix
 Scaled Leather Headband of the Wolf,head,leather,27,32,2,drop/world drop,8,,,8,,,,,,,79,,,,unchanged,wowhead,10406,12726,random suffix
+Scoutmaster's Eyepatch,head,leather,,43,3,,,16,,13,,,,,0.7,,105,,,,new,wowhead,276105,,"no level req, high item level - check you can get it before 31"
 Shadow Circlet,head,cloth,20,25,3,crafted,,10,,,,,,,,,35,,,,new,wowhead,253955,,
+Shadow Goggles,head,cloth,,24,2,crafted,,,5,6,,,,,,,31,,,,unchanged,wowhead,4373,,needs profession skill 120 (skill id 202)
 Shadow Hood,head,cloth,29,34,2,crafted,,,11,,,,,,,,37,,,,updated,wowhead,4323,,
 Shining Circlet,head,cloth,20,25,3,crafted,,10,,,,,,,,,35,,,,new,wowhead,253959,,
 Silk Headband,head,cloth,27,32,2,crafted,,8,,,,,,,,,36,,,,updated,wowhead,7050,,
 Silky Circlet,head,cloth,20,25,3,crafted,,10,,,,,,,,,35,,,,new,wowhead,253951,,
 Slayer's Skullcap,head,mail,28,33,2,drop,3,7,,,9,,,,,,168,,,,unchanged,wowhead,14753,,
+Solomon's Comfortable Hat,head,leather,,30,2,,9,,,5,,,,,,,76,,,,new,wowhead,277219,,
 Sorrow's Shroud,head,cloth,24,29,3,,,11,,,,,,3,,,38,,,,new,wowhead,284401,,
+Speedy Racer Goggles,head,cloth,,50,2,,14,,14,,,,,,,,53,,,,unchanged,wowhead,9653,,"no level req, high item level - check you can get it before 31"
 Spirit Hunter Headdress,head,leather,26,37,2,quest,10,,,9,,,,,,,85,,,horde,unchanged,wowhead,6720,,
 Stormrider's Leather Helm,head,leather,25,30,3,crafted/drop,,13,,10,,,,,,,84,,,,new,wowhead,252514,,
 Stormrider's Leather Hood,head,leather,20,25,3,crafted,,10,,9,,,,,,,76,,,,new,wowhead,252506,,
@@ -2936,6 +2991,7 @@ Totemic Leather Hood,head,leather,20,25,3,crafted,,10,,,,,,,,,76,,,,new,wowhead,
 Trapper's Leather Helm,head,leather,25,30,3,crafted/drop,,13,10,,,,,,,,84,,,,new,wowhead,252513,,
 Trapper's Leather Hood,head,leather,20,25,3,crafted,,10,8,,,,,,,,76,,,,new,wowhead,252505,,
 Tribal Worg Helm,head,leather,29,34,2,drop,8,,7,7,,,,,,,81,,,,updated,wowhead,6204,,
+Twilight Mine Light,head,cloth,,45,2,,,12,,,,,,,,,48,,,,new,wowhead,275028,,"no level req, high item level - check you can get it before 31"
 Veteran's Chain Helm,head,mail,25,30,3,crafted,,11,,,12,,,,,,177,,,,new,wowhead,250498,,
 Veteran's Silvered Chain Helm,head,mail,20,25,3,crafted,,9,,,10,,,,,,163,,,,new,wowhead,250528,,
 Watcher's Cap of Arcane Protection,head,cloth,26,31,2,drop,,8,,,,,,,,,36,,,,unchanged,wowhead,14178,12740,random suffix
@@ -2952,17 +3008,20 @@ Watcher's Cap of the Owl,head,cloth,26,31,2,drop,,,8,8,,,,,,,36,,,,unchanged,wow
 Watcher's Cap of the Sorcerer,head,cloth,26,31,2,drop,,5,9,,,,,,,,36,,,,unchanged,wowhead,14178,12745,random suffix
 Watcher's Cap of the Whale,head,cloth,26,31,2,drop,,8,,8,,,,,,,36,,,,unchanged,wowhead,14178,12719,random suffix
 Whisperwind Headdress,head,leather,29,34,3,drop,,6,11,11,,,,,,,89,,,,updated,wowhead,6688,,
+Wide-Brimmed Fishing Hat,head,cloth,,48,2,,,13,,13,,,,,,,51,,,,new,wowhead,259846,,"has on-use; needs profession skill 1 (skill id 356); no level req, high item level - check you can get it before 31"
 Wild Headdress,head,leather,30,39,2,quest,,,11,,,,,,,,88,,,alliance,new,wowhead,270067,,
 Wisdom's Leather Helm,head,leather,25,30,3,crafted/drop,,13,,,,,,,,,84,,,,new,wowhead,252515,,
 Wisdom's Leather Hood,head,leather,20,25,3,crafted,,10,,,,,,,,,76,,,,new,wowhead,252507,,
 Abomination Skin Leggings,legs,cloth,20,25,3,drop,,7,8,,,,,,,,37,,,,unchanged,wowhead,23173,,
 Acolyte's Chain Leggings,legs,mail,20,25,3,crafted,,5,7,,,,,,,,176,,,,new,wowhead,250496,,
 Acolyte's Silvered Chain Leggings,legs,mail,25,30,3,crafted,,7,8,,,,,,,,191,,,,new,wowhead,250526,,
+Archer's Leggings,legs,mail,,46,2,,17,6,,,,,,,,,222,,,,new,wowhead,270097,,"no level req, high item level - check you can get it before 31"
 Artisan's Trousers,legs,cloth,30,35,2,quest,9,,,9,,,,,,,41,,,,unchanged,wowhead,5016,,
 Azure Silk Pants,legs,cloth,23,28,2,crafted,,,6,,,,,,,,36,,,,updated,wowhead,7046,,
 Barbaric Leggings,legs,leather,29,34,2,crafted,7,7,,,7,,,,,,87,,,,updated,wowhead,5963,,
 Barbaric Loincloth,legs,cloth,11,16,2,drop,,,2,,3,,,,,,25,,,,unchanged,wowhead,3309,,
 Blackened Defias Leggings,legs,leather,14,19,3,drop,6,,,,6,,,,,,73,,,,updated,wowhead,10400,,set item
+Blooded Pants,legs,leather,,42,2,,13,9,,,,,,,,,101,,,,new,wowhead,270083,,"no level req, high item level - check you can get it before 31"
 Bluegill Breeches,legs,leather,18,23,2,drop,8,,,,,,,,,,72,,,,unchanged,wowhead,3022,,
 Bonerust Leggings,legs,mail,16,21,3,drop,9,,,,4,,,,,,164,,,,new,wowhead,271209,,
 Brackwater Leggings,legs,mail,11,16,2,drop,2,3,,,,,,,,,132,,,,unchanged,wowhead,3305,,
@@ -2974,6 +3033,7 @@ Bristlebark Britches,legs,leather,21,26,2,drop,8,,,3,,,,,,,76,,,,unchanged,wowhe
 Carnage Trousers,legs,leather,22,30,2,quest,,6,8,,,,,,,,82,,,alliance,new,wowhead,281310,,
 Chausses of Westfall,legs,mail,14,24,3,quest,,5,,,11,,,,,,173,,,alliance,unchanged,wowhead,6087,,
 Cobalt Legguards,legs,mail,21,27,2,quest,3,7,,,5,,,,,,165,,,horde,unchanged,wowhead,17006,,
+Crocskin Waders,legs,leather,,42,2,,,11,,6,8,,,,,,148,,,,new,wowhead,274962,,"no level req, high item level - check you can get it before 31"
 Crusader's Chain Leggings,legs,mail,20,25,3,crafted,,7,,,5,,,,,,176,,,,new,wowhead,250497,,
 Crusader's Silvered Chain Leggings,legs,mail,25,30,3,crafted,,8,,,7,,,,,,191,,,,new,wowhead,250527,,
 Cutthroat's Pants of Arcane Protection,legs,leather,28,33,2,drop,,9,,,,,,,,,86,,,,unchanged,wowhead,15139,12740,random suffix
@@ -3073,6 +3133,7 @@ Forest Leather Pants,legs,leather,21,26,2,drop,6,,,6,,,,,,,76,,,,unchanged,wowhe
 Frontier Britches,legs,leather,10,17,2,quest,3,,,,3,,,,,,64,,,alliance,unchanged,wowhead,1436,,
 Furbolg Loincloth,legs,cloth,13,18,2,,,4,,,,,,,,,28,,,,new,wowhead,284192,,
 Glimmering Mail Legguards,legs,mail,25,30,2,drop,7,,,,8,,,,,,173,,,,unchanged,wowhead,6386,,
+Gnoll Crusher Leggings,legs,mail,,42,2,,,,11,,11,,,,,,208,,,,new,wowhead,274943,,"no level req, high item level - check you can get it before 31"
 Gnollhide Pants,legs,leather,10,24,2,quest,,4,,,6,,,,,,73,,,horde,new,wowhead,270020,,
 Goblin Mail Leggings,legs,mail,14,19,2,drop,,3,,,4,,,,,,144,,,,unchanged,wowhead,1943,,
 Golden Scale Leggings,legs,mail,29,34,2,crafted,,5,,,11,,,,,,184,,,,updated,wowhead,3843,,
@@ -3331,6 +3392,7 @@ Slick Deviate Leggings,legs,leather,13,20,3,quest,4,7,,5,,,,,,,75,,,,updated,wow
 Smelting Pants,legs,leather,16,21,3,drop,,7,,5,,,,,,,76,,,,updated,wowhead,5199,,
 Smith's Trousers,legs,leather,15,20,2,quest,4,,,,4,,,,,,68,,,alliance,unchanged,wowhead,1310,,
 Smouldering Leggings,legs,leather,24,28,2,quest,,,9,3,,,,,,,79,,,horde,new,wowhead,270037,,
+Southern Watch Leggings,legs,mail,,42,2,,,8,,,14,,,,,,208,,,,new,wowhead,274939,,"no level req, high item level - check you can get it before 31"
 Spellbinder Pants,legs,cloth,11,16,2,drop/world drop,,2,3,,,,,,,,25,,,,unchanged,wowhead,2970,,
 Stalking Pants,legs,leather,21,26,2,vendor,6,6,,,,,,,,,76,,,,unchanged,wowhead,4831,,
 Stamped Trousers,legs,cloth,12,18,2,quest,,,3,3,,,,,,,28,,,horde,unchanged,wowhead,3457,,
@@ -3375,12 +3437,14 @@ Thistlefur Pants of the Physician,legs,cloth,30,35,2,drop,,10,6,,,,,,,,41,,,,unc
 Thistlefur Pants of the Physician,legs,cloth,30,35,2,drop,,,10,6,,,,,,,41,,,,unchanged,wowhead,14203,12749,random suffix
 Thistlefur Pants of the Sorcerer,legs,cloth,30,35,2,drop,,6,10,,,,,,,,41,,,,unchanged,wowhead,14203,12745,random suffix
 Thistlefur Pants of the Whale,legs,cloth,30,35,2,drop,,9,,9,,,,,,,41,,,,unchanged,wowhead,14203,12719,random suffix
+Ti'ik's Tattered Trousers,legs,cloth,,49,2,,,,16,11,,,,,,,56,,,,new,wowhead,281298,,"no level req, high item level - check you can get it before 31"
 Totemic Leather Leggings,legs,leather,25,30,3,crafted,,7,6,,9,,,,,,90,,,,new,wowhead,252458,,
 Totemic Leather Pants,legs,leather,20,25,3,crafted,,4,4,,9,,,,,,82,,,,new,wowhead,252446,,
 Trapper's Leather Legguards,legs,leather,25,30,3,crafted,9,7,7,6,,,,,,,90,,,,new,wowhead,252517,,
 Trapper's Leather Pants,legs,leather,20,25,3,crafted,9,,4,4,6,,,,,,82,,,,new,wowhead,252501,,
 Triprunner Dungarees,legs,leather,25,37,3,quest,18,6,,,3,,,,,,101,,,,unchanged,wowhead,9624,,
 Troll's Bane Leggings,legs,leather,25,30,3,drop,14,4,,4,,,,,,,90,,,,unchanged,wowhead,13114,,
+Undertow Legguards,legs,mail,,40,2,,6,8,,,9,,,,,,202,,,,new,wowhead,270077,,"no level req, high item level - check you can get it before 31"
 Veteran Leggings,legs,mail,10,15,2,drop,2,,,,2,,,,,,126,,,,unchanged,wowhead,2978,,
 Veteran's Chain Leggings,legs,mail,20,25,3,crafted,5,7,,,9,,,,,,176,,,,new,wowhead,250493,,
 Veteran's Silvered Chain Leggings,legs,mail,25,30,3,crafted,7,8,,,11,,,,,,191,,,,new,wowhead,250523,,
@@ -3429,6 +3493,7 @@ Bearded Boneaxe,main_hand,,25,30,3,drop,4,,,,4,,,,,,,,,,unchanged,wowhead,2878,,
 Black Metal Axe,main_hand,,19,24,2,drop,,2,,,2,,,,,,,,,,unchanged,wowhead,885,,
 Blurred Axe,main_hand,,22,27,2,vendor,4,,,,,,,,,,,,,,unchanged,wowhead,4824,,
 Bone Knuckles,main_hand,,13,18,3,drop,,,,,,6,,,,,,,,,new,wowhead,272998,,
+Bottle of Powderfuse Port,main_hand,,,42,2,,,,7,,,,,,,,,,,,new,wowhead,274948,,"no level req, high item level - check you can get it before 31"
 Cell Keeper's Claws,main_hand,,17,22,3,drop,2,,,,,6,,,,,,,,,new,wowhead,273456,,
 Chol'aruk's Trophy Sword,main_hand,,15,24,2,quest,,2,,,,4,,,,,,,,,new,wowhead,276886,,
 Clever Expeditionary's Spellblade,main_hand,,28,33,3,,,4,6,3,,,,,,,,,,,new,wowhead,271931,,reputation item
@@ -3492,7 +3557,9 @@ Lightning's Grasp,main_hand,,30,40,3,quest,,,6,,,,,,,,,,,alliance,new,wowhead,28
 Lucine Longsword,main_hand,,22,27,3,quest,,4,,4,,,,,,,,,,alliance,updated,wowhead,3400,,
 Marauder Axe,main_hand,,21,26,2,vendor,,4,,,,,,,,,,,,,unchanged,wowhead,4826,,
 Mindslicer,main_hand,,30,41,2,quest,,,7,,,,,,,,,,,horde,new,wowhead,270069,,
+Olmann Sewar,main_hand,,,41,2,,,7,,,,,,,,,,,,,unchanged,wowhead,4116,,"no level req, high item level - check you can get it before 31"
 Pathfinder's Clearway,main_hand,,18,23,3,quest,,3,4,,,,,,,,,,,horde,new,wowhead,277288,,
+Phantasmal Shiv,main_hand,,,43,2,,,5,4,,,,,,,,,,,,new,wowhead,272181,,"no level req, high item level - check you can get it before 31"
 Quilboar Toothpick,main_hand,,15,24,2,quest,,,2,2,,,,,,,,,,,new,wowhead,276888,,
 Redridge Machete,main_hand,,11,16,2,drop,,2,,,,,,,,,,,,,unchanged,wowhead,1219,,
 Ridge Cleaver of Arcane Protection,main_hand,,20,25,2,drop/world drop,,3,,,,,,,,,,,,,unchanged,wowhead,15230,12740,random suffix
@@ -3544,6 +3611,8 @@ Viking Sword of the Tiger,main_hand,,25,30,2,drop,3,,,,3,,,,,,,,,,unchanged,wowh
 Viking Sword of the Whale,main_hand,,25,30,2,drop,,3,,3,,,,,,,,,,,unchanged,wowhead,3186,12719,random suffix
 Viking Sword of the Wolf,main_hand,,25,30,2,drop,3,,,3,,,,,,,,,,,unchanged,wowhead,3186,12726,random suffix
 Wingblade,main_hand,,10,24,3,quest,5,2,,,,,,,,,,,,horde,unchanged,wowhead,6504,,
+Amulet of Forgiveness,neck,,1,43,3,,,,8,10,,,,,,,,,,,new,wowhead,272185,,"no level req, high item level - check you can get it before 31"
+Amulet of Vengeance,neck,,1,43,3,,,10,,,8,,,,,,,,,,new,wowhead,272184,,"no level req, high item level - check you can get it before 31"
 Basalt Necklace of Arcane Protection,neck,,27,32,2,drop,,5,,,,,,,,,,,,,unchanged,wowhead,12028,12740,random suffix
 Basalt Necklace of Fire Protection,neck,,27,32,2,drop,,5,,,,,,,,,,,,,unchanged,wowhead,12028,12741,random suffix
 Basalt Necklace of Frost Protection,neck,,27,32,2,drop,,5,,,,,,,,,,,,,unchanged,wowhead,12028,12742,random suffix
@@ -3671,6 +3740,7 @@ Sentinel's Medallion,neck,,28,33,3,vendor,8,5,,,,,,,,,,,1,alliance,unchanged,wow
 Sentinel's Medallion,neck,,18,23,3,vendor,6,2,,,,,,,,,,,1,alliance,unchanged,wowhead,20444,,
 Snake Eye Kaleidoscope,neck,,17,22,3,drop,1,1,1,1,1,,,,,,,,,,new,wowhead,273088,,
 Sorcerer Collar,neck,,17,22,3,drop,,,2,2,,,,,,,,,,,new,wowhead,273457,,
+Souvenir Ogre Tooth,neck,,1,44,2,,5,8,,,,,,,,,,,,,new,wowhead,277981,,"no level req, high item level - check you can get it before 31"
 Souvenir Sea Shell,neck,,30,35,3,vendor,,13,,,,,,,,,,,,,new,wowhead,274749,,reputation item
 Spectral Necklace of Arcane Protection,neck,,25,30,2,drop/world drop,,4,,,,,,,,,,,,,unchanged,wowhead,12047,12740,random suffix
 Spectral Necklace of Eluding,neck,,25,30,2,drop/world drop,2,,,,,,,,,,,,,,unchanged,wowhead,12047,12739,random suffix
@@ -3692,6 +3762,7 @@ Spectral Necklace of the Tiger,neck,,25,30,2,drop/world drop,4,,,,4,,,,,,,,,,unc
 Spectral Necklace of the Whale,neck,,25,30,2,drop/world drop,,4,,4,,,,,,,,,,,unchanged,wowhead,12047,12719,random suffix
 Spectral Necklace of the Wolf,neck,,25,30,2,drop/world drop,4,,,4,,,,,,,,,,,unchanged,wowhead,12047,12726,random suffix
 Stygian Bone Amulet,neck,,29,34,3,drop,,4,,,,,,,,,,,,,updated,wowhead,6695,,
+Survivor's Amulet,neck,,1,43,2,,,8,,,5,,,,,,,,,,new,wowhead,271806,,"no level req, high item level - check you can get it before 31"
 Tarnished Locket,neck,,15,24,2,quest,,6,,,,,,,,,,,,alliance,new,wowhead,279870,,
 Thermaplugg Medal of Honor,neck,,29,34,3,drop,,6,,6,,10,,,,,,,,,new,wowhead,274068,,
 Tundra Necklace of Arcane Protection,neck,,28,33,2,drop,,5,,,,,,,,,,,,,unchanged,wowhead,12039,12740,random suffix
@@ -3733,7 +3804,9 @@ Vermilion Necklace of the Physician,neck,,30,35,2,,,6,3,,,,,,,,,,,,unchanged,wow
 Vermilion Necklace of the Sorcerer,neck,,30,35,2,,,3,6,,,,,,,,,,,,unchanged,wowhead,7467,12745,random suffix
 Vermilion Necklace of the Tiger,neck,,30,35,2,,5,,,,5,,,,,,,,,,unchanged,wowhead,7467,12727,random suffix
 Vermilion Necklace of the Whale,neck,,30,35,2,,,5,,5,,,,,,,,,,,unchanged,wowhead,7467,12719,random suffix
+Weathered Necklace,neck,,1,43,2,,,8,5,,,,,,,,,,,,new,wowhead,271807,,"no level req, high item level - check you can get it before 31"
 Wolfpack Medallion,neck,,29,34,2,drop,4,6,,,,,,,,,,,,,unconfirmed,wowhead,5754,,
+"A'sharahm, the Roiling Tempest",one_hand,,,12,2,,,1,,,,,,,,,,,,,new,wowhead,254779,,
 Alliance Outrunner's Sword,one_hand,,22,27,3,drop,5,,,,,6,,,,,,,,,new,wowhead,285346,,
 Assassin's Blade,one_hand,,19,24,3,drop,4,,,,3,,,,,,,,,,unchanged,wowhead,1935,,
 Axe of the Enforcer,one_hand,,24,29,3,drop,,4,,,5,,,,,,,,,,updated,wowhead,1454,,
@@ -3758,6 +3831,7 @@ Battle Knife of the Whale,one_hand,,21,26,2,drop/world drop,,3,,3,,,,,,,,,,,unch
 Big Bronze Knife,one_hand,,15,20,2,crafted,,3,,,,,,,,,,,,,unchanged,wowhead,3848,,
 Blackvenom Blade,one_hand,,23,28,3,drop,1,,,,,,,,,,,,,,updated,wowhead,4446,,
 Blackwater Cutlass,one_hand,,14,19,3,drop,4,,,,,,,,,,,,,,updated,wowhead,1951,,
+Blackwater Scimitar,one_hand,,,45,2,,5,,,,5,,,,,,,,,,new,wowhead,270092,,"no level req, high item level - check you can get it before 31"
 Blade of the Magram Clan,one_hand,,30,43,2,quest,,4,,,,10,,,,,,,,,new,wowhead,271796,,
 Bloody Brass Knuckles,one_hand,,29,34,3,drop,,,,,,12,,,,,,,,,updated,wowhead,7683,,
 Brackclaw,one_hand,,16,21,2,drop,2,,,,2,,,,,,,,,,updated,wowhead,2235,,
@@ -3792,6 +3866,7 @@ Cross Dagger of the Sorcerer,one_hand,,23,28,2,drop/world drop,,2,3,,,,,,,,,,,,u
 Cross Dagger of the Whale,one_hand,,23,28,2,drop/world drop,,3,,3,,,,,,,,,,,unchanged,wowhead,2819,12719,random suffix
 Cross Dagger of the Wolf,one_hand,,23,28,2,drop/world drop,3,,,3,,,,,,,,,,,unchanged,wowhead,2819,12726,random suffix
 Cruel Barb,one_hand,,19,24,3,drop,,,,,,12,,,,,,,,,unchanged,wowhead,5191,,
+Curly's Chopper,one_hand,,,40,2,,,6,,,,,,,,,,,,,new,wowhead,274928,,"no level req, high item level - check you can get it before 31"
 Curvewood Dagger,one_hand,,12,14,2,quest,,1,,,,,,,,,,,,alliance,unchanged,wowhead,15396,,
 Dagger of Deals,one_hand,,28,33,2,quest,4,3,,,,,,,,,,,,horde,new,wowhead,277515,,
 Daggerfang's Daggerfang,one_hand,,12,16,2,quest,2,,,,,,,,,,,,,alliance,new,wowhead,281257,,
@@ -3883,6 +3958,7 @@ Protector's Sword,one_hand,,25,30,3,vendor,,3,,,6,,,,,,,,1,,unchanged,wowhead,21
 Relic Blade,one_hand,,15,20,2,quest,,3,,,,,,,,,,,,alliance,unchanged,wowhead,5627,,
 Ritual Blade,one_hand,,12,17,2,drop,2,,,,,,,,,,,,,,updated,wowhead,5112,,
 Royal Satyr Slicer,one_hand,,30,35,2,,,,,3,,9,,,,,,,,,new,wowhead,284717,,
+Rusty Cutlass,one_hand,,,15,2,drop,,1,,,,,,,,,,,,,new,wowhead,270001,,
 Scout's Blade,one_hand,,28,33,3,vendor,7,3,,,,,,,,,,,1,horde,unchanged,wowhead,19545,,
 Scout's Blade,one_hand,,18,23,3,vendor,4,2,,,,,,,,,,,1,horde,unchanged,wowhead,20441,,
 Scout's Blade,one_hand,,25,30,3,vendor,6,3,,,,,,,,,,,1,,updated,wowhead,212587,,
@@ -3895,10 +3971,12 @@ Serrated Raptor Claw,one_hand,,24,33,3,quest,5,,,,,10,,,,,,,,horde,,wowhead,2808
 Serrated Shadowclaw,one_hand,,10,15,2,,1,,,,,,,,,,,,,,new,wowhead,284174,,
 Silent Hunter,one_hand,,30,41,2,quest,7,,,,,,,,,,,,,horde,unchanged,wowhead,9520,,
 Silithid Piercer,one_hand,,21,26,2,drop,3,,,,,,,,,,,,,,new,wowhead,286534,,
+Skulker's Shiv,one_hand,,,10,2,,1,,,,,,,,,,,,,,new,wowhead,263432,,
 Slatemetal Cutlass,one_hand,,20,24,2,quest,2,,,,2,,,,,,,,,horde,unchanged,wowhead,16890,,
 Slicer Blade,one_hand,,12,17,2,drop,2,,,,,,,,,,,,,,unchanged,wowhead,820,,
 Slimy Sword,one_hand,,20,25,2,drop,,3,,,,,,,,,,,,,new,wowhead,284702,,
 Solid Shortblade,one_hand,,14,19,2,quest,,1,,,1,,,,,,,,,alliance,updated,wowhead,2074,,
+Spectral Magister's Commission,one_hand,,1,43,2,,,,4,,5,,,,,,,,,,new,wowhead,272180,,"no level req, high item level - check you can get it before 31"
 Spikelash Dagger,one_hand,,19,24,2,drop,2,2,,,,,,,,,,,,,updated,wowhead,6333,,
 Splitting Hatchet of Agility,one_hand,,26,31,2,drop,5,,,,,,,,,,,,,,unchanged,wowhead,15231,12728,random suffix
 Splitting Hatchet of Arcane Protection,one_hand,,26,31,2,drop,,3,,,,,,,,,,,,,unchanged,wowhead,15231,12740,random suffix
@@ -3929,18 +4007,25 @@ Talon of Vultros,one_hand,,23,28,3,drop,6,,,3,,,,,,,,,1,,updated,wowhead,4454,,
 Thick War Axe,one_hand,,12,17,2,crafted,,1,,,1,,,,,,,,,,updated,wowhead,3489,,
 Thief's Blade,one_hand,,17,22,3,drop,4,,,,,,,,,,,,,,updated,wowhead,5192,,
 Thornblade,one_hand,,16,20,2,quest,3,,,,,,,,,,,,,alliance,unchanged,wowhead,2908,,
+Twilight Carver,one_hand,,,40,2,,,4,,,,10,,,,,,,,,new,wowhead,274920,,"no level req, high item level - check you can get it before 31"
 Vendetta,one_hand,,26,31,3,drop,6,,,,,,,,,,,,,,updated,wowhead,776,,
 Windforged Shortblade,one_hand,,10,15,2,drop,,,,,,2,,,,,,,,,new,wowhead,263936,,
 Zealot Blade,one_hand,,29,34,3,drop,,,5,6,,,,,,,,,,,unchanged,wowhead,13033,,
 """Mage-Eye"" Blunderbuss",ranged,,26,31,2,drop,4,,,,,,,,,,,12.5,,,updated,wowhead,3041,,
+(DNT) Sylvestris' Bow,ranged,,1,1,,,,,,,,,,,,,,0.67,,,new,wowhead,264671,,
 Alliance Outrunner Bow,ranged,,22,27,3,drop,4,,,3,,,,,,,,13.33,,,new,wowhead,285347,,
+Anvilmar Musket,ranged,,,5,1,,,,,,,,,,,,,2.22,,,unchanged,wowhead,12446,,
 Archer's Longbow,ranged,,27,32,2,drop/world drop,,,,,,,9,,,,,12.88,,,updated,wowhead,15285,,
 "BKP ""Sparrow"" Smallbore",ranged,,28,33,2,drop/world drop,4,,,,,,,,,,,13.24,,,updated,wowhead,3042,,
 "BKP 2700 ""Enforcer""",ranged,,21,26,1,vendor,,,,,,,,,,,,9.63,,,unchanged,wowhead,3024,,
 Barbaric Crossbow,ranged,,13,18,3,drop,,,,,,,,,,,,9.5,,,new,wowhead,272999,,
+Berdun's Trusty Rifle,ranged,,,48,2,,,,,,,,,,,,,22.33,,,new,wowhead,259891,,"no level req, high item level - check you can get it before 31"
 Blasting Hackbut,ranged,,30,37,2,quest,3,4,,,,,,,,,,15.36,,horde,updated,wowhead,6798,,
+Bloodstained Longbow,ranged,,,50,2,,6,2,,,,,,,,,,23.33,,,new,wowhead,270107,,"no level req, high item level - check you can get it before 31"
 Booty Bay Bruiser's Buckshot,ranged,,30,35,3,vendor,,3,,,,9,,,,,,18.04,,,new,wowhead,274748,,reputation item; has on-use
 Bow of Plunder,ranged,,19,28,2,quest,2,2,,,,,,,,,,11.35,,horde,updated,wowhead,3742,,
+Cadet's Bow,ranged,,1,6,1,drop/world drop,,,,,,,,,,,,2.25,,,unchanged,wowhead,8179,,
+Captain Sander's Lucky Shooter,ranged,,,15,2,drop,,,,,1,,,,,,,5.87,,,new,wowhead,276694,,
 Chesterfall Musket,ranged,,28,33,3,drop,,6,,,,,,,,,,16.52,,,unconfirmed,wowhead,7729,,
 Cliffrunner's Aim,ranged,,20,29,2,quest,2,,2,,,,,,,,,11.96,,horde,updated,wowhead,6739,,
 Concealed Hand Crossbow,ranged,,26,31,3,drop,,,,,,,12,,,,,15.25,,,new,wowhead,273829,,
@@ -3952,12 +4037,14 @@ Dense Shortbow,ranged,,30,35,2,vendor,,,,,,,,,,,,14.21,,,updated,wowhead,11305,,
 Dirty Blunderbuss,ranged,,13,18,,drop,,,,,,,,,,,,4.09,,,unchanged,wowhead,2781,,
 Double-barreled Shotgun,ranged,,22,27,3,drop,3,,,,3,,,,,,,13.26,,,updated,wowhead,2098,,
 Dun Garok Rifle,ranged,,25,30,3,,3,,,3,,,,,,,,14.81,,,,wowhead,282710,,
+Durability Bow,ranged,,,1,1,,,,,,,,,,,,,1.11,,,unchanged,wowhead,14394,,
 Dwarven Fishing Pole,ranged,,20,19,2,quest,,,,,2,,,,,,,7.37,,alliance,updated,wowhead,3567,,
 Fallenroot Longbow,ranged,,23,28,3,drop,2,4,,,,,,,,,,13.86,,,new,wowhead,273843,,
 Fine Light Crossbow,ranged,,16,21,1,vendor,,,,,,,,,,,,7.41,,,updated,wowhead,15808,,
 Fine Longbow,ranged,,14,19,2,vendor,,,,,,4,,,,,,7.41,,,updated,wowhead,11304,,
 Fine Shortbow,ranged,,11,16,2,vendor,1,,,,,,,,,,,6.18,,,updated,wowhead,11303,,
 Flash Rifle,ranged,,30,37,2,quest,,3,,,4,,,,,,,15.28,,,updated,wowhead,4086,,
+Ghastly Bow,ranged,,,29,2,,2,,,2,,,,,,,,11.79,,,new,wowhead,281264,,
 Glass Shooter,ranged,,30,35,3,drop,,,,,,12,,,,,,17.93,,,unconfirmed,wowhead,9456,,
 Golemsight Long Gun,ranged,,28,33,3,drop,6,,,,,,,,,,,16.6,,,,wowhead,273029,,
 Harpyclaw Short Bow,ranged,,27,32,3,drop,,,4,,,,,,,,,16.11,,,updated,wowhead,13019,,
@@ -3971,6 +4058,7 @@ Laminated Recurve Bow,ranged,,11,16,1,vendor,,,,,,,,,,,,5.77,,,unchanged,wowhead
 Large Bore Blunderbuss,ranged,,16,21,1,vendor,,,,,,,,,,,,7.4,,,unchanged,wowhead,3023,,
 Light Bow,ranged,,16,21,2,drop,2,,,,,,,,,,,7.94,,,updated,wowhead,4576,,
 Light Hunting Bow,ranged,,14,19,,drop,,,,,,,,,,,,4.41,,,unchanged,wowhead,2780,,
+Light Hunting Rifle,ranged,,,5,1,,,,,,,,,,,,,2.11,,,unchanged,wowhead,12448,,
 Lil Timmy's Peashooter,ranged,,16,21,3,drop,4,,,,,,,,,,,10.96,,,updated,wowhead,13136,,
 Long Battle Bow,ranged,,24,29,2,drop/world drop,,,,,3,,,,,,,11.82,,,updated,wowhead,15284,,
 Long Redwood Bow,ranged,,30,35,2,drop,,4,,,,,,,,,,14.29,,,updated,wowhead,15286,,
@@ -3979,7 +4067,9 @@ Longbow,ranged,,29,34,1,,,,,,,,,,,,,13.04,,,unchanged,wowhead,3028,,
 Lovingly Crafted Boomstick,ranged,,19,24,2,crafted,,,,3,,,,,,,,9.72,,,updated,wowhead,4372,,
 Lunaris Bow,ranged,,25,30,2,quest,2,2,,,,,,,,,,12.22,,alliance,updated,wowhead,5817,,
 Master Hunter's Bow,ranged,,28,43,2,quest,6,,,,,,,,,,,19.38,,,updated,wowhead,17686,,
+Master Hunter's Bow,ranged,,,45,2,,,,,,,,,,,,,20.83,,,unchanged,wowhead,4110,,"no level req, high item level - check you can get it before 31"
 Master Hunter's Rifle,ranged,,28,43,2,quest,4,,,,4,,,,,,,19.42,,,updated,wowhead,17687,,
+Master Hunter's Rifle,ranged,,,45,2,,,,,,,,,,,,,20.58,,,unchanged,wowhead,4111,,"no level req, high item level - check you can get it before 31"
 Mishandled Recurve Bow,ranged,,19,24,,drop,,,,,,,,,,,,5.63,,,unchanged,wowhead,2782,,
 Misplaced Shooter,ranged,,10,12,2,quest,,1,,,1,,,,,,,4.82,,horde,new,wowhead,277255,,
 Moonsight Rifle,ranged,,24,29,2,crafted,,,,,,,,,0.3,,,11.76,,,updated,wowhead,4383,,
@@ -3988,6 +4078,8 @@ Naga Heartpiercer,ranged,,22,27,3,drop,,,,,,,,,,,,13.33,,,updated,wowhead,3078,,
 Nail Spitter,ranged,,28,38,3,quest,,5,,,4,,,,,,,20,,horde,unconfirmed,wowhead,17042,,
 Nightstalker Bow,ranged,,29,34,3,drop,3,,,,,,,,,,,17.06,,,updated,wowhead,6696,,
 Oiled Blunderbuss,ranged,,24,29,,drop,,,,,,,,,,,,7,,,unchanged,wowhead,2786,,
+Old Blunderbuss,ranged,,1,2,1,vendor,,,,,,,,,,,,1.52,,,unchanged,wowhead,2508,,
+Orc Bone Bow,ranged,,,41,2,,,,,,,10,,,,,,18.04,,,new,wowhead,275052,,"no level req, high item level - check you can get it before 31"
 Outrider's Bow,ranged,,28,33,3,vendor,2,5,,,,,,,,,,16.67,,horde,updated,wowhead,19561,,
 Outrider's Bow,ranged,,18,23,3,vendor,2,3,,,,,,,,,,11.67,,horde,updated,wowhead,20437,,
 Outrider's Bow,ranged,,25,30,3,vendor,,,,,,,,,,,,14.58,,,updated,wowhead,212585,,
@@ -3995,26 +4087,33 @@ Outrunner's Bow,ranged,,28,33,3,vendor,2,5,,,,,,,,,,16.67,,alliance,updated,wowh
 Outrunner's Bow,ranged,,18,23,3,vendor,2,3,,,,,,,,,,11.67,,alliance,updated,wowhead,20438,,
 Outrunner's Bow,ranged,,25,30,3,vendor,,,,,,,,,,,,14.58,,,updated,wowhead,212581,,
 Owlsight Rifle,ranged,,17,20,2,quest,2,,,,,,,,,,,7.88,,alliance,updated,wowhead,15205,,
+Polished Shortbow,ranged,,1,4,1,vendor,,,,,,,,,,,,1.75,,,unchanged,wowhead,2505,,
 Precision Bow,ranged,,22,27,2,drop/world drop,,,,,,,,,0.3,,,10.96,,,updated,wowhead,8183,,
 Precision Bow,ranged,,23,27,2,quest,,,,,,,,,0.3,,,10.96,,,updated,wowhead,217315,,
+Primitive Bow,ranged,,,5,1,,,,,,,,,,,,,2.22,,,unchanged,wowhead,12449,,
 Privateer Musket,ranged,,13,20,2,quest,2,,,,,,,,,,,7.83,,horde,updated,wowhead,5309,,
 Quilboar Blaster,ranged,,29,36,3,quest,4,,,4,,,,,,,,18.57,,,new,wowhead,274084,,
 Ranger Bow,ranged,,20,25,3,drop,1,,,,,,,,,,,12.59,,,unchanged,wowhead,3021,,
 Raptor's End,ranged,,22,30,2,quest,2,2,,,,,,,,,,12.07,,alliance,updated,wowhead,3493,,
 Ravenwood Bow,ranged,,29,34,2,drop,3,,3,,,,,,,,,13.86,,,updated,wowhead,4474,,
 Reinforced Bow,ranged,,16,21,1,vendor,,,,,,,,,,,,7.5,,,unchanged,wowhead,3026,,
+Restored Bow,ranged,,1,1,2,,,,,,,,,,,,,1.92,,,new,wowhead,281732,,
 Shoddy Blunderbuss,ranged,,17,22,,drop,,,,,,,,,,,,5,,,unchanged,wowhead,2783,,
 Short Ash Bow,ranged,,18,23,2,drop/world drop,,,,2,,,,,,,,9.21,,,updated,wowhead,3039,,
 Shrapnel Blaster,ranged,,30,40,2,quest,4,,3,,,,,,,,,17.37,,alliance,updated,wowhead,4127,,
 Silver-plated Shotgun,ranged,,21,26,2,crafted,,3,,,,,,,,,,10.37,,,updated,wowhead,4379,,
+Solid Blunderbuss,ranged,,1,3,1,vendor,,,,,,,,,,,,2.05,,,unchanged,wowhead,2510,,
 Steelarrow Crossbow,ranged,,22,27,2,drop,3,,,,,,,,,,,10.88,,,updated,wowhead,6315,,
 Stiff Recurve Bow,ranged,,23,28,,drop,,,,,,,,,,,,6.79,,,unchanged,wowhead,2785,,
 Sturdy Recurve,ranged,,27,32,2,vendor,,4,,,,,,,,,,12.95,,,updated,wowhead,11306,,
 Taut Compound Bow,ranged,,26,31,,drop,,,,,,,,,,,,7.6,,,unchanged,wowhead,3778,,
+Thistlewood Bow,ranged,,,5,1,,,,,,,,,,,,,2.17,,,unchanged,wowhead,12447,,
+Tim's Test Ranged Weapon 2,ranged,,1,2,1,,,,,,,,,,,,,1.52,,,unchanged,wowhead,240994,,
 Truthseeker's Bow,ranged,,30,45,3,quest,7,3,,,,,,,,,,23.75,,,new,wowhead,277254,,
 Venomstrike,ranged,,19,24,3,drop,,,,,,,,,,,,12.08,,,updated,wowhead,6469,,
 Walton's Second-Favorite Gun,ranged,,14,20,2,quest,2,,,,,,,,,,,7.95,,horde,new,wowhead,269742,,
 Whipwood Recurve Bow,ranged,,29,34,2,drop/world drop,,4,,,,,,,,,,13.61,,,updated,wowhead,3037,,
+Worn Shortbow,ranged,,1,2,1,vendor,,,,,,,,,,,,1.52,,,unchanged,wowhead,2504,,
 Arcmetal Shoulders,shoulder,mail,30,38,2,quest,9,5,,,,,,,,,167,,,,unchanged,wowhead,16793,,
 Azure Gustwoven Spaulders,shoulder,leather,30,35,2,crafted,7,7,,,,,,,,,76,,,,new,wowhead,277051,,
 Azure Skyforged Pauldrons,shoulder,mail,30,35,2,crafted,7,7,,,,,,,,,160,,,,new,wowhead,277049,,
@@ -4032,6 +4131,7 @@ Bright Mantle,shoulder,cloth,21,26,2,drop,,,5,4,,,,,,,30,,,,unchanged,wowhead,46
 Bristlebark Amice,shoulder,leather,22,27,2,drop,6,,,,3,,,,,,67,,,,unchanged,wowhead,14573,,
 Bronzed Shoulderguards,shoulder,mail,18,27,3,quest,,6,,8,,,,,,,156,,,horde,new,wowhead,270024,,
 Chestnut Mantle,shoulder,cloth,17,28,3,quest,,4,,,,,,,,,34,,,horde,updated,wowhead,17695,,
+Clacking Carapace Spaulders,shoulder,mail,1,43,3,,7,14,,,,8,,,,,199,,,,new,wowhead,271811,,"no level req, high item level - check you can get it before 31"
 Cloudy Gustwoven Spaulders,shoulder,leather,30,35,2,crafted,7,7,,,,,,,,,76,,,,new,wowhead,277043,,
 Cloudy Skyforged Pauldrons,shoulder,mail,30,35,2,crafted,7,7,,,,,,,,,160,,,,new,wowhead,277041,,
 Cloudy Stormsewn Epaulets,shoulder,cloth,30,35,2,crafted,,7,,7,,,,,,,35,,,,new,wowhead,277047,,
@@ -4058,6 +4158,7 @@ Cutthroat's Mantle of the Owl,shoulder,leather,29,34,2,drop,,,7,7,,,,,,,75,,,,un
 Cutthroat's Mantle of the Tiger,shoulder,leather,29,34,2,drop,7,,,,7,,,,,,75,,,,unchanged,wowhead,15140,12727,random suffix
 Cutthroat's Mantle of the Whale,shoulder,leather,29,34,2,drop,,7,,7,,,,,,,75,,,,unchanged,wowhead,15140,12719,random suffix
 Cutthroat's Mantle of the Wolf,shoulder,leather,29,34,2,drop,7,,,7,,,,,,,75,,,,unchanged,wowhead,15140,12726,random suffix
+Dank Shoulderpads,shoulder,leather,,48,3,,6,18,,,,,,,,,106,,,,new,wowhead,270098,,"no level req, high item level - check you can get it before 31"
 Dark Leather Shoulders,shoulder,leather,23,28,2,crafted,7,,,,,,,,,,68,,,,unchanged,wowhead,4252,,
 Darkshire Shoulderguards,shoulder,leather,20,35,2,quest,,7,,7,,,,,,,76,,,alliance,new,wowhead,270044,,
 Death Speaker Mantle,shoulder,cloth,27,32,3,drop,,,11,,,,,,,,37,,,,updated,wowhead,6685,,
@@ -4200,6 +4301,7 @@ Lambent Scale Pauldrons,shoulder,mail,22,27,2,drop,,5,,,5,,,,,,142,,,,unchanged,
 Luminescent Amice,shoulder,cloth,20,30,2,quest,,6,4,2,,,,,,,32,,,alliance,unchanged,wowhead,17047,,
 Magician's Mantle,shoulder,cloth,20,25,3,drop,,,9,,,,,,,,32,,,,unchanged,wowhead,12998,,
 Mantle of Honor,shoulder,cloth,20,35,2,quest,,,7,7,,,,,,,35,,,alliance,unchanged,wowhead,3560,,
+Mantle of Scaleslaying,shoulder,cloth,,50,2,,,11,,11,,,,,,,49,,,,new,wowhead,281275,,"no level req, high item level - check you can get it before 31"
 Mantle of Thieves,shoulder,leather,25,30,3,drop,10,4,,3,,,,,,,77,,,,unchanged,wowhead,2264,,
 Mantle of Woe,shoulder,cloth,25,35,3,quest,,,12,,,,,,,,88,,,horde,unconfirmed,wowhead,7750,,
 Moonlit Amice,shoulder,cloth,30,33,2,quest,,7,,,,,,,,,34,,,alliance,updated,wowhead,11884,,
@@ -4226,6 +4328,7 @@ Pathfinder Shoulder Pads of the Sorcerer,shoulder,leather,26,31,2,drop,,4,7,,,,,
 Pathfinder Shoulder Pads of the Tiger,shoulder,leather,26,31,2,drop,6,,,,6,,,,,,71,,,,unchanged,wowhead,15345,12727,random suffix
 Pathfinder Shoulder Pads of the Whale,shoulder,leather,26,31,2,drop,,6,,6,,,,,,,71,,,,unchanged,wowhead,15345,12719,random suffix
 Pathfinder Shoulder Pads of the Wolf,shoulder,leather,26,31,2,drop,6,,,6,,,,,,,71,,,,unchanged,wowhead,15345,12726,random suffix
+Pauldrons of Scaleslaying,shoulder,leather,,50,2,,11,11,,,,,,,,,99,,,,new,wowhead,281276,,"no level req, high item level - check you can get it before 31"
 Prospector's Pads,shoulder,leather,20,25,2,drop,,4,,4,,,,,,,64,,,,unchanged,wowhead,14566,,
 Raincaller Mantle of Arcane Protection,shoulder,cloth,24,29,2,drop,,5,,,,,,,,,32,,,,unchanged,wowhead,14186,12740,random suffix
 Raincaller Mantle of Fire Protection,shoulder,cloth,24,29,2,drop,,5,,,,,,,,,32,,,,unchanged,wowhead,14186,12741,random suffix
@@ -4315,6 +4418,8 @@ Scaled Leather Shoulders of the Tiger,shoulder,leather,27,32,2,drop,6,,,,6,,,,,,
 Scaled Leather Shoulders of the Whale,shoulder,leather,27,32,2,drop,,6,,6,,,,,,,73,,,,unchanged,wowhead,9834,12719,random suffix
 Seared Grove Shoulderpads,shoulder,cloth,25,30,3,,,8,3,,,,,,,0.5,35,,,,new,wowhead,284399,,
 Serpent's Shoulders,shoulder,leather,18,23,3,drop,5,,,,,,,,,,68,,,,updated,wowhead,5404,,
+Shabby Spaulders,shoulder,leather,,45,2,,,10,8,,,,,,,,91,,,,new,wowhead,277220,,"no level req, high item level - check you can get it before 31"
+Shoulders of Scaleslaying,shoulder,mail,,50,2,,,11,11,,,,,,,,205,,,,new,wowhead,281277,,"no level req, high item level - check you can get it before 31"
 Silk Mantle of Gamn,shoulder,cloth,22,28,2,quest,,,6,4,,,,,,,31,,,alliance,updated,wowhead,2913,,
 Silver-thread Amice,shoulder,cloth,24,29,2,drop,,2,7,,,,,,,,32,,,,unchanged,wowhead,6395,,
 Silvered Bronze Shoulders,shoulder,mail,20,25,2,crafted,,3,,3,3,,,,,,137,,,,unchanged,wowhead,3481,,
@@ -4466,10 +4571,14 @@ Barbarian War Axe of the Prophet,two_hand,,23,28,2,drop/world drop,,,8,5,,,,,,,,
 Barbarian War Axe of the Sorcerer,two_hand,,23,28,2,drop/world drop,,5,8,,,,,,,,,,,,unchanged,wowhead,3201,12905,random suffix
 Barbarian War Axe of the Whale,two_hand,,23,28,2,drop/world drop,,7,,7,,,,,,,,,,,unchanged,wowhead,3201,12719,random suffix
 Black Metal Greatsword,two_hand,,24,29,2,drop,,7,,,7,,,,,,,,,,unchanged,wowhead,2014,,
+Bladewind,two_hand,,,42,2,,,4,,,10,,,,,,,,,,new,wowhead,276102,,"no level req, high item level - check you can get it before 31"
 Blessed Claymore,two_hand,,17,22,2,vendor,,7,,,,,,,,,,,,,unchanged,wowhead,4817,,
+Bloodsnout Striker,two_hand,,,42,2,,,12,,,,20,,,,,,,,,new,wowhead,274944,,"no level req, high item level - check you can get it before 31"
 Brashclaw's Skewer,two_hand,,15,20,2,drop,,6,,,,,,,,,,,,,updated,wowhead,2204,,
+Brewing Rod,two_hand,,,25,2,,,6,,5,,,,,,,,,,,unchanged,wowhead,3738,,
 Bronze Dory,two_hand,,20,25,2,crafted,8,,,,,6,,,,,,,,,new,wowhead,250603,,
 Bronze Greatsword,two_hand,,21,26,2,crafted,,6,,,,,,,,,,,,,updated,wowhead,7957,,
+Brushwood Blade,two_hand,,,10,2,,,1,,,,,,,,,,,,,unchanged,wowhead,9602,,
 Brutal War Axe of Agility,two_hand,,25,30,2,drop/world drop,11,,,,,,,,,,,,,,unchanged,wowhead,3210,12728,random suffix
 Brutal War Axe of Arcane Protection,two_hand,,25,30,2,drop/world drop,,7,,,,,,,,,,,,,unchanged,wowhead,3210,12740,random suffix
 Brutal War Axe of Fire Protection,two_hand,,25,30,2,drop/world drop,,7,,,,,,,,,,,,,unchanged,wowhead,3210,12741,random suffix
@@ -4567,6 +4676,8 @@ Glimmering Staff,two_hand,,25,30,3,crafted,,11,11,,,,,,,,,,,,new,wowhead,249392,
 Gnarled Ash Staff,two_hand,,26,31,3,drop,,6,,15,,,,,,,,,,,unchanged,wowhead,791,,
 Gnoll Shaman's Staff,two_hand,,25,30,2,,,,,,7,,,3,,,,,,,new,wowhead,282721,,
 Greatstaff of the Necrokhans,two_hand,,30,43,3,quest,,16,12,6,,,,,,,,,,,new,wowhead,271803,,
+Greatsword of Great Pasts,two_hand,,1,43,2,,,,9,,14,,,,,,,,,,new,wowhead,272179,,"no level req, high item level - check you can get it before 31"
+Guardian Staff,two_hand,,,42,3,,16,16,,,,,,,,,,,,,new,wowhead,270078,,"no level req, high item level - check you can get it before 31"
 Healer's Staff,two_hand,,24,33,3,quest,,12,,,,,,5,,,,,,,new,wowhead,271767,,
 Heavy Copper Broadsword,two_hand,,14,19,2,crafted,,6,,,,,,,,,,,,,updated,wowhead,3487,,
 Heavy Ogre War Axe,two_hand,,22,27,2,drop,,5,,,7,,,,,,,,,,unchanged,wowhead,2227,,
@@ -4652,6 +4763,7 @@ Skullsplitter,two_hand,,30,41,2,quest,,4,,,15,,,,,,,,,horde,unchanged,wowhead,95
 Skyseeker's Greatstaff,two_hand,,10,15,2,drop,,,3,3,,,,,,,,,,,new,wowhead,263937,,
 Slayer's Battle Axe,two_hand,,20,25,2,drop,5,,,,6,,,,,,,,,,unchanged,wowhead,1461,,
 Soulstaff,two_hand,,25,30,3,crafted,,11,,11,,,,,,,,,,,new,wowhead,249393,,
+Staff of Brutal Cunning,two_hand,,,43,2,,,,6,15,,,,,,,,,,,new,wowhead,277253,,"no level req, high item level - check you can get it before 31"
 Staff of Nobles,two_hand,,15,20,2,drop,,2,,5,,,,,,,,,,,updated,wowhead,3902,,
 Staff of Revelations,two_hand,,30,43,2,quest,,,10,13,,,,,,,,,,,new,wowhead,271797,,
 Staff of Westfall,two_hand,,14,24,3,quest,,,5,6,,,,,,,,,,alliance,updated,wowhead,2042,,
@@ -4681,13 +4793,17 @@ The Skyblade,two_hand,,22,27,3,,,8,,,10,,,,,,,,,,new,wowhead,286540,,
 Trusty Sword,two_hand,,24,32,3,quest,,12,,12,,,,,,,,,,alliance,new,wowhead,281313,,
 Tunnel Pick,two_hand,,24,29,2,drop,7,7,,,,,,,,,,,,,unconfirmed,wowhead,756,,
 Twisted Chanter's Staff,two_hand,,19,24,3,drop,,6,10,,,,,,,,,,,,unchanged,wowhead,890,,
+Unbalanced Fighting Stick,two_hand,,,42,2,,,8,,,14,,,,,,,,,,new,wowhead,274940,,"no level req, high item level - check you can get it before 31"
 Wanderer's Broadsword,two_hand,,30,43,2,quest,,12,,,,,,,1.0,,,,,,new,wowhead,271795,,
 Wind Spirit Staff,two_hand,,29,34,3,drop,,4,5,16,,,,,,,,,,,updated,wowhead,6689,,
+Winged Beast Staff,two_hand,,,10,2,,1,,,,,,,,,,,,,,new,wowhead,263434,,
 Witching Stave,two_hand,,17,22,3,drop,,6,5,,,,,,,,,,,,updated,wowhead,1484,,
 Woodsman Sword,two_hand,,12,20,2,quest,2,5,,,,,,,,,,,,alliance,unchanged,wowhead,5615,,
 Zhovur Axe,two_hand,,12,20,2,quest,,6,,,,,,,,,,,,horde,unchanged,wowhead,5318,,
+[TMP] Furbolg Ritual Stave,two_hand,,,50,2,,,7,18,,,,,,,,,,,,new,wowhead,236759,,"no level req, high item level - check you can get it before 31"
 Acolyte's Chain Belt,waist,mail,12,17,3,crafted,,3,4,,,,,,,,98,,,,new,wowhead,250516,,
 Aggor's Refitted Belt,waist,mail,10,12,2,quest,,2,,,,,,,,,69,,,horde,new,wowhead,286731,,
+Ancestral Waistcord,waist,cloth,,50,2,,,,12,8,,,,,,,37,,,,new,wowhead,281260,,"no level req, high item level - check you can get it before 31"
 Archer's Belt of Arcane Protection,waist,leather,30,35,2,drop,,7,,,,,,,,,57,,,,unchanged,wowhead,9855,12740,random suffix
 Archer's Belt of Fire Protection,waist,leather,30,35,2,drop,,7,,,,,,,,,57,,,,unchanged,wowhead,9855,12741,random suffix
 Archer's Belt of Frost Protection,waist,leather,30,35,2,drop,,7,,,,,,,,,57,,,,unchanged,wowhead,9855,12742,random suffix
@@ -4857,24 +4973,24 @@ Ghostwalker Belt of the Whale,waist,leather,29,34,2,drop,,7,,7,,,,,,,56,,,,uncha
 Ghostwalker Belt of the Wolf,waist,leather,29,34,2,drop,7,,,7,,,,,,,56,,,,unchanged,wowhead,15148,12726,random suffix
 Girdle of Nobility,waist,cloth,15,20,2,drop,,3,4,,,,,,,,19,,,,updated,wowhead,5967,,
 Girdle of the Blindwatcher,waist,leather,21,26,3,drop,,5,3,,,,,,,,54,,,,updated,wowhead,6319,,
-Gizmo Girdle of Agility,waist,leather,30,35,2,crafted,10,,,,,,,,,,57,,,,new,wowhead,280307,12728,random suffix
-Gizmo Girdle of Arcane Protection,waist,leather,30,35,2,crafted,,7,,,,,,,,,57,,,,new,wowhead,280307,12740,random suffix
-Gizmo Girdle of Fire Protection,waist,leather,30,35,2,crafted,,7,,,,,,,,,57,,,,new,wowhead,280307,12741,random suffix
-Gizmo Girdle of Frost Protection,waist,leather,30,35,2,crafted,,7,,,,,,,,,57,,,,new,wowhead,280307,12742,random suffix
-Gizmo Girdle of Intellect,waist,leather,30,35,2,crafted,,,10,,,,,,,,57,,,,new,wowhead,280307,12729,random suffix
-Gizmo Girdle of Nature Protection,waist,leather,30,35,2,crafted,,7,,,,,,,,,57,,,,new,wowhead,280307,12743,random suffix
-Gizmo Girdle of Shadow Protection,waist,leather,30,35,2,crafted,,7,,,,,,,,,57,,,,new,wowhead,280307,12744,random suffix
-Gizmo Girdle of Stamina,waist,leather,30,35,2,crafted,,10,,,,,,,,,57,,,,new,wowhead,280307,12731,random suffix
-Gizmo Girdle of the Bear,waist,leather,30,35,2,crafted,,7,,,7,,,,,,57,,,,new,wowhead,280307,12722,random suffix
-Gizmo Girdle of the Channeler,waist,leather,30,35,2,crafted,,7,,4,,,,,,,57,,,,new,wowhead,280307,12747,random suffix
-Gizmo Girdle of the Eagle,waist,leather,30,35,2,crafted,,7,7,,,,,,,,57,,,,new,wowhead,280307,12718,random suffix
-Gizmo Girdle of the Falcon,waist,leather,30,35,2,crafted,7,,7,,,,,,,,57,,,,new,wowhead,280307,12724,random suffix
-Gizmo Girdle of the Gorilla,waist,leather,30,35,2,crafted,,,7,,7,,,,,,57,,,,new,wowhead,280307,12723,random suffix
-Gizmo Girdle of the Hierophant,waist,leather,30,35,2,crafted,,7,,4,,,,,,,57,,,,new,wowhead,280307,12750,random suffix
-Gizmo Girdle of the Knight,waist,leather,30,35,2,crafted,,7,,,4,,,,,,57,,,,new,wowhead,280307,12755,random suffix
-Gizmo Girdle of the Owl,waist,leather,30,35,2,crafted,,,7,7,,,,,,,57,,,,new,wowhead,280307,12720,random suffix
-Gizmo Girdle of the Sorcerer,waist,leather,30,35,2,crafted,,4,7,,,,,,,,57,,,,new,wowhead,280307,12745,random suffix
-Gizmo Girdle of the Whale,waist,leather,30,35,2,crafted,,7,,7,,,,,,,57,,,,new,wowhead,280307,12719,random suffix
+Gizmo Girdle of Agility,waist,leather,30,35,2,crafted,10,,,,,,,,,,57,,,,new,wowhead,280307,12728,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of Arcane Protection,waist,leather,30,35,2,crafted,,7,,,,,,,,,57,,,,new,wowhead,280307,12740,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of Fire Protection,waist,leather,30,35,2,crafted,,7,,,,,,,,,57,,,,new,wowhead,280307,12741,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of Frost Protection,waist,leather,30,35,2,crafted,,7,,,,,,,,,57,,,,new,wowhead,280307,12742,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of Intellect,waist,leather,30,35,2,crafted,,,10,,,,,,,,57,,,,new,wowhead,280307,12729,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of Nature Protection,waist,leather,30,35,2,crafted,,7,,,,,,,,,57,,,,new,wowhead,280307,12743,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of Shadow Protection,waist,leather,30,35,2,crafted,,7,,,,,,,,,57,,,,new,wowhead,280307,12744,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of Stamina,waist,leather,30,35,2,crafted,,10,,,,,,,,,57,,,,new,wowhead,280307,12731,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of the Bear,waist,leather,30,35,2,crafted,,7,,,7,,,,,,57,,,,new,wowhead,280307,12722,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of the Channeler,waist,leather,30,35,2,crafted,,7,,4,,,,,,,57,,,,new,wowhead,280307,12747,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of the Eagle,waist,leather,30,35,2,crafted,,7,7,,,,,,,,57,,,,new,wowhead,280307,12718,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of the Falcon,waist,leather,30,35,2,crafted,7,,7,,,,,,,,57,,,,new,wowhead,280307,12724,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of the Gorilla,waist,leather,30,35,2,crafted,,,7,,7,,,,,,57,,,,new,wowhead,280307,12723,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of the Hierophant,waist,leather,30,35,2,crafted,,7,,4,,,,,,,57,,,,new,wowhead,280307,12750,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of the Knight,waist,leather,30,35,2,crafted,,7,,,4,,,,,,57,,,,new,wowhead,280307,12755,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of the Owl,waist,leather,30,35,2,crafted,,,7,7,,,,,,,57,,,,new,wowhead,280307,12720,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of the Sorcerer,waist,leather,30,35,2,crafted,,4,7,,,,,,,,57,,,,new,wowhead,280307,12745,needs profession skill 175 (skill id 202); random suffix
+Gizmo Girdle of the Whale,waist,leather,30,35,2,crafted,,7,,7,,,,,,,57,,,,new,wowhead,280307,12719,needs profession skill 175 (skill id 202); random suffix
 Glimmering Mail Girdle,waist,mail,24,29,2,drop/world drop,,2,,,7,,,,,,110,,,,unchanged,wowhead,4712,,
 Grappler's Belt,waist,leather,30,33,2,quest,,5,,,7,,,,,,55,,,alliance,unchanged,wowhead,9687,,
 Grassland Sash,waist,cloth,14,20,2,quest,,3,3,,,,,,,,19,,,horde,unchanged,wowhead,6477,,
@@ -5029,6 +5145,7 @@ Robust Girdle of the Tiger,waist,leather,21,26,2,drop,5,,,,5,,,,,,49,,,,unchange
 Robust Girdle of the Whale,waist,leather,21,26,2,drop,,5,,5,,,,,,,49,,,,unchanged,wowhead,15120,12719,random suffix
 Rotmender's Sash,waist,cloth,17,22,3,drop,,6,6,,,,,,,,22,,,,new,wowhead,286980,,set item
 Runed Copper Belt,waist,mail,13,18,2,crafted,,2,,,3,,,,,,91,,,,updated,wowhead,2857,,
+Rusted Troll War Belt,waist,mail,1,42,3,,,6,12,,,18,,,,,147,,,,new,wowhead,279882,,"no level req, high item level - check you can get it before 31"
 Sage's Sash of Arcane Protection,waist,cloth,24,29,2,drop/world drop,,5,,,,,,,,,24,,,,unchanged,wowhead,6611,12740,random suffix
 Sage's Sash of Fire Protection,waist,cloth,24,29,2,drop/world drop,,5,,,,,,,,,24,,,,unchanged,wowhead,6611,12741,random suffix
 Sage's Sash of Frost Protection,waist,cloth,24,29,2,drop/world drop,,5,,,,,,,,,24,,,,unchanged,wowhead,6611,12742,random suffix
@@ -5083,6 +5200,7 @@ Slayer's Sash,waist,mail,23,28,2,drop,,4,,,6,,,,,,108,,,,unchanged,wowhead,14755
 Slither Cord,waist,cloth,17,22,3,drop,,,,,,,,3,,,22,,,,new,wowhead,273089,,has on-use
 Slitherwrap Girdle,waist,leather,28,33,3,,9,6,,,,,,,,,61,,,,new,wowhead,273041,,
 Songblade Stabilizer,waist,mail,24,33,3,quest,,10,,,,,,,,,128,,,alliance,new,wowhead,271768,,
+Spirit-buckle Belt,waist,mail,,27,2,,,,4,,5,,,,,,106,,,,new,wowhead,281323,,
 Stalker's Leather Belt,waist,leather,30,35,3,crafted,9,6,6,4,,,,,,,63,,,,new,wowhead,252521,,
 Steadfast Cinch,waist,leather,10,22,2,quest,,3,,,4,,,,,,45,,,alliance,unchanged,wowhead,5609,,
 Stonecloth Belt,waist,cloth,29,34,2,drop,3,6,,6,,,,,,,26,,,,unchanged,wowhead,14414,,
@@ -5105,6 +5223,7 @@ Superior Belt of the Owl,waist,leather,20,25,2,drop,,,4,4,,,,,,,48,,,,unchanged,
 Superior Belt of the Whale,waist,leather,20,25,2,drop,,4,,4,,,,,,,48,,,,unchanged,wowhead,9801,12719,random suffix
 Support Girdle,waist,leather,19,24,2,drop,,4,,,5,,,,,,47,,,,updated,wowhead,1215,,
 Tarantula Silk Sash,waist,cloth,20,25,2,drop,,,5,2,,,,,,,22,,,,updated,wowhead,3229,,
+Thick Ogre's Belt,waist,mail,,43,2,,7,,,,10,,,,,,136,,,,new,wowhead,270087,,"no level req, high item level - check you can get it before 31"
 Thistlefur Belt of Arcane Protection,waist,cloth,27,32,2,drop,,6,,,,,,,,,25,,,,unchanged,wowhead,14205,12740,random suffix
 Thistlefur Belt of Fire Protection,waist,cloth,27,32,2,drop,,6,,,,,,,,,25,,,,unchanged,wowhead,14205,12741,random suffix
 Thistlefur Belt of Frost Protection,waist,cloth,27,32,2,drop,,6,,,,,,,,,25,,,,unchanged,wowhead,14205,12742,random suffix
@@ -5120,6 +5239,7 @@ Thorn Protecting Girdle,waist,mail,24,36,3,quest,,12,,,,12,,,,,134,,,alliance,,w
 Totemic Leather Belt,waist,leather,12,17,3,crafted,,3,,,4,,,,,,45,,,,new,wowhead,252431,,
 Trapper's Leather Belt,waist,leather,12,17,3,crafted,4,4,3,,,,,,,,45,,,,new,wowhead,252429,,
 Trophy Belt,waist,mail,21,24,2,quest,,,5,3,,,,,,,101,,,horde,new,wowhead,276724,,
+Twilight Initiate's Belt,waist,leather,1,46,3,,15,6,,7,,,,,,,77,,,,new,wowhead,279854,,"no level req, high item level - check you can get it before 31"
 Veteran's Chain Belt,waist,mail,12,17,3,crafted,3,4,,,4,,,,,,98,,,,new,wowhead,250513,,
 Violet Sash,waist,cloth,24,36,3,quest,,,12,7,,,,,,,29,,,alliance,new,wowhead,251962,,
 Vital Sash of Arcane Protection,waist,cloth,28,33,2,drop,,6,,,,,,,,,25,,,,unchanged,wowhead,14209,12740,random suffix
@@ -5153,18 +5273,18 @@ Watcher's Cinch of the Owl,waist,cloth,22,27,2,drop,,,5,5,,,,,,,23,,,,unchanged,
 Watcher's Cinch of the Physician,waist,cloth,22,27,2,drop,,,5,3,,,,,,,23,,,,unchanged,wowhead,14185,12749,random suffix
 Watcher's Cinch of the Sorcerer,waist,cloth,22,27,2,drop,,3,5,,,,,,,,23,,,,unchanged,wowhead,14185,12745,random suffix
 Watcher's Cinch of the Whale,waist,cloth,22,27,2,drop,,5,,5,,,,,,,23,,,,unchanged,wowhead,14185,12719,random suffix
-Whimsical Waistwrap of Arcane Protection,waist,cloth,30,35,2,crafted,,7,,,,,,,,,26,,,,new,wowhead,280306,12740,random suffix
-Whimsical Waistwrap of Fire Protection,waist,cloth,30,35,2,crafted,,7,,,,,,,,,26,,,,new,wowhead,280306,12741,random suffix
-Whimsical Waistwrap of Frost Protection,waist,cloth,30,35,2,crafted,,7,,,,,,,,,26,,,,new,wowhead,280306,12742,random suffix
-Whimsical Waistwrap of Intellect,waist,cloth,30,35,2,crafted,,,10,,,,,,,,26,,,,new,wowhead,280306,12729,random suffix
-Whimsical Waistwrap of Nature Protection,waist,cloth,30,35,2,crafted,,7,,,,,,,,,26,,,,new,wowhead,280306,12743,random suffix
-Whimsical Waistwrap of Stamina,waist,cloth,30,35,2,crafted,,10,,,,,,,,,26,,,,new,wowhead,280306,12731,random suffix
-Whimsical Waistwrap of the Eagle,waist,cloth,30,35,2,crafted,,7,7,,,,,,,,26,,,,new,wowhead,280306,12718,random suffix
-Whimsical Waistwrap of the Hierophant,waist,cloth,30,35,2,crafted,,7,,4,,,,,,,26,,,,new,wowhead,280306,12750,random suffix
-Whimsical Waistwrap of the Owl,waist,cloth,30,35,2,crafted,,,7,7,,,,,,,26,,,,new,wowhead,280306,12720,random suffix
-Whimsical Waistwrap of the Physician,waist,cloth,30,35,2,crafted,,7,4,,,,,,,,26,,,,new,wowhead,280306,12748,random suffix
-Whimsical Waistwrap of the Sorcerer,waist,cloth,30,35,2,crafted,,4,7,,,,,,,,26,,,,new,wowhead,280306,12745,random suffix
-Whimsical Waistwrap of the Whale,waist,cloth,30,35,2,crafted,,7,,7,,,,,,,26,,,,new,wowhead,280306,12719,random suffix
+Whimsical Waistwrap of Arcane Protection,waist,cloth,30,35,2,crafted,,7,,,,,,,,,26,,,,new,wowhead,280306,12740,needs profession skill 175 (skill id 202); random suffix
+Whimsical Waistwrap of Fire Protection,waist,cloth,30,35,2,crafted,,7,,,,,,,,,26,,,,new,wowhead,280306,12741,needs profession skill 175 (skill id 202); random suffix
+Whimsical Waistwrap of Frost Protection,waist,cloth,30,35,2,crafted,,7,,,,,,,,,26,,,,new,wowhead,280306,12742,needs profession skill 175 (skill id 202); random suffix
+Whimsical Waistwrap of Intellect,waist,cloth,30,35,2,crafted,,,10,,,,,,,,26,,,,new,wowhead,280306,12729,needs profession skill 175 (skill id 202); random suffix
+Whimsical Waistwrap of Nature Protection,waist,cloth,30,35,2,crafted,,7,,,,,,,,,26,,,,new,wowhead,280306,12743,needs profession skill 175 (skill id 202); random suffix
+Whimsical Waistwrap of Stamina,waist,cloth,30,35,2,crafted,,10,,,,,,,,,26,,,,new,wowhead,280306,12731,needs profession skill 175 (skill id 202); random suffix
+Whimsical Waistwrap of the Eagle,waist,cloth,30,35,2,crafted,,7,7,,,,,,,,26,,,,new,wowhead,280306,12718,needs profession skill 175 (skill id 202); random suffix
+Whimsical Waistwrap of the Hierophant,waist,cloth,30,35,2,crafted,,7,,4,,,,,,,26,,,,new,wowhead,280306,12750,needs profession skill 175 (skill id 202); random suffix
+Whimsical Waistwrap of the Owl,waist,cloth,30,35,2,crafted,,,7,7,,,,,,,26,,,,new,wowhead,280306,12720,needs profession skill 175 (skill id 202); random suffix
+Whimsical Waistwrap of the Physician,waist,cloth,30,35,2,crafted,,7,4,,,,,,,,26,,,,new,wowhead,280306,12748,needs profession skill 175 (skill id 202); random suffix
+Whimsical Waistwrap of the Sorcerer,waist,cloth,30,35,2,crafted,,4,7,,,,,,,,26,,,,new,wowhead,280306,12745,needs profession skill 175 (skill id 202); random suffix
+Whimsical Waistwrap of the Whale,waist,cloth,30,35,2,crafted,,7,,7,,,,,,,26,,,,new,wowhead,280306,12719,needs profession skill 175 (skill id 202); random suffix
 Windborne Belt,waist,leather,25,30,2,quest,6,5,,,,,,,,,53,,,alliance,unchanged,wowhead,6719,,
 Windsong Cinch,waist,leather,25,29,2,quest,,5,,,,12,,,,,52,,,horde,unchanged,wowhead,15469,,
 Wisdom's Leather Belt,waist,leather,12,17,3,crafted,,3,4,,,,,,,,45,,,,new,wowhead,252433,,
@@ -5236,6 +5356,7 @@ Conjurer's Bracers of the Physician,wrist,cloth,30,35,2,drop,,6,3,,,,,,,,20,,,,u
 Conjurer's Bracers of the Sorcerer,wrist,cloth,30,35,2,drop,,3,6,,,,,,,,20,,,,unchanged,wowhead,9846,12745,random suffix
 Conjurer's Bracers of the Whale,wrist,cloth,30,35,2,drop,,5,,5,,,,,,,20,,,,unchanged,wowhead,9846,12719,random suffix
 Courier's Wristguards,wrist,leather,20,24,2,quest,3,3,,,,,,,,,37,,,alliance,new,wowhead,281251,,
+Coyote Hide Wraps,wrist,leather,,41,2,,,6,,,,,,,,,49,,,,new,wowhead,274932,,"no level req, high item level - check you can get it before 31"
 Crusty Cuffs,wrist,cloth,30,35,2,quest,,5,,5,,,,,,,20,,,,new,wowhead,277214,,
 Crystalline Cuffs,wrist,cloth,13,18,3,drop,,2,,3,,,,,,,15,,,,updated,wowhead,14148,,
 Cultist's Armguards,wrist,leather,18,29,3,quest,,7,,,,10,,,,,44,,,,new,wowhead,270032,,
@@ -5338,7 +5459,10 @@ Emissary Cuffs of the Wolf,wrist,leather,30,35,3,drop,6,,,6,,,,,,,49,,,,unconfir
 Enduring Bracers,wrist,mail,29,34,2,drop,2,5,,,3,,,,,,92,,,,unchanged,wowhead,14759,,
 Fingerbone Bracers,wrist,cloth,23,28,2,drop,,2,5,,,,,,,,18,,,,unchanged,wowhead,1351,,
 Fire-welded Bracers,wrist,mail,20,32,3,quest,6,2,,6,,,,,,,98,,,,updated,wowhead,9535,,
+First Mate's Armguards,wrist,mail,,50,2,,8,,8,,,,,,,,119,,,,new,wowhead,270110,,"no level req, high item level - check you can get it before 31"
 Forest Leather Bracers,wrist,leather,19,24,2,drop,5,,,,,,,,,,37,,,,unchanged,wowhead,3202,,
+Freebooter's Armband,wrist,leather,,47,2,,,10,,,,6,,,,,55,,,,new,wowhead,270100,,"no level req, high item level - check you can get it before 31"
+Fur-Lined Bracers,wrist,leather,,41,2,,6,,,6,,,,,,,49,,,,new,wowhead,274931,,"no level req, high item level - check you can get it before 31"
 Gallan Cuffs,wrist,cloth,27,36,2,quest,,3,7,,,,,,,,21,,,horde,unchanged,wowhead,2032,,
 Geomancer's Bracers of Arcane Protection,wrist,cloth,30,35,2,drop,,5,,,,,,,,,20,,,,unchanged,wowhead,14221,12740,random suffix
 Geomancer's Bracers of Fire Protection,wrist,cloth,30,35,2,drop,,5,,,,,,,,,20,,,,unchanged,wowhead,14221,12741,random suffix
@@ -5448,8 +5572,10 @@ Loamflake Bracers,wrist,leather,23,25,2,quest,5,,,,,,,,,,37,,,horde,unchanged,wo
 Madwolf Bracers,wrist,leather,24,29,2,drop,5,2,,,,,,,,,40,,,,unchanged,wowhead,897,,
 Mail Combat Armguards,wrist,mail,28,33,2,drop,2,6,,,,,,,,,91,,,,unchanged,wowhead,6403,,
 Mindthrust Bracers,wrist,cloth,17,22,3,drop,,1,5,,,,,3,,,17,,,,updated,wowhead,1974,,
+Mutinous Cuffs,wrist,cloth,1,42,3,,,9,8,,,,,,,,27,,,,new,wowhead,279883,,"no level req, high item level - check you can get it before 31"
 Mystic's Bracelets,wrist,cloth,12,17,2,drop,,1,2,,,,,,,,13,,,,unchanged,wowhead,14366,,
 Nightsky Wristbands,wrist,cloth,28,33,2,drop,,,6,3,,,,,,,20,,,,unchanged,wowhead,6407,,
+Overgrown Cuffs,wrist,leather,1,43,3,,7,7,,,,14,,,,,56,,,,new,wowhead,272186,,"no level req, high item level - check you can get it before 31"
 Owl Bracers,wrist,leather,20,25,2,vendor,,,5,,,,,,,,37,,,,unchanged,wowhead,4796,,
 Owlbeard Bracers,wrist,cloth,14,20,2,quest,,1,2,,,,,,,,15,,,horde,updated,wowhead,16981,,
 Pathfinder Bracers of Arcane Protection,wrist,leather,21,26,2,drop,,3,,,,,,,,,38,,,,unchanged,wowhead,15348,12740,random suffix
@@ -5550,6 +5676,7 @@ Staghide Armguards,wrist,leather,18,26,3,quest,5,5,,,,,,,,,42,,,alliance,new,wow
 Steel-clasped Bracers,wrist,mail,16,28,3,quest,,6,,6,,,,,,,92,,,horde,updated,wowhead,4534,,
 Stonecloth Bindings,wrist,cloth,29,34,2,drop,,4,5,,,,,,,,20,,,,unchanged,wowhead,14416,,
 Stromgarde Bracers,wrist,mail,30,39,2,quest,,3,,,8,,,,,,99,,,alliance,new,wowhead,270068,,
+Stromgarde Cuffs,wrist,mail,,40,2,,,3,,,8,,,,,,101,,,,new,wowhead,270073,,"no level req, high item level - check you can get it before 31"
 Superior Bracers of Agility,wrist,leather,21,26,2,drop,5,,,,,,,,,,38,,,,unchanged,wowhead,9803,12728,random suffix
 Superior Bracers of Arcane Protection,wrist,leather,21,26,2,drop,,3,,,,,,,,,38,,,,unchanged,wowhead,9803,12740,random suffix
 Superior Bracers of Fire Protection,wrist,leather,21,26,2,drop,,3,,,,,,,,,38,,,,unchanged,wowhead,9803,12741,random suffix
@@ -5589,6 +5716,7 @@ Thistlefur Bands of the Owl,wrist,cloth,25,30,2,drop,,,4,4,,,,,,,19,,,,unchanged
 Thistlefur Bands of the Physician,wrist,cloth,25,30,2,drop,,4,2,,,,,,,,19,,,,unchanged,wowhead,14197,12748,random suffix
 Thistlefur Bands of the Sorcerer,wrist,cloth,25,30,2,drop,,2,4,,,,,,,,19,,,,unchanged,wowhead,14197,12745,random suffix
 Thistlefur Bands of the Whale,wrist,cloth,25,30,2,drop,,4,,4,,,,,,,19,,,,unchanged,wowhead,14197,12719,random suffix
+Tidal Bracers,wrist,leather,,40,2,,5,3,,,5,,,,,,48,,,,new,wowhead,270076,,"no level req, high item level - check you can get it before 31"
 Timberland Armguards,wrist,cloth,15,18,2,quest,,2,,2,,,,,,,14,,,alliance,unchanged,wowhead,5315,,
 Undead Knight's Bracers,wrist,mail,24,36,3,quest,4,8,,,4,,,,,,104,,,horde,,wowhead,251965,,
 Unearthed Bands,wrist,leather,30,35,3,drop,,,,,,8,,,,,49,,,,unconfirmed,wowhead,9428,,

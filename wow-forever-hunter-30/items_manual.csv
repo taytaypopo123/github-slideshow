@@ -1,0 +1,9 @@
+name,slot,armor_type,req_level,item_level,quality,source,agi,sta,int,spi,str,ap,rap,mp5,hit,crit,armor,dps,unique,faction,forever_status,verified,wowhead_id,bonus,notes
+Goblin Rocket Helmet,head,cloth,,47,3,crafted,,15,,,,,,,,,50,,,,,wowhead,10588,,Engineering 235; on-use: charge + 30s incapacitate (breaks on damage)
+Gnomish Goggles,head,cloth,,42,3,crafted,9,9,,9,,,,,,,45,,,,,wowhead,10545,,Engineering 210; BoP
+Bright-Eye Goggles,head,cloth,,35,2,crafted,,9,,9,,,,,,,38,,,,,wowhead,10499,,Engineering 175
+Green Tinted Goggles,head,cloth,,30,2,crafted,,8,,7,,,,,,,35,,,,,wowhead,4385,,Engineering 150
+Gnomish Harm Prevention Belt,waist,leather,,43,3,crafted,,6,,,,,,,,,66,,,,,wowhead,10721,,Engineering 215; on-use: absorbs 500 damage (not modelled)
+Parachute Cloak,back,cloth,,45,3,crafted,8,,,,,,,,,,30,,,,,wowhead,10518,,Engineering 225
+Goblin Rocket Boots,feet,cloth,,45,3,crafted,,,,,,,,,,,41,,,,,wowhead,7189,,"No profession needed to wear; on-use big speed burst, 5 min CD (not modelled)"
+Gnomish Rocket Boots,feet,cloth,,45,3,crafted,,,,,,,,,,,41,,,,,wowhead,10724,,"Engineering 225; on-use speed burst, 30 min CD (not modelled)"

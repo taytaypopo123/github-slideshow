@@ -97,8 +97,11 @@
     "faction": "any",
     "_faction": "alliance, horde or any - PvP/rep gear like Defiler's (Horde) and Highlander's (Alliance) is faction-locked",
     "allow_duplicate_items": false,
+    "allow_no_req_high_ilvl": false,
+    "_allow_no_req_high_ilvl": "Items with no level requirement but item level 31-50 (often BoP drops from higher dungeons, e.g. Profane Ritual Robes +17 Agi). Off by default because you may not be able to get them at 30; turn on if you can get carried",
     "_allow_duplicate_items": "Two copies of the same ring/trinket/weapon. Off by default: many are quest rewards or Unique, and Wowhead's data doesn't always flag Unique",
-    "exclude_notes": []
+    "exclude_notes": [],
+    "_exclude_notes": "Drop items whose notes contain any of these strings, e.g. [\"Engineering\", \"reputation item\"] if you won't take Engineering or grind rep"
   },
 
   "weights_override": null,

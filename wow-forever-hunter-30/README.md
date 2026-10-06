@@ -2,7 +2,8 @@
 
 Finds the best duel gear for a level 30 hunter in WoW Forever by scoring **every** item a hunter can use, for different talent builds and opponents.
 
-- **`items.csv`**: 5,651 items pulled from Wowhead's Forever database. It covers cloth, leather, cloaks, rings, necks, trinkets, bows, guns, crossbows and melee weapons with required level 10–30, including every random-suffix version with Agi, Sta, Int or AP ("of the Eagle", "of the Monkey", "of the Bandit" and so on). Each row has a Wowhead link (`wowhead_id` + `bonus`).
+- **`items.csv`**: 5,779 items pulled from Wowhead's Forever database. It covers cloth, leather, cloaks, rings, necks, trinkets, bows, guns, crossbows and melee weapons with required level 10–30 (plus low-level items with no requirement), including every random-suffix version with Agi, Sta, Int or AP ("of the Eagle", "of the Monkey", "of the Bandit" and so on). Each row has a Wowhead link (`wowhead_id` + `bonus`).
+- **`items_manual.csv`**: hand-added items, starting with Engineering gear (no level requirement) that Wowhead's lists miss. Add your own finds here; a re-scrape won't overwrite it.
 - **`enchants.csv`**: Forever's enchanting recipes with Agi, Sta, Int, stats or regen, values taken from Wowhead.
 - **`minmax.py`**: scores items, ranks each slot, builds the best full set and compares talent builds.
 - **`config.json`**: your character, the talent builds and the matchups. Several numbers are **placeholders** (see Calibrating).
@@ -69,6 +70,49 @@ The model doesn't value crowd control at all: Scatter Shot, Freezing Trap, Intim
 ### Best sets
 
 See **RESULTS.md**. One thing stands out: the best duel set changes surprisingly little between opponents. Brawler's Leather Helm, Ghostshard Talisman, Truthseeker's Bow, Wyvern Heart Band, the PvP-rep trinkets and Stamina/Bandit suffixes show up everywhere. Against priests it swaps in Int pieces: Defiler's Mail Girdle (+5 Sta +12 Int, also leather despite the name), Necromancer Leggings and Int enchants.
+
+## Twink tips: classic 29-twink wisdom, checked against Forever
+
+Classic 29-twink guides (Warcraft Tavern, OwnedCore, xpoff) agree on a few things: **Stamina first, then the best bow or gun you can get, then Agility**. **Engineering is mandatory.** Carry a full bag of consumables. In 1v1, a Survival-leaning build with Surefooted, Deterrence and Improved Wing Clip was preferred against rogues. Here's how those hold up in Forever at 30, checked on Wowhead:
+
+**What's different in Forever (changes classic advice)**
+- **No Viper Sting at 30**, so you can't drain a priest's mana. The mana fight is about your own pool. Classic guides' "Viper the priest" doesn't apply.
+- **Traps are on a 30s cooldown** (Freezing, Frost, Immolation; was 15s). Trap-kiting is weaker, so make each Freezing Trap count.
+- **Feign Death at 30** (80 mana, 30s CD). This is why 30 is stronger for hunters than classic 29: drop combat, reset, re-trap.
+- **Scatter Shot is MM tier 5 (20 points).** The Survivalist hybrid (`sv_mm_tank`) **can't reach it**; full MM can. That's the biggest cost of the hybrid, and the model doesn't count it.
+- **Multi-Shot now has a 0.5s cast and 6s CD; Aimed Shot is a 2s cast** sharing that CD. Arcane Shot and Serpent Sting cost 80 mana, Aimed 115. With ~1,200–1,500 mana that's roughly 15 shots, so mana really does run out in long duels.
+- **Aspect of the Monkey = 8% dodge.** Use it in melee range against rogues and warriors.
+- **New pet abilities** (Wowhead lists them on the hunter page; check which family has which): **Dismember** (-50% healing for 10s, strong against priests, paladins and druids), **Mine!** (4s disarm, against warriors and rogues), **Web** (root), **Pinch** and **Tendon Rip** (50% snare), **Savage Rend** (bleed). These are likely a bigger deal for duels than the classic boar-charge advice.
+- **Discolored Healing Potions** are new: Greater Discolored (req 21) heals **975–1105 instantly**, then you take 75% of that back over time as a poison or disease. The plain Greater Healing Potion is 455–585. That's a big burst heal to win a race with.
+- **Lesser Mageblood Elixir** (req 25): 6 mana per 5 sec for 30 min. Mp5 that works while casting, good for priest duels.
+- **PvP bandages** (Defiler's, Highlander's, Arathi Basin, Darkspear Islands Silk Bandage: 640 over 8s) only work inside their battleground. In duels use **Heavy Silk Bandage** (also 640, First Aid 125).
+- **Scopes at 30:** Deadly Scope (+5 damage) needs level 30. The +3% hit (Biznicks) and +2% crit (SAF-T) scopes need 50–60, so they're out.
+
+**Engineering at 30.** None of these have a level requirement, only Engineering skill:
+- *Gear:* **Goblin Rocket Helmet** (+15 Sta, Eng 235; on-use charge that incapacitates for 30s, broken by damage), **Gnomish Goggles** (+9 Agi/Sta/Spi, Eng 210), **Gnomish Harm Prevention Belt** (leather, +6 Sta, **500-damage shield** on use, Eng 215), **Parachute Cloak** (+8 Agi, Eng 225), **Goblin Rocket Boots** (speed burst, **no Engineering needed** to wear).
+- *Trinkets:* **Gnomish Net-o-Matic** (10s net, Eng 210), **Goblin Mortar** (393–531 damage + 3s stun, Eng 205), **Gnomish Shrink Ray** (-250 attack power, wrecks warriors and rogues, Eng 205), **Goblin Bomb Dispenser** (315–385, Eng 230), **Minor Recombobulator** (heal and mana), **Gnomish Cloaking Device**, **Gnomish Battle Chicken**.
+- *Throwables:* **Iron Grenade** (132–218 + 3s stun, Eng 175). Explosive Sheep (150), Goblin Land Mine (450, Eng 195), Large Copper Bomb (1s stun). Non-engineers get EZ-Thro/SAF-T dynamite, and SAF-T Jumbo Dynamite (128–172) lists no requirements, so check it in game.
+- The on-use effects aren't in the stat model. The engineering gear is in `items_manual.csv`; pick trinkets by hand. Two on-use trinkets usually beat any +6 Sta trinket.
+
+**Consumables available at 30 (Wowhead Forever):**
+
+| Item | Effect | Req |
+|---|---|---|
+| Elixir of Agility | +15 Agi, 1h | 27 |
+| Elixir of Defense | +250 armor | 29 |
+| Elixir of Wisdom | +6 Int | 10 |
+| Lesser Mageblood Elixir | 6 mp5, 30 min | 25 |
+| Scroll of Stamina II / Agility II / Protection III | +8 Sta / +9 Agi / +180 armor | 20/25/30 |
+| Greater Discolored Healing Potion | 975–1105 instant, then 75% back over time | 21 |
+| Greater Healing Potion | 455–585 | 21 |
+| Mana Potion | 455–585 mana | 22 |
+| Free Action Potion | 30s stun/snare immunity (against rogues and warriors) | 20 |
+| Swiftness Potion | +50% run speed, 15s | 5 |
+| Heavy Silk Bandage | 640 over 8s | First Aid 125 |
+
+Not available at 30: Elixir of Fortitude (now 45), Restorative Potion (32), Living Action (47), Limited Invulnerability (45).
+
+**Professions:** Engineering plus a second one. Enchanting (if Forever lets these go on level 30 gear: Superior Stamina bracer, Major Stamina chest, +5 Agi necklace, +15 Agi or +22 Int weapon), First Aid always. Classic advice was Engineering plus Enchanting or Alchemy.
 
 ## Calibrating (do this; it changes the answers)
 

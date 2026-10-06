@@ -9,7 +9,7 @@ CATS = ["armor/cloth","armor/leather","armor/mail","armor/amulets","armor/rings"
         "weapons/bows","weapons/guns","weapons/crossbows","weapons/one-handed-axes","weapons/one-handed-swords",
         "weapons/daggers","weapons/fist-weapons","weapons/two-handed-axes","weapons/two-handed-swords",
         "weapons/polearms","weapons/staves"]
-RANGES = [(10,30)]
+RANGES = [(10,30), (0,0)]  # (0,0) = no level requirement (mostly profession gear)
 def get(url):
     p = os.path.join(OUT, "raw", re.sub(r"[^a-z0-9]+","_",url)+".html")
     if not os.path.exists(p):
@@ -34,6 +34,8 @@ def run(cat, lo, hi, depth=0):
     eq, lv, found = parse(get(url))
     n = int(found.replace(",","")) if found != "?" else len(lv)
     print(f"{cat} {lo}-{hi}: found {found}, got {len(lv)}", file=sys.stderr)
+    if found == "?" and not lv:
+        return
     if n > len(lv) and hi > lo:
         mid = (lo+hi)//2; run(cat, lo, mid, depth+1); run(cat, mid+1, hi, depth+1); return
     for it in lv:

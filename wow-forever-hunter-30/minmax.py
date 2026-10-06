@@ -61,6 +61,8 @@ def load_rows(path, filters=None):
                     continue
                 if any(n and n in (r.get("notes") or "") for n in f.get("exclude_notes", [])):
                     continue
+                if not f.get("allow_no_req_high_ilvl", False) and "no level req, high item level" in (r.get("notes") or ""):
+                    continue
                 side = (r.get("faction") or "").strip().lower()
                 if side and f.get("faction", "any") not in ("any", side):
                     continue
@@ -310,6 +312,7 @@ def main():
     if a.faction:
         cfg.setdefault("filters", {})["faction"] = a.faction
     items = load_rows(os.path.join(HERE, "items.csv"), cfg.get("filters", {}))
+    items += load_rows(os.path.join(HERE, "items_manual.csv"), cfg.get("filters", {}))
     enchants = load_rows(os.path.join(HERE, "enchants.csv"))
     base = zero()
     bpath = os.path.join(HERE, "base_gear.json")
