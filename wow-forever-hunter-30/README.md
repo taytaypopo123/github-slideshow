@@ -8,6 +8,7 @@ Finds the best duel gear for a level 30 hunter in WoW Forever by scoring **every
 - **`minmax.py`**: scores items, ranks each slot, builds the best full set and compares talent builds.
 - **`config.json`**: your character, the talent builds and the matchups. Several numbers are **placeholders** (see Calibrating).
 - **`priest_duel.py` / `priest_duel.json`**: second-by-second hunter vs priest simulator (mana war, Penance, Dismember).
+- **`CHASE_LIST.md`**: the gear to chase, slot by slot, with sources (quest, boss, vendor, rep) and Horde/Alliance options.
 - **`RESULTS.md`**: current output (stat values, best sets, build comparison).
 - **`scrape/`**: scripts to re-download the item data when Wowhead updates.
 
