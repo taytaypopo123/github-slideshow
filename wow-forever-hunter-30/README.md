@@ -8,6 +8,7 @@ Finds the best duel gear for a level 30 hunter in WoW Forever by scoring **every
 - **`minmax.py`**: scores items, ranks each slot, builds the best full set and compares talent builds.
 - **`config.json`**: your character, the talent builds and the matchups. Several numbers are **placeholders** (see Calibrating).
 - **`priest_duel.py` / `priest_duel.json`**: second-by-second hunter vs priest simulator (mana war, Penance, Dismember).
+- **`BOOK_ROUTE.md`**: Horde route for the 25 library books (Truthseeker's Bow).
 - **`CHASE_LIST.md`**: the gear to chase, slot by slot, with sources (quest, boss, vendor, rep) and Horde/Alliance options.
 - **`stress_test.py`**: pits the balanced set against Agi/Sta/Int-stacked sets across "what if the assumptions are wrong" scenarios.
 - **`RESULTS.md`**: current output (stat values, best sets, build comparison).
