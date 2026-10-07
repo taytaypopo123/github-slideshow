@@ -47,6 +47,19 @@ Quest levels look scary (40–45), but every quest here can be **picked up at le
 | Back | **Tigerstrike Mantle** (+8 Agi, +7 Sta; world drop or lockboxes) · [A] Sergeant's Cape (Stormwind PvP vendor) |
 | Rings | Insurgent's Band (Darkspear Raiders Honored) · Theramore Signet (Theramore Honored), both +8 Sta +9 AP |
 
+## Horde: level 29 → 30 plan (gear while you level)
+
+**Start now (gives XP and gear):**
+1. **Library books → Truthseeker's Bow.** Collect library books as you quest (40 exist in the world). Turn in 25 to **Owen Thadd in Undercity**. The 25-book reward (Truthseeker's Bow) needs level 30, so collect now and hand in at 30.
+2. **Tarren Mill hub (Hillsbrad):** *Heart of Disruption* → **Enchanted Sandals** (best feet) and *The Grave Knight* → Gravewalker Boots, both in the new **City of Dalaran** dungeon. *Vorrel's Revenge* (SM) → **Grimsteel Cape** (best Horde cloak).
+3. **Scarlet Monastery Graveyard:** Azshir the Sleepless → **Ghostshard Talisman** (44%). Fallen Champion → Ebon Vise / Morbid Dawn. Brawler's/Trapper's Leather Helm from trash. **Watchman Pauldrons** from Scarlet Augurs outside in Tirisfal (11%).
+4. **Gnomeregan:** *Rig Wars* (Nogg, Orgrimmar; min 25) → **Triprunner Dungarees** (+18 Agi, +6 Sta). Easier legs than Panther Mastery.
+5. **Razorfen Kraul:** *A Vengeful Fate* (Auld Stonespire, Thunder Bluff; min 29) → **Quilboar Blaster** (stand-in gun) or Berylline Pads. Agathelos → Ferine Leggings.
+6. **Safety First** (Shimmering Flats; min 29) → **Razzeric's Racing Grips** (best Horde gloves).
+7. **Arathi Basin (20–29 bracket):** start Defilers rep now for the Chain Girdle, Talisman and Lizardhide Boots.
+
+**At 30:** turn in the books (bow). Do the Desolace Magram chain (*Proof of Concept* / *Khan Jehn* weapon, *Khan Hratha* belt), *No Honor Among Thieves* (Determined Band), and the STV elites *Raptor Mastery* / *Panther Mastery* (group up). Start Darkspear Islands for Darkspear Raiders rep.
+
 ---
 
 ## Priest-duel swaps
