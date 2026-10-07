@@ -2,7 +2,10 @@
   "_readme": "Inputs for priest_duel.py. 'spells' are Forever level-30 values from Wowhead unless marked. hunter/priest blocks are PLACEHOLDERS - replace with what you see in game.",
   "max_sec": 300,
   "hunter": {
-    "hp": 2700, "mana": 1550, "mp5": 0, "potions": 1,
+    "hp": 2700,
+    "mana": 1550,
+    "mp5": 0,
+    "potions": 1,
     "_hp_mana": "from minmax.py's best set (sv_mm_tank). PLACEHOLDER until calibrated",
     "auto_dps": 52,
     "_auto_dps": "Auto Shot DPS incl. crit/miss. ~(bow dps + RAP/14) x 1.06. PLACEHOLDER - read a dummy",
@@ -17,10 +20,17 @@
     "_has_dismember": "Pet ability: -50% healing for 10s. Set false if your pet doesn't have it",
     "dismember_first_at": 2,
     "execute_frac": 0.3,
-    "_execute_frac": "'burst' also spends mana once the priest is below this fraction of health"
+    "_execute_frac": "'burst' also spends mana once the priest is below this fraction of health",
+    "pet_dies_at": null,
+    "_pet_dies_at": "Second the priest kills (or permanently fears off) your pet; null = pet survives. Improved Mend Pet's job is to push this later",
+    "has_intimidation": false,
+    "improved_mend_pet": false
   },
   "priest": {
-    "hp": 1900, "mana": 1600, "mp5": 4, "potions": 1,
+    "hp": 1900,
+    "mana": 1600,
+    "mp5": 4,
+    "potions": 1,
     "_hp_mana": "PLACEHOLDER - a twink priest with Fortitude",
     "inner_fire_charges": 20,
     "inner_fire_dr": 0.19,
@@ -34,15 +44,25 @@
     "mana_burn_per_sec": 65,
     "_mana_burn": "Mana Burn drains 199-211 per 3s cast. Set true for a priest who burns you",
     "wand_dps": 25,
-    "dot_dps": 10
+    "dot_dps": 10,
+    "scream_pet": true,
+    "scream_pet_first_at": 10,
+    "_scream_pet": "Priest uses Psychic Scream on your pet whenever it's off cooldown"
   },
   "spells": {
-    "penance_tick": 184, "penance_mana": 100, "penance_cd": 12,
+    "penance_tick": 184,
+    "penance_mana": 100,
+    "penance_cd": 12,
     "_penance": "Forever: 184 healing instantly and every 1s for 2s (3 ticks), 100 mana, 12s CD",
-    "shield_absorb": 303, "shield_mana": 210, "weakened_soul_sec": 15,
+    "shield_absorb": 303,
+    "shield_mana": 210,
+    "weakened_soul_sec": 15,
     "_weakened_soul_sec": "Classic value - not confirmed for Forever",
-    "heal_avg": 543, "heal_mana": 255, "heal_cast": 3,
-    "flash_avg": 260, "flash_mana": 155,
+    "heal_avg": 543,
+    "heal_mana": 255,
+    "heal_cast": 3,
+    "flash_avg": 260,
+    "flash_mana": 155,
     "desperate_prayer": 485,
     "potion_heal": 520,
     "_potion_heal": "Greater Healing Potion average",
@@ -54,6 +74,14 @@
     "dismember_cd": 30,
     "_dismember_cd": "PLACEHOLDER - cooldown not confirmed",
     "serpent_mana": 80,
-    "serpent_dmg_per_mana": 1.375
+    "serpent_dmg_per_mana": 1.375,
+    "psychic_scream_sec": 8,
+    "psychic_scream_cd": 30,
+    "mend_cleanse_sec": 2,
+    "mend_pet_mana": 124,
+    "_mend": "Improved Mend Pet: 50% cleanse per heal tick (1/s) -> ~2s of fear; Mend Pet 155 mana -20%",
+    "intimidation_sec": 3,
+    "intimidation_cd": 60,
+    "_intimidation_cd": "Classic value - not confirmed for Forever"
   }
 }

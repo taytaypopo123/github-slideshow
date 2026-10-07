@@ -32,6 +32,10 @@ def simulate(cfg, strategy, trace=False):
     channel = []          # pending Penance ticks: list of (time, amount)
     casting_until = 0      # priest busy casting a heal
     pending_heal = None    # (finish_time, amount)
+    feared_until = -1      # pet feared by Psychic Scream
+    stunned_until = -1     # priest stunned by Intimidation
+    next_scream = p.get("scream_pet_first_at", 10)
+    cd["intimidation"] = 0
     inner_fire = p["inner_fire_charges"]
     marked = False
     log = []
@@ -47,10 +51,20 @@ def simulate(cfg, strategy, trace=False):
         ap_bonus_dps = s["hunters_mark_dps"] if marked else 0
         free = h["auto_dps"] * (s["rapid_fire_speed"] if t < rapid_until else 1) + ap_bonus_dps
         armor_mult = 1 - (p["inner_fire_dr"] if inner_fire > 0 else 0)
-        dmg = free * armor_mult + h["pet_dps"]
-        inner_fire -= h["hits_per_sec"]
+        pet_alive = h.get("pet_dies_at") is None or t < h["pet_dies_at"]
+        # priest Psychic Screams the pet; Improved Mend Pet cleanses it fast (costs a Mend Pet)
+        if p.get("scream_pet") and pet_alive and t >= next_scream:
+            if h.get("improved_mend_pet"):
+                feared_until = t + s["mend_cleanse_sec"]
+                mana_h -= min(mana_h, s["mend_pet_mana"])
+            else:
+                feared_until = t + s["psychic_scream_sec"]
+            next_scream = t + s["psychic_scream_cd"]
+        pet_alive = pet_alive and t >= feared_until
+        dmg = free * armor_mult + (h["pet_dps"] if pet_alive else 0)
+        inner_fire -= h["hits_per_sec"] if pet_alive else h["hits_per_sec"] * 0.4
 
-        if cd["dismember"] <= t and h["has_dismember"]:
+        if cd["dismember"] <= t and h["has_dismember"] and pet_alive:
             dismember_until = t + s["dismember_sec"]
             cd["dismember"] = t + s["dismember_cd"]
         window = t < dismember_until or hp_p < p["hp"] * h["execute_frac"]
@@ -85,6 +99,14 @@ def simulate(cfg, strategy, trace=False):
             hp_p = min(p["hp"], hp_p + pending_heal[1] * heal_mult)
             pending_heal = None
 
+        # Intimidation: pet stuns the priest to interrupt a Heal / Penance (or once they're low)
+        if (h.get("has_intimidation") and pet_alive and cd["intimidation"] <= t
+                and (pending_heal or channel or hp_p < p["hp"] * 0.35)):
+            pending_heal = None
+            channel = []
+            stunned_until = t + s["intimidation_sec"]
+            casting_until = max(casting_until, stunned_until)
+            cd["intimidation"] = t + s["intimidation_cd"]
         busy = t < casting_until
         missing = p["hp"] - hp_p
         healed_this_sec = False
@@ -121,7 +143,9 @@ def simulate(cfg, strategy, trace=False):
                 healed_this_sec = True
 
         # priest offence when not healing
-        if hp_p > 0 and not healed_this_sec and t >= casting_until:
+        if t < stunned_until:
+            pass
+        elif hp_p > 0 and not healed_this_sec and t >= casting_until:
             if mana_p > p["mana"] * p["offense_mana_floor"]:
                 cost = p["offense_mana_per_sec"]
                 mana_p -= cost
