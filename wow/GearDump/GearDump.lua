@@ -20,6 +20,7 @@ end
 -- Container API moved to C_Container in newer clients; support both.
 local NumSlots = (C_Container and C_Container.GetContainerNumSlots) or GetContainerNumSlots
 local ItemLink = (C_Container and C_Container.GetContainerItemLink) or GetContainerItemLink
+local IsEquippable = (C_Item and C_Item.IsEquippableItem) or IsEquippableItem
 
 local function safe(fn, ...)
   if not fn then return nil end
@@ -52,7 +53,7 @@ local function snapshot()
     for bag = 0, 4 do
       for i = 1, (NumSlots(bag) or 0) do
         local link = ItemLink(bag, i)
-        if link and IsEquippableItem(link) then
+        if link and IsEquippable and IsEquippable(link) then
           table.insert(snap.bags, itemInfo(link))
         end
       end
