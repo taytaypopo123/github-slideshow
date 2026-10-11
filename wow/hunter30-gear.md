@@ -21,7 +21,7 @@ For The Forever Open (Oct 17–18), level 29 → 30. Item data rechecked on Wowh
 | Shoulder | [Watchman Pauldrons](https://www.wowhead.com/forever/item=7727) | +11 Sta, +4 Spi, +3 Str | Scarlet Augurs, Tirisfal (11%) | Tanky option |
 | Shoulder | [Unstable Crystalline Shoulderpads](https://www.wowhead.com/forever/item=273047) **new** | +9 Agi, +6 Sta, +2 mp5 | Unstable Sentinel, City of Dalaran (req 28) | Damage option |
 | Legs | [Triprunner Dungarees](https://www.wowhead.com/forever/item=9624) | +18 Agi, +6 Sta, +3 Str | Quest Rig Wars (Gnomeregan) | Until Panther Hunter Leggings |
-| Ranged | [Quilboar Blaster](https://www.wowhead.com/forever/item=274084) | 2.8 speed, 36–68, +4 Agi, +4 Spi | Quest A Vengeful Fate (Razorfen Kraul) | Booty Bay Buckshot is the Stamina alternative |
+| Ranged | [Master Hunter's Bow](https://www.wowhead.com/forever/item=17686) | 2.4 speed, 32–61 (19.4 DPS), +6 Agi | Quest Big Game Hunter (STV) | Shots are normalized to attack speed (sixx sim, hunter Discord), so DPS wins. Quilboar Blaster (18.6 DPS) is a close second |
 | Two-hand | [Felbough Arm](https://www.wowhead.com/forever/item=273037) **new** | +10 Agi, +1% hit, 3.0 speed | Fel Ancient, City of Dalaran (req 29) | Replaces Armor Piercer (+11 Agi) as the pick |
 | Finger | [Field Researcher's Loop](https://www.wowhead.com/forever/item=281634) | +7 Agi, +7 Sta | 20 library books → Owen Thadd, Undercity | |
 | Hands | [Razzeric's Racing Grips](https://www.wowhead.com/forever/item=6727) | +9 Sta, +8 Agi | Quest Safety First, Shimmering Flats | |
