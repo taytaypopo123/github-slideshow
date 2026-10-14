@@ -31,3 +31,9 @@ It contains a `GearDumpDB` table keyed by `Name-Realm`, with `equipped` (by slot
 In a Claude session running on your computer, say something like:
 
 > Read my GearDump file at `<path above>`, look up each item on Wowhead Forever (`https://www.wowhead.com/forever/item=<id>?xml`), compare it with my Hunter 30 Twink Hub (https://claude.ai/artifact/25dBkJzqvfhrFX5WBNcmEN) and tell me which slots to upgrade next.
+
+## Quest title scan (`/qscan`)
+
+`/qscan <from> <to>` asks the server for quest titles across a range of quest IDs (100 per second) and saves every title it gets to `GearDumpQuests` in the same SavedVariables file. With no numbers it scans 90000–98000. Run it twice to catch slow responses, then `/reload`.
+
+New Forever quests seen so far sit in the 92xxx (Alliance Dalaran) and 96xxx (Horde) ranges.

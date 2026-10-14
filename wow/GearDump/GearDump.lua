@@ -92,3 +92,45 @@ SlashCmdList.GEARDUMP = function()
   for _ in pairs(snap.equipped) do n = n + 1 end
   print(("|cff8a5712GearDump|r: captured %d equipped items and %d bag items. Type /reload to save to disk."):format(n, #snap.bags))
 end
+
+-- /qscan <from> <to>: asks the server for quest titles across a range of quest
+-- IDs in batches and saves every title it gets to GearDumpQuests. Titles only
+-- come back for quests the server knows, so empty IDs are skipped.
+local QuestTitle = C_QuestLog and (C_QuestLog.GetTitleForQuestID or C_QuestLog.GetQuestInfo)
+local RequestQuest = C_QuestLog and C_QuestLog.RequestLoadQuestByID
+local BATCH = 100
+
+SLASH_GEARDUMPQSCAN1 = "/qscan"
+SlashCmdList.GEARDUMPQSCAN = function(msg)
+  if not QuestTitle then
+    print("|cff8a5712GearDump|r: this client has no quest title lookup.")
+    return
+  end
+  local from, to = msg:match("(%d+)%s+(%d+)")
+  from, to = tonumber(from) or 90000, tonumber(to) or 98000
+  GearDumpQuests = GearDumpQuests or {}
+  print(("|cff8a5712GearDump|r: scanning quests %d-%d (about %d sec)..."):format(from, to, math.ceil((to - from + 1) / BATCH)))
+
+  local i = from
+  local function step()
+    local last = math.min(i + BATCH - 1, to)
+    if RequestQuest then
+      for id = i, last do pcall(RequestQuest, id) end
+    end
+    C_Timer.After(1, function()
+      for id = i, last do
+        local ok, title = pcall(QuestTitle, id)
+        if ok and title and title ~= "" then GearDumpQuests[id] = title end
+      end
+      i = last + 1
+      if i <= to then
+        step()
+      else
+        local n = 0
+        for _ in pairs(GearDumpQuests) do n = n + 1 end
+        print(("|cff8a5712GearDump|r: done. %d quest titles saved. Run it once more to catch slow ones, then /reload."):format(n))
+      end
+    end)
+  end
+  step()
+end
