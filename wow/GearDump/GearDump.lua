@@ -93,12 +93,27 @@ SlashCmdList.GEARDUMP = function()
   print(("|cff8a5712GearDump|r: captured %d equipped items and %d bag items. Type /reload to save to disk."):format(n, #snap.bags))
 end
 
--- /qscan <from> <to>: asks the server for quest titles across a range of quest
--- IDs in batches and saves every title it gets to GearDumpQuests. Titles only
--- come back for quests the server knows, so empty IDs are skipped.
+-- /qscan <from> <to>: asks the server for quest data across a range of quest
+-- IDs and saves every title it gets to GearDumpQuests. The server drops
+-- requests if they come too fast, so this sends small batches, records titles
+-- as QUEST_DATA_LOAD_RESULT replies arrive, and retries misses once.
 local QuestTitle = C_QuestLog and (C_QuestLog.GetTitleForQuestID or C_QuestLog.GetQuestInfo)
 local RequestQuest = C_QuestLog and C_QuestLog.RequestLoadQuestByID
-local BATCH = 100
+local BATCH, DELAY = 25, 1.5
+
+local function saveTitle(id)
+  local ok, title = pcall(QuestTitle, id)
+  if ok and title and title ~= "" then
+    GearDumpQuests[id] = title
+    return true
+  end
+end
+
+local qf = CreateFrame("Frame")
+qf:RegisterEvent("QUEST_DATA_LOAD_RESULT")
+qf:SetScript("OnEvent", function(_, _, id, success)
+  if success and GearDumpQuests and QuestTitle then saveTitle(id) end
+end)
 
 SLASH_GEARDUMPQSCAN1 = "/qscan"
 SlashCmdList.GEARDUMPQSCAN = function(msg)
@@ -109,28 +124,34 @@ SlashCmdList.GEARDUMPQSCAN = function(msg)
   local from, to = msg:match("(%d+)%s+(%d+)")
   from, to = tonumber(from) or 90000, tonumber(to) or 98000
   GearDumpQuests = GearDumpQuests or {}
-  print(("|cff8a5712GearDump|r: scanning quests %d-%d (about %d sec)..."):format(from, to, math.ceil((to - from + 1) / BATCH)))
+  local ids = {}
+  for id = from, to do ids[#ids + 1] = id end
+  print(("|cff8a5712GearDump|r: scanning quests %d-%d (about %d min)..."):format(from, to, math.ceil(#ids / BATCH * DELAY * 2 / 60)))
 
-  local i = from
-  local function step()
-    local last = math.min(i + BATCH - 1, to)
-    if RequestQuest then
-      for id = i, last do pcall(RequestQuest, id) end
+  local function pass(list, retry)
+    local misses, pos = {}, 1
+    local function step()
+      local last = math.min(pos + BATCH - 1, #list)
+      if RequestQuest then
+        for k = pos, last do pcall(RequestQuest, list[k]) end
+      end
+      C_Timer.After(DELAY, function()
+        for k = pos, last do
+          if not saveTitle(list[k]) then misses[#misses + 1] = list[k] end
+        end
+        pos = last + 1
+        if pos <= #list then
+          step()
+        elseif not retry and #misses > 0 then
+          pass(misses, true)
+        else
+          local n = 0
+          for _ in pairs(GearDumpQuests) do n = n + 1 end
+          print(("|cff8a5712GearDump|r: done. %d quest titles saved. Type /reload to write them to disk."):format(n))
+        end
+      end)
     end
-    C_Timer.After(1, function()
-      for id = i, last do
-        local ok, title = pcall(QuestTitle, id)
-        if ok and title and title ~= "" then GearDumpQuests[id] = title end
-      end
-      i = last + 1
-      if i <= to then
-        step()
-      else
-        local n = 0
-        for _ in pairs(GearDumpQuests) do n = n + 1 end
-        print(("|cff8a5712GearDump|r: done. %d quest titles saved. Run it once more to catch slow ones, then /reload."):format(n))
-      end
-    end)
+    step()
   end
-  step()
+  pass(ids, false)
 end

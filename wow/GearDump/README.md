@@ -34,6 +34,6 @@ In a Claude session running on your computer, say something like:
 
 ## Quest title scan (`/qscan`)
 
-`/qscan <from> <to>` asks the server for quest titles across a range of quest IDs (100 per second) and saves every title it gets to `GearDumpQuests` in the same SavedVariables file. With no numbers it scans 90000–98000. Run it twice to catch slow responses, then `/reload`.
+`/qscan <from> <to>` asks the server for quest titles across a range of quest IDs (25 every 1.5 seconds, with one retry pass) and saves every title it gets to `GearDumpQuests` in the same SavedVariables file. With no numbers it scans 90000–98000, which takes about 16 minutes. Type `/reload` when it says done.
 
 New Forever quests seen so far sit in the 92xxx (Alliance Dalaran) and 96xxx (Horde) ranges.

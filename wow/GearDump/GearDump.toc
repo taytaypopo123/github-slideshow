@@ -2,7 +2,7 @@
 ## Title: GearDump
 ## Notes: Saves your equipped gear, bag gear and key stats so Claude can read them. Type /reload to save.
 ## Author: taytaypopo123
-## Version: 1.1
+## Version: 1.2
 ## SavedVariables: GearDumpDB, GearDumpQuests
 
 GearDump.lua
