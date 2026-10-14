@@ -93,13 +93,15 @@ SlashCmdList.GEARDUMP = function()
   print(("|cff8a5712GearDump|r: captured %d equipped items and %d bag items. Type /reload to save to disk."):format(n, #snap.bags))
 end
 
--- /qscan <from> <to>: asks the server for quest data across a range of quest
--- IDs and saves every title it gets to GearDumpQuests. The server drops
--- requests if they come too fast, so this sends small batches, records titles
--- as QUEST_DATA_LOAD_RESULT replies arrive, and retries misses once.
+-- /qscan <from> <to> [batch] [delay]: asks the server for quest data across
+-- a range of quest IDs and saves every title it gets to GearDumpQuests. The
+-- server drops requests that come too fast, so this sends small batches with a
+-- long wait, records titles as QUEST_DATA_LOAD_RESULT replies arrive, then runs
+-- a slower second pass over only the IDs that came back empty.
 local QuestTitle = C_QuestLog and (C_QuestLog.GetTitleForQuestID or C_QuestLog.GetQuestInfo)
 local RequestQuest = C_QuestLog and C_QuestLog.RequestLoadQuestByID
-local BATCH, DELAY = 25, 1.5
+local DEFAULT_BATCH, DEFAULT_DELAY = 10, 3
+local RETRY_BATCH, RETRY_DELAY = 5, 4
 
 local function saveTitle(id)
   local ok, title = pcall(QuestTitle, id)
@@ -115,43 +117,65 @@ qf:SetScript("OnEvent", function(_, _, id, success)
   if success and GearDumpQuests and QuestTitle then saveTitle(id) end
 end)
 
+local function countTitles()
+  local n = 0
+  for _ in pairs(GearDumpQuests) do n = n + 1 end
+  return n
+end
+
+local scanning = false
+
 SLASH_GEARDUMPQSCAN1 = "/qscan"
 SlashCmdList.GEARDUMPQSCAN = function(msg)
   if not QuestTitle then
     print("|cff8a5712GearDump|r: this client has no quest title lookup.")
     return
   end
-  local from, to = msg:match("(%d+)%s+(%d+)")
+  if scanning then
+    print("|cff8a5712GearDump|r: a scan is already running.")
+    return
+  end
+  local from, to, batch, delay = msg:match("(%d+)%s+(%d+)%s*(%d*)%s*([%d%.]*)")
   from, to = tonumber(from) or 90000, tonumber(to) or 98000
+  batch, delay = tonumber(batch) or DEFAULT_BATCH, tonumber(delay) or DEFAULT_DELAY
   GearDumpQuests = GearDumpQuests or {}
   local ids = {}
   for id = from, to do ids[#ids + 1] = id end
-  print(("|cff8a5712GearDump|r: scanning quests %d-%d (about %d min)..."):format(from, to, math.ceil(#ids / BATCH * DELAY * 2 / 60)))
+  scanning = true
+  print(("|cff8a5712GearDump|r: scanning quests %d-%d, %d every %ss (first pass about %d min)..."):format(
+    from, to, batch, delay, math.ceil(#ids / batch * delay / 60)))
 
-  local function pass(list, retry)
-    local misses, pos = {}, 1
+  local function pass(list, size, wait, label, onDone)
+    local misses, pos, nextReport = {}, 1, 0.25
     local function step()
-      local last = math.min(pos + BATCH - 1, #list)
+      local last = math.min(pos + size - 1, #list)
       if RequestQuest then
         for k = pos, last do pcall(RequestQuest, list[k]) end
       end
-      C_Timer.After(DELAY, function()
+      C_Timer.After(wait, function()
         for k = pos, last do
           if not saveTitle(list[k]) then misses[#misses + 1] = list[k] end
         end
         pos = last + 1
-        if pos <= #list then
-          step()
-        elseif not retry and #misses > 0 then
-          pass(misses, true)
-        else
-          local n = 0
-          for _ in pairs(GearDumpQuests) do n = n + 1 end
-          print(("|cff8a5712GearDump|r: done. %d quest titles saved. Type /reload to write them to disk."):format(n))
+        if pos / #list >= nextReport and pos <= #list then
+          print(("|cff8a5712GearDump|r: %s %d%%, %d titles so far."):format(label, math.floor(nextReport * 100), countTitles()))
+          nextReport = nextReport + 0.25
         end
+        if pos <= #list then step() else onDone(misses) end
       end)
     end
     step()
   end
-  pass(ids, false)
+
+  local function finish()
+    scanning = false
+    print(("|cff8a5712GearDump|r: done. %d quest titles saved. Type /reload to write them to disk."):format(countTitles()))
+  end
+
+  pass(ids, batch, delay, "first pass", function(misses)
+    if #misses == 0 then return finish() end
+    print(("|cff8a5712GearDump|r: retrying %d empty IDs, %d every %ss (about %d min)..."):format(
+      #misses, RETRY_BATCH, RETRY_DELAY, math.ceil(#misses / RETRY_BATCH * RETRY_DELAY / 60)))
+    pass(misses, RETRY_BATCH, RETRY_DELAY, "retry pass", finish)
+  end)
 end

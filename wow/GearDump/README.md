@@ -34,6 +34,6 @@ In a Claude session running on your computer, say something like:
 
 ## Quest title scan (`/qscan`)
 
-`/qscan <from> <to>` asks the server for quest titles across a range of quest IDs (25 every 1.5 seconds, with one retry pass) and saves every title it gets to `GearDumpQuests` in the same SavedVariables file. With no numbers it scans 90000–98000, which takes about 16 minutes. Type `/reload` when it says done.
+`/qscan <from> <to> [batch] [delay]` asks the server for quest titles across a range of quest IDs and saves every title it gets to `GearDumpQuests` in the same SavedVariables file. The first pass sends 10 IDs every 3 seconds; a second pass retries only the IDs that came back empty, 5 every 4 seconds. Most IDs are empty, so the retry pass takes longer than the first. Scan small ranges: 1,000 IDs takes about 5 minutes for the first pass and 13 for the retry. You can pass a different batch size and delay, e.g. `/qscan 96000 96500 5 3`. Progress prints every 25%. Type `/reload` when it says done.
 
 New Forever quests seen so far sit in the 92xxx (Alliance Dalaran) and 96xxx (Horde) ranges.
